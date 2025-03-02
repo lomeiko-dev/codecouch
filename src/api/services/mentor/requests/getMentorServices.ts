@@ -1,37 +1,32 @@
 import { AxiosError } from "axios";
-import { ApiClient } from "../../Client";
+import { ApiClient } from "../../../Client";
 
-export type IMentor = {
+interface IProvider {
   id: number;
-  photo: string;
   name: string;
-  surname: string;
-  email: string;
-  phone: number;
-  description: string;
-  about_me: string;
+  consult_number: number;
+  consult_time: number;
   assistance_scope: string[];
-  company: string[];
-  level: string[];
-  study_field: string[];
-  help_with: string;
-  work_and_position: string;
-  extra_description: string[];
-  price: number;
-  rating: number;
+  description: string;
+  price_hour: number;
+}
+
+export type IMentorService = {
+  number_of_objects: number;
+  providers: IProvider[];
 } | null;
 
-export interface GetMentorResult {
-  data: IMentor;
+export interface GetMentorServicesResult {
+  data: IMentorService;
   code: number;
   message: string;
 }
 
-export const getMentor = async (id: string): Promise<GetMentorResult> => {
+export const getMentorServices = async (id: string, page: number): Promise<GetMentorServicesResult> => {
   try {
     const { data: response } = await ApiClient({
       method: "GET",
-      url: `/get/mentor?id=${id}`,
+      url: `/get/mentor/provider?id=${id}&page=${page}`,
     });
 
     const { data, code, message } = response;

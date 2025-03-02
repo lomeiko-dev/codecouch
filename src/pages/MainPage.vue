@@ -15,28 +15,16 @@ import Contacts from "../components/Contacts.vue";
 import MainLayout from "../components/MainLayout.vue";
 import TextAnimation from "../components/TextAnimation.vue";
 import { useWindowSize } from "@vueuse/core";
-import axios from "axios";
 import { onMounted, ref, watch } from "vue";
 import { useRoute } from "vue-router";
+import { getMentorList, GetMentorListResult } from "@/api/services/mentor";
 
 const { width } = useWindowSize();
 
-const data = ref();
+const data = ref<GetMentorListResult>();
 
-const getData = () => {
-  axios
-    .get("https://jsonplaceholder.typicode.com/posts")
-    .then(function (response) {
-      data.value = response.data;
-    })
-    .catch(function (error) {
-      // handle error
-      console.log(error);
-    });
-};
-
-onMounted(() => {
-  getData();
+onMounted(async () => {
+  data.value = await getMentorList(1, 4);
 });
 
 const route = useRoute();
@@ -44,7 +32,7 @@ const route = useRoute();
 const scrollToAnchor = (anchorId: string) => {
   const element = document.getElementById(anchorId);
   if (element) {
-    element.scrollIntoView({ behavior: 'smooth' });
+    element.scrollIntoView({ behavior: "smooth" });
   }
 };
 
@@ -54,12 +42,14 @@ onMounted(() => {
   }
 });
 
-watch(() => route.hash, (newHash) => {
-  if (newHash) {
-    scrollToAnchor(newHash.slice(1));
+watch(
+  () => route.hash,
+  (newHash) => {
+    if (newHash) {
+      scrollToAnchor(newHash.slice(1));
+    }
   }
-});
-
+);
 </script>
 <template>
   <MainLayout>
@@ -79,7 +69,7 @@ watch(() => route.hash, (newHash) => {
     </div>
     <Search />
     <Chips />
-    <Mentors />
+    <Mentors :mentors="data?.data"/>
     <Advertising />
     <Statistics />
     <Manual />
@@ -89,7 +79,7 @@ watch(() => route.hash, (newHash) => {
 
     <Partners />
     <div id="questions">
-      <Panels/>
+      <Panels />
     </div>
     <Contacts />
   </MainLayout>

@@ -374,7 +374,7 @@
     {
       "id": 1,
       "userId": 1,
-      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "avatar": "https://static10.vivoo.ru/datas/photos/750x750/1c/4e/f8e58e28ac3e6061790b1207991e.jpg?1",
       "fullname": "Алексей Смирнов",
       "email": "aleksey.smirnov@techmail.com",
       "ConsultationsComing": [
@@ -408,7 +408,7 @@
     {
       "id": 2,
       "userId": 2,
-      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "avatar": "https://media.vanityfair.com/photos/54ca8fc67e4b004120bb223c/master/w_2560%2Cc_limit/image.jpg",
       "fullname": "Марина Кузнецова",
       "email": "marina.kuznetsova@domain.com",
       "ConsultationsComing": [
@@ -442,7 +442,7 @@
     {
       "id": 3,
       "userId": 3,
-      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "avatar": "https://media.istockphoto.com/id/185815404/ru/фото/портрет-счастливой-молодой-человек-улыбается-на-серый-фон.jpg?s=612x612&w=0&k=20&c=hbTStQISX_EbduVSfoI_MmrBNluppjpD4WpGluwaNJA=",
       "fullname": "Иван Петров",
       "email": "ivan.petrov@techdata.com",
       "ConsultationsComing": [
@@ -476,7 +476,7 @@
     {
       "id": 4,
       "userId": 4,
-      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "avatar": "https://avatars.mds.yandex.net/get-ydo/11397567/2a0000018cafafbb024bf8ca595360a292f9/diploma",
       "fullname": "Ольга Иванова",
       "email": "olga.ivanova@qaexpert.com",
       "ConsultationsComing": [
@@ -2042,7 +2042,7 @@
     {
       "id": 1,
       "userId": 1,
-      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "avatar": "https://static10.vivoo.ru/datas/photos/750x750/1c/4e/f8e58e28ac3e6061790b1207991e.jpg?1",
       "fullname": "Алексей Смирнов",
       "position": "senior frontend",
       "email": "aleksey.smirnov@techmail.com",
@@ -2083,7 +2083,7 @@
     {
       "id": 2,
       "userId": 2,
-      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "avatar": "https://media.vanityfair.com/photos/54ca8fc67e4b004120bb223c/master/w_2560%2Cc_limit/image.jpg",
       "fullname": "Марина Кузнецова",
       "position": "middle backend",
       "email": "marina.kuznetsova@domain.com",
@@ -2124,7 +2124,7 @@
     {
       "id": 3,
       "userId": 3,
-      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "avatar": "https://media.istockphoto.com/id/185815404/ru/фото/портрет-счастливой-молодой-человек-улыбается-на-серый-фон.jpg?s=612x612&w=0&k=20&c=hbTStQISX_EbduVSfoI_MmrBNluppjpD4WpGluwaNJA=",
       "fullname": "Иван Петров",
       "position": "senior data-science",
       "email": "ivan.petrov@techdata.com",
@@ -2165,7 +2165,7 @@
     {
       "id": 4,
       "userId": 4,
-      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "avatar": "https://avatars.mds.yandex.net/get-ydo/11397567/2a0000018cafafbb024bf8ca595360a292f9/diploma",
       "fullname": "Ольга Иванова",
       "position": "middle QA",
       "email": "olga.ivanova@qaexpert.com",

@@ -25,13 +25,7 @@ const API = axios.create({
   },
 });
 
-export const ApiClient = async ({
-  data,
-  method = "GET",
-  url,
-  params,
-  headers,
-}: Client) => {
+export const ApiClient = async <T>({ data, method = "GET", url, params, headers }: Client) => {
   const requestParams: AxiosRequestConfig = {
     method,
     url,
@@ -42,14 +36,10 @@ export const ApiClient = async ({
 
   API.defaults.headers = { ...API.defaults.headers, ...headers };
 
-  return API(requestParams)
+  return API<T>(requestParams)
     .then((res) => ({ data: res.data, status: res.status }))
     .catch((err) => {
-      console.error(
-        "\nERROR MESSAGE:",
-        err.response.data.message,
-        `\nSTATUS: ${err.response.data.status}`
-      );
+      console.error("\nERROR MESSAGE:", err.response.data.message, `\nSTATUS: ${err.response.data.status}`);
 
       return { data: "isError", status: err.response.status };
     });

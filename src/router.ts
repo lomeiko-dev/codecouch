@@ -32,7 +32,7 @@ const routes = [
     name: "ApplicationMentor",
   },
   {
-    path: "/account-mentor",
+    path: "/account-mentor/:id",
     component: AccountMentor,
     name: "AccMentor",
   },
