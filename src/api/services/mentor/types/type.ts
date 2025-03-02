@@ -24,8 +24,3 @@ export interface IMentor {
   workExperience: IWorkExperience[];
   informations: string[];
 }
-
-export interface GetMentorListResult {
-  data: IMentor[];
-  message: string;
-}

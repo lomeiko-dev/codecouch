@@ -6,8 +6,3 @@ export interface IFeedback {
   fullname: string;
   comment: string;
 }
-
-export interface IFeedbackResult {
-  data: IFeedback[];
-  message: string;
-}

@@ -6,12 +6,13 @@ import "swiper/css/bundle";
 import { useWindowSize } from "@vueuse/core";
 import { onMounted, ref } from "vue";
 import { useRouter } from "vue-router";
-import { getMentorList, GetMentorListResult } from "@/api/services/mentor";
+import { getMentorList, IMentor } from "@/api/services/mentor";
 
-const mentors = ref<GetMentorListResult | null>(null);
+const mentors = ref<IMentor[]>([]);
 
 onMounted(async () => {
-  mentors.value = await getMentorList(1, 4);
+  const result = await getMentorList(1, 4);
+  mentors.value = result.data
 });
 const { width } = useWindowSize();
 
@@ -34,7 +35,7 @@ const routingToMentorDetail = (id: number) => {
       <div
         @click="routingToMentorDetail(item.id)"
         class="w-[200px] h-[250px] bg-cover bg-center rounded-xl flex pb-8 px-4 laptop:w-[300px] laptop:h-[400px] cursor-pointer"
-        v-for="(item, index) in mentors?.data"
+        v-for="(item, index) in mentors"
         :key="index"
         :style="{ backgroundImage: `url(${item.avatar})` }"
       >
@@ -54,7 +55,7 @@ const routingToMentorDetail = (id: number) => {
       :pagination="{ clickable: true }"
       :space-between="2"
     >
-      <swiper-slide v-for="(item, index) in mentors?.data" :key="index">
+      <swiper-slide v-for="(item, index) in mentors" :key="index">
         <div
           @click="routingToMentorDetail(item.id)"
           class="w-full tablet:w-[70%] h-[300px] tablet:h-[400px] bg-cover bg-center rounded-xl flex pb-8 px-4 laptop:w-[300px] laptop:h-[400px] cursor-pointer"
