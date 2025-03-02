@@ -8,7 +8,7 @@ import Manual from "../components/Manual.vue";
 import FreeTimes from "../components/FreeTimes.vue";
 import Criteria from "../components/Criteria.vue";
 import Categories from "../components/Categories.vue";
-// import Reviews from '../components/Reviews.vue'
+import Reviews from '../components/Reviews.vue'
 import Partners from "../components/Partners.vue";
 import Panels from "../components/Panels.vue";
 import Contacts from "../components/Contacts.vue";
@@ -69,7 +69,7 @@ watch(
     <FreeTimes />
     <Criteria />
     <Categories class="hidden laptop:block" />
-
+    <Reviews/>
     <Partners />
     <div id="questions">
       <Panels />
