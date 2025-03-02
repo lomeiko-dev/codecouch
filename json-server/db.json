@@ -1,0 +1,4221 @@
+{
+  "stats": {
+    "lessonCount": 232,
+    "studentCount": 150,
+    "studentReturned": 81
+  },
+  "users": [
+    {
+      "id": 1,
+      "fullname": "Алексей Смирнов",
+      "email": "aleksey.smirnov@techmail.com",
+      "password": "generated_password_1",
+      "role": "mentor"
+    },
+    {
+      "id": 2,
+      "fullname": "Марина Кузнецова",
+      "email": "marina.kuznetsova@domain.com",
+      "password": "generated_password_2",
+      "role": "mentor"
+    },
+    {
+      "id": 3,
+      "fullname": "Иван Петров",
+      "email": "ivan.petrov@techdata.com",
+      "password": "generated_password_3",
+      "role": "mentor"
+    },
+    {
+      "id": 4,
+      "fullname": "Ольга Иванова",
+      "email": "olga.ivanova@qaexpert.com",
+      "password": "generated_password_4",
+      "role": "mentor"
+    },
+    {
+      "id": 5,
+      "fullname": "Дмитрий Васильев",
+      "email": "dmitriy.vasiliev@mail.com",
+      "password": "generated_password_5",
+      "role": "mentor"
+    },
+    {
+      "id": 6,
+      "fullname": "Екатерина Лебедева",
+      "email": "ekaterina.lebedyeva@webdev.com",
+      "password": "generated_password_6",
+      "role": "mentor"
+    },
+    {
+      "id": 7,
+      "fullname": "Андрей Михайлов",
+      "email": "andrey.mikhaylov@cloudtech.com",
+      "password": "generated_password_7",
+      "role": "mentor"
+    },
+    {
+      "id": 8,
+      "fullname": "Сергей Волков",
+      "email": "sergey.volkov@mobtech.com",
+      "password": "generated_password_8",
+      "role": "mentor"
+    },
+    {
+      "id": 9,
+      "fullname": "Евгений Захаров",
+      "email": "evgeniy.zakharov@frontend.com",
+      "password": "generated_password_9",
+      "role": "mentor"
+    },
+    {
+      "id": 10,
+      "fullname": "Олег Сорокин",
+      "email": "oleg.sorokin@uxdesign.com",
+      "password": "generated_password_10",
+      "role": "mentor"
+    },
+    {
+      "id": 11,
+      "fullname": "Ирина Сидорова",
+      "email": "irina.sidorova@techbackend.com",
+      "password": "generated_password_11",
+      "role": "mentor"
+    },
+    {
+      "id": 12,
+      "fullname": "Максим Кузнецов",
+      "email": "maxim.kuznetsov@mltech.com",
+      "password": "generated_password_12",
+      "role": "mentor"
+    },
+    {
+      "id": 13,
+      "fullname": "Юлия Иванова",
+      "email": "yulia.ivanova@qualityassurance.com",
+      "password": "generated_password_13",
+      "role": "mentor"
+    },
+    {
+      "id": 14,
+      "fullname": "Дмитрий Беляев",
+      "email": "dmitriy.belyaev@fullstackdev.com",
+      "password": "generated_password_14",
+      "role": "mentor"
+    },
+    {
+      "id": 15,
+      "fullname": "Елена Петрова",
+      "email": "elena.petrova@productmanagement.com",
+      "password": "generated_password_15",
+      "role": "mentor"
+    },
+    {
+      "id": 16,
+      "fullname": "Алексей Смирнов",
+      "email": "alexey.smirnov@frontdev.com",
+      "password": "generated_password_16",
+      "role": "mentor"
+    },
+    {
+      "id": 17,
+      "fullname": "Татьяна Григорьева",
+      "email": "tatiana.grigorieva@datascience.com",
+      "password": "generated_password_17",
+      "role": "mentor"
+    },
+    {
+      "id": 18,
+      "fullname": "Анатолий Орлов",
+      "email": "anatoly.orlov@backenddev.com",
+      "password": "generated_password_18",
+      "role": "mentor"
+    },
+    {
+      "id": 19,
+      "fullname": "Светлана Романова",
+      "email": "svetlana.romanova@uxdesign.com",
+      "password": "generated_password_19",
+      "role": "mentor"
+    },
+    {
+      "id": 20,
+      "fullname": "Дмитрий Волков",
+      "email": "dmitriy.volkov@backenddev.com",
+      "password": "generated_password_20",
+      "role": "mentor"
+    },
+    {
+      "id": 21,
+      "fullname": "Марина Кузнецова",
+      "email": "marina.kuznetsova@frontenddev.com",
+      "password": "generated_password_21",
+      "role": "mentor"
+    },
+    {
+      "id": 22,
+      "fullname": "Елена Петрова",
+      "email": "elena.petrovа@datascience.com",
+      "password": "generated_password_22",
+      "role": "mentor"
+    },
+    {
+      "id": 23,
+      "fullname": "Игорь Сидоров",
+      "email": "igor.sidorov@backenddev.com",
+      "password": "generated_password_23",
+      "role": "mentor"
+    },
+    {
+      "id": 24,
+      "fullname": "Анна Белова",
+      "email": "anna.belova@uxdesign.com",
+      "password": "generated_password_24",
+      "role": "mentor"
+    },
+    {
+      "id": 25,
+      "fullname": "Иван Григорьев",
+      "email": "ivan.grigorev@frontenddev.com",
+      "password": "generated_password_25",
+      "role": "mentor"
+    },
+    {
+      "id": 26,
+      "fullname": "Никита Яковлев",
+      "email": "nikita.yakovlev@backenddev.com",
+      "password": "generated_password_26",
+      "role": "mentor"
+    },
+    {
+      "id": 27,
+      "fullname": "Татьяна Лебедева",
+      "email": "tatyana.lebedyeva@productdev.com",
+      "password": "generated_password_27",
+      "role": "mentor"
+    },
+    {
+      "id": 28,
+      "fullname": "Александр Михайлов",
+      "email": "alexander.mikhaylov@frontenddev.com",
+      "password": "generated_password_28",
+      "role": "mentor"
+    },
+    {
+      "id": 29,
+      "fullname": "Владислав Васильев",
+      "email": "vladislav.vasiliev@qa.com",
+      "password": "generated_password_29",
+      "role": "mentor"
+    },
+    {
+      "id": 30,
+      "fullname": "Ольга Смирнова",
+      "email": "olga.smirnova@datascience.com",
+      "password": "generated_password_30",
+      "role": "mentor"
+    },
+    {
+      "id": 31,
+      "fullname": "Дмитрий Борисов",
+      "email": "dmitriy.borisov@backenddev.com",
+      "password": "generated_password_31",
+      "role": "mentor"
+    },
+    {
+      "id": 32,
+      "fullname": "Мария Кузнецова",
+      "email": "maria.kuznetsova@frontenddev.com",
+      "password": "generated_password_32",
+      "role": "mentor"
+    },
+    {
+      "id": 33,
+      "fullname": "Алексей Романов",
+      "email": "aleksey.romanov@iosdev.com",
+      "password": "generated_password_33",
+      "role": "mentor"
+    },
+    {
+      "id": 34,
+      "fullname": "Екатерина Иванова",
+      "email": "ekaterina.ivanova@design.com",
+      "password": "generated_password_34",
+      "role": "mentor"
+    },
+    {
+      "id": 35,
+      "fullname": "Никита Павлов",
+      "email": "nikita.pavlov@frontenddev.com",
+      "password": "generated_password_35",
+      "role": "mentor"
+    },
+    {
+      "id": 36,
+      "fullname": "Ирина Лебедева",
+      "email": "irina.lebedeva@backenddev.com",
+      "password": "generated_password_36",
+      "role": "mentor"
+    },
+    {
+      "id": 37,
+      "fullname": "Анна Морозова",
+      "email": "anna.morozova@frontenddev.com",
+      "password": "generated_password_37",
+      "role": "mentor"
+    },
+    {
+      "id": 38,
+      "fullname": "Константин Васильев",
+      "email": "konstantin.vasiliev@iosdev.com",
+      "password": "generated_password_38",
+      "role": "mentor"
+    },
+    {
+      "id": 39,
+      "fullname": "Сергей Орлов",
+      "email": "sergey.orlov@backenddev.com",
+      "password": "generated_password_39",
+      "role": "mentor"
+    },
+    {
+      "id": 40,
+      "fullname": "Алексей Козлов",
+      "email": "aleksey.kozlov@frontenddev.com",
+      "password": "generated_password_40",
+      "role": "mentor"
+    },
+    {
+      "id": 41,
+      "fullname": "Дарина Беляева",
+      "email": "darina.belyaeva@backenddev.com",
+      "password": "generated_password_41",
+      "role": "mentor"
+    },
+    {
+      "id": 42,
+      "fullname": "Мария Попова",
+      "email": "maria.popova@qadev.com",
+      "password": "generated_password_42",
+      "role": "mentor"
+    },
+    {
+      "id": 43,
+      "fullname": "Вадим Соловьев",
+      "email": "vadim.solovyev@devopsdev.com",
+      "password": "generated_password_43",
+      "role": "mentor"
+    },
+    {
+      "id": 44,
+      "fullname": "Олег Крылов",
+      "email": "oleg.krylov@uxuidesign.com",
+      "password": "generated_password_44",
+      "role": "mentor"
+    },
+    {
+      "id": 45,
+      "fullname": "Евгений Сидоров",
+      "email": "evgeniy.sidorov@frontenddev.com",
+      "password": "generated_password_45",
+      "role": "mentor"
+    },
+    {
+      "id": 46,
+      "fullname": "Ирина Петрова",
+      "email": "irina.petrov@backenddev.com",
+      "password": "generated_password_46",
+      "role": "mentor"
+    },
+    {
+      "id": 47,
+      "fullname": "Дмитрий Орлов",
+      "email": "dmitry.orlov@qadev.com",
+      "password": "generated_password_47",
+      "role": "mentor"
+    },
+    {
+      "id": 48,
+      "fullname": "Анастасия Павлова",
+      "email": "anastasia.pavlova@uxuidesign.com",
+      "password": "generated_password_48",
+      "role": "mentor"
+    },
+    {
+      "id": 49,
+      "fullname": "Михаил Новиков",
+      "email": "mikhail.novikov@devopsdev.com",
+      "password": "generated_password_49",
+      "role": "mentor"
+    },
+    {
+      "id": 50,
+      "fullname": "Алексей Васильев",
+      "email": "alex.vasya@.com",
+      "password": "generated_password_50",
+      "role": "student"
+    },
+    {
+      "id": 51,
+      "fullname": "Ольга Смиронова",
+      "email": "olga.sm.i.rnova@.com",
+      "password": "generated_password_51",
+      "role": "student"
+    },
+    {
+      "id": 52,
+      "fullname": "Марк Крабиков",
+      "email": "mark.krab@.com",
+      "password": "generated_password_52",
+      "role": "student"
+    }
+  ],
+  "user-account": [
+    {
+      "id": 1,
+      "userId": 1,
+      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "fullname": "Алексей Смирнов",
+      "email": "aleksey.smirnov@techmail.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "15 октября, понедельник",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "12 октября, пятница",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 50,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "fullname": "Марина Кузнецова",
+      "email": "marina.kuznetsova@domain.com",
+      "ConsultationsComing": [
+        {
+          "userId": 52,
+          "data": "16 октября, вторник",
+          "time": "11:00 - 12:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 50,
+          "data": "14 октября, суббота",
+          "time": "15:00 - 16:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Иван Петров",
+      "email": "ivan.petrov@techdata.com",
+      "ConsultationsComing": [
+        {
+          "userId": 51,
+          "data": "17 октября, среда",
+          "time": "09:00 - 10:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 52,
+          "data": "13 октября, четверг",
+          "time": "13:00 - 14:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 51,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Ольга Иванова",
+      "email": "olga.ivanova@qaexpert.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "18 октября, четверг",
+          "time": "12:00 - 13:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "19 октября, пятница",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 50,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+      "fullname": "Дмитрий Васильев",
+      "email": "dmitriy.vasiliev@mail.com",
+      "ConsultationsComing": [
+        {
+          "userId": 52,
+          "data": "20 октября, суббота",
+          "time": "15:00 - 16:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 50,
+          "data": "21 октября, воскресенье",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "userId": 6,
+      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "fullname": "Екатерина Лебедева",
+      "email": "ekaterina.lebedyeva@webdev.com",
+      "ConsultationsComing": [
+        {
+          "userId": 51,
+          "data": "22 октября, понедельник",
+          "time": "11:00 - 12:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 52,
+          "data": "23 октября, вторник",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 51,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "userId": 7,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Андрей Михайлов",
+      "email": "andrey.mikhaylov@cloudtech.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "24 октября, среда",
+          "time": "09:00 - 10:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "25 октября, четверг",
+          "time": "13:00 - 14:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 50,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "userId": 8,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Сергей Волков",
+      "email": "sergey.volkov@mobtech.com",
+      "ConsultationsComing": [
+        {
+          "userId": 52,
+          "data": "26 октября, пятница",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 50,
+          "data": "27 октября, суббота",
+          "time": "15:00 - 16:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "userId": 9,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Евгений Захаров",
+      "email": "evgeniy.zakharov@frontend.com",
+      "ConsultationsComing": [
+        {
+          "userId": 51,
+          "data": "28 октября, воскресенье",
+          "time": "12:00 - 13:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 52,
+          "data": "29 октября, понедельник",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 51,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "userId": 10,
+      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "fullname": "Олег Сорокин",
+      "email": "oleg.sorokin@uxdesign.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "30 октября, вторник",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "31 октября, среда",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 50,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "userId": 11,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Ирина Сидорова",
+      "email": "irina.sidorova@techbackend.com",
+      "ConsultationsComing": [
+        {
+          "userId": 52,
+          "data": "1 ноября, четверг",
+          "time": "12:00 - 13:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 50,
+          "data": "2 ноября, пятница",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "userId": 12,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Максим Кузнецов",
+      "email": "maxim.kuznetsov@mltech.com",
+      "ConsultationsComing": [
+        {
+          "userId": 51,
+          "data": "3 ноября, суббота",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 52,
+          "data": "4 ноября, воскресенье",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 51,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "userId": 13,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Юлия Иванова",
+      "email": "yulia.ivanova@qualityassurance.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "5 ноября, понедельник",
+          "time": "12:00 - 13:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "6 ноября, вторник",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 50,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "userId": 14,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Дмитрий Беляев",
+      "email": "dmitriy.belyaev@fullstackdev.com",
+      "ConsultationsComing": [
+        {
+          "userId": 52,
+          "data": "7 ноября, среда",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 50,
+          "data": "8 ноября, четверг",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 51,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "userId": 15,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Елена Петрова",
+      "email": "elena.petrova@productmanagement.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "9 ноября, пятница",
+          "time": "12:00 - 13:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "10 ноября, суббота",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "userId": 16,
+      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "fullname": "Алексей Смирнов",
+      "email": "alexey.smirnov@frontdev.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "11 ноября, воскресенье",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "12 ноября, понедельник",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "userId": 17,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Татьяна Григорьева",
+      "email": "tatiana.grigorieva@datascience.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "13 ноября, вторник",
+          "time": "12:00 - 13:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "14 ноября, среда",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "userId": 18,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Анатолий Орлов",
+      "email": "anatoly.orlov@backenddev.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "15 ноября, четверг",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "16 ноября, пятница",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "userId": 19,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Светлана Романова",
+      "email": "svetlana.romanova@uxdesign.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "17 ноября, суббота",
+          "time": "12:00 - 13:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "18 ноября, воскресенье",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "userId": 20,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Дмитрий Волков",
+      "email": "dmitriy.volkov@backenddev.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "19 ноября, понедельник",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "20 ноября, вторник",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "userId": 21,
+      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "fullname": "Марина Кузнецова",
+      "email": "marina.kuznetsova@frontenddev.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "21 ноября, среда",
+          "time": "12:00 - 13:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "22 ноября, четверг",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "userId": 22,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Елена Петрова",
+      "email": "elena.petrovа@datascience.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "23 ноября, пятница",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "24 ноября, суббота",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "userId": 23,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Игорь Сидоров",
+      "email": "igor.sidorov@backenddev.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "25 ноября, воскресенье",
+          "time": "12:00 - 13:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "26 ноября, понедельник",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "userId": 24,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Анна Белова",
+      "email": "anna.belova@uxdesign.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "27 ноября, вторник",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "28 ноября, среда",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "userId": 25,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Иван Григорьев",
+      "email": "ivan.grigorev@frontenddev.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "29 ноября, четверг",
+          "time": "12:00 - 13:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "30 ноября, пятница",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "userId": 26,
+      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "fullname": "Никита Яковлев",
+      "email": "nikita.yakovlev@backenddev.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "1 декабря, суббота",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "2 декабря, воскресенье",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "userId": 27,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Татьяна Лебедева",
+      "email": "tatyana.lebedyeva@productdev.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "3 декабря, понедельник",
+          "time": "12:00 - 13:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "4 декабря, вторник",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "userId": 28,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Александр Михайлов",
+      "email": "alexander.mikhaylov@frontenddev.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "5 декабря, среда",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "6 декабря, четверг",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "userId": 29,
+      "avatar": "https://avatars.mds.yandex.net/i?id=d832ba30e60631acb77e6ab86b2369f64b2b6361-6605286-images-thumbs&n=13",
+      "fullname": "Владислав Васильев",
+      "email": "vladislav.vasiliev@qa.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "7 декабря, пятница",
+          "time": "12:00 - 13:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "8 декабря, суббота",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смиронова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "userId": 30,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Ольга Смирнова",
+      "email": "olga.smirnova@datascience.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "9 декабря, воскресенье",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "10 декабря, понедельник",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смирнова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "userId": 31,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Дмитрий Борисов",
+      "email": "dmitriy.borisov@backenddev.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "11 декабря, вторник",
+          "time": "12:00 - 13:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "12 декабря, среда",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смирнова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "userId": 32,
+      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "fullname": "Мария Кузнецова",
+      "email": "maria.kuznetsova@frontenddev.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "13 декабря, четверг",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "14 декабря, пятница",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смирнова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "userId": 33,
+      "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+      "fullname": "Алексей Романов",
+      "email": "aleksey.romanov@iosdev.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "15 декабря, суббота",
+          "time": "12:00 - 13:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "16 декабря, воскресенье",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смирнова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "userId": 34,
+      "avatar": "https://nashevremya.net/wp-content/uploads/2022/12/vacd-mobile.jpg",
+      "fullname": "Екатерина Иванова",
+      "email": "ekaterina.ivanova@design.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "17 декабря, понедельник",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "18 декабря, вторник",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смирнова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "userId": 35,
+      "avatar": "https://i.pinimg.com/736x/42/46/05/42460502d10a4e9aeda2e89dd33ab0fc.jpg",
+      "fullname": "Никита Павлов",
+      "email": "nikita.pavlov@frontenddev.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "19 декабря, среда",
+          "time": "12:00 - 13:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "20 декабря, четверг",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смирнова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "userId": 36,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Ирина Лебедева",
+      "email": "irina.lebedeva@backenddev.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "21 декабря, пятница",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "22 декабря, суббота",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смирнова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "userId": 37,
+      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "fullname": "Анна Морозова",
+      "email": "anna.morozova@frontenddev.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "23 декабря, воскресенье",
+          "time": "12:00 - 13:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "24 декабря, понедельник",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смирнова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "userId": 38,
+      "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+      "fullname": "Константин Васильев",
+      "email": "konstantin.vasiliev@iosdev.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "25 декабря, вторник",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "26 декабря, среда",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смирнова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "userId": 39,
+      "avatar": "https://i.pinimg.com/736x/42/46/05/42460502d10a4e9aeda2e89dd33ab0fc.jpg",
+      "fullname": "Сергей Орлов",
+      "email": "sergey.orlov@backenddev.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "27 декабря, четверг",
+          "time": "12:00 - 13:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "28 декабря, пятница",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смирнова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "userId": 40,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Алексей Козлов",
+      "email": "aleksey.kozlov@frontenddev.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "29 декабря, суббота",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "30 декабря, воскресенье",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смирнова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "userId": 41,
+      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "fullname": "Дарина Беляева",
+      "email": "darina.belyaeva@backenddev.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "31 декабря, понедельник",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "1 января, вторник",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смирнова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "userId": 42,
+      "avatar": "https://nashevremya.net/wp-content/uploads/2022/12/vacd-mobile.jpg",
+      "fullname": "Мария Попова",
+      "email": "maria.popova@qadev.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "2 января, среда",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "3 января, четверг",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смирнова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "userId": 43,
+      "avatar": "https://nashevremya.net/wp-content/uploads/2022/12/vacd-mobile.jpg",
+      "fullname": "Вадим Соловьев",
+      "email": "vadim.solovyev@devopsdev.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "4 января, пятница",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "5 января, суббота",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смирнова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "userId": 44,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Олег Крылов",
+      "email": "oleg.krylov@uxuidesign.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "6 января, воскресенье",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "7 января, понедельник",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смирнова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "userId": 45,
+      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "fullname": "Евгений Сидоров",
+      "email": "evgeniy.sidorov@frontenddev.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "8 января, вторник",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "9 января, среда",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смирнова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "userId": 46,
+      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "fullname": "Ирина Петрова",
+      "email": "irina.petrov@backenddev.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "10 января, четверг",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "11 января, пятница",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смирнова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "userId": 47,
+      "avatar": "https://nashevremya.net/wp-content/uploads/2022/12/vacd-mobile.jpg",
+      "fullname": "Дмитрий Орлов",
+      "email": "dmitry.orlov@qadev.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "12 января, суббота",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "13 января, воскресенье",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смирнова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "userId": 48,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Анастасия Павлова",
+      "email": "anastasia.pavlova@uxuidesign.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "14 января, понедельник",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "15 января, вторник",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смирнова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "userId": 49,
+      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "fullname": "Михаил Новиков",
+      "email": "mikhail.novikov@devopsdev.com",
+      "ConsultationsComing": [
+        {
+          "userId": 50,
+          "data": "16 января, среда",
+          "time": "10:00 - 11:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Алексей Васильев",
+          "position": "student"
+        }
+      ],
+      "ConsultationsPrevious": [
+        {
+          "userId": 51,
+          "data": "17 января, четверг",
+          "time": "14:00 - 15:00",
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Ольга Смирнова",
+          "position": "student"
+        }
+      ],
+      "users": [
+        {
+          "userId": 52,
+          "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+          "name": "Марк Крабиков"
+        }
+      ]
+    }
+  ],
+  "mentors": [
+    {
+      "id": 1,
+      "userId": 1,
+      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "fullname": "Алексей Смирнов",
+      "position": "senior frontend",
+      "email": "aleksey.smirnov@techmail.com",
+      "phone": "+7 901 123 45 67",
+      "rating": 5,
+      "lessonCount": 22,
+      "description": "Я фронтенд-разработчик с более чем 8 летним опытом в создании динамичных интерфейсов с использованием React, Vue.js и других популярных фреймворков. Моя задача - разрабатывать удобные и красивые интерфейсы, которые улучшают взаимодействие с пользователями. Я уделяю особое внимание производительности и оптимизации, а также принципам масштабируемости и архитектуры в разработке веб-приложений.",
+      "skills": ["React", "Vue.js", "JavaScript", "CSS", "HTML", "TypeScript", "UI/UX Design"],
+      "companies": ["Yandex", "Tinkoff"],
+      "availableLevel": ["junior", "middle", "senior"],
+      "spheres": ["Frontend Development", "React", "Vue.js", "UI/UX", "Web Performance"],
+      "help": [
+        "Научу работать с React и Vue.js, показываю, как строить компоненты.",
+        "Помогу оптимизировать производительность веб-приложений.",
+        "Объясню, как использовать современные CSS-препроцессоры.",
+        "Помогу с проектированием удобных и красивых интерфейсов.",
+        "Покажу, как использовать TypeScript в проектах для повышения безопасности кода."
+      ],
+      "workExperience": [
+        {
+          "company": "Yandex",
+          "period": "2015 - 2018",
+          "role": "Frontend Developer",
+          "description": "Разрабатывал интерфейсы для крупных проектов, активно использовал React."
+        },
+        {
+          "company": "Tinkoff",
+          "period": "2018 - 2023",
+          "role": "Senior Frontend Developer",
+          "description": "Руководил командой фронтенд-разработчиков, создавал интерфейсы для мобильных приложений и веб-сервисов."
+        }
+      ],
+      "informations": [
+        "В свободное время я активно изучаю новые фреймворки и подходы к разработке. Сейчас я увлекаюсь улучшением производительности веб-приложений, используя современные подходы, такие как серверный рендеринг и статическая генерация.",
+        "Я участвую в хакатонах и конференциях, где часто делюсь своим опытом с коллегами. Мне нравится исследовать новые возможности веб-разработки, такие как WebAssembly, и как это может улучшить пользовательский опыт."
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "fullname": "Марина Кузнецова",
+      "position": "middle backend",
+      "email": "marina.kuznetsova@domain.com",
+      "phone": "+7 902 234 56 78",
+      "rating": 4,
+      "lessonCount": 12,
+      "description": "Я бэкенд-разработчик с опытом работы 6 лет, специализируюсь на Java, Spring и микросервисной архитектуре. Моя задача - создавать и поддерживать серверную логику, оптимизировать процессы и повышать производительность приложений. Я люблю работать с распределенными системами и сложными архитектурами. Готова помочь своим ученикам улучшить навыки в бэкенд-разработке и разобраться с основами работы с большими данными и интеграцией сервисов.",
+      "skills": ["Java", "Spring", "Microservices", "RESTful APIs", "Kafka", "Docker", "SQL"],
+      "companies": ["Sberbank", "Ozon"],
+      "availableLevel": ["junior", "middle"],
+      "spheres": ["Backend Development", "Java", "Spring", "Microservices", "Docker", "REST APIs"],
+      "help": [
+        "Научу разрабатывать микросервисы с использованием Spring.",
+        "Объясню, как проектировать RESTful API для взаимодействия сервисов.",
+        "Покажу, как работать с Kafka для обработки событий в реальном времени.",
+        "Помогу настроить и использовать Docker для контейнеризации приложений.",
+        "Помогу разобраться с основами работы с базами данных и SQL."
+      ],
+      "workExperience": [
+        {
+          "company": "Sberbank",
+          "period": "2017 - 2020",
+          "role": "Backend Developer",
+          "description": "Разрабатывала серверную логику для банковских приложений, использовала Spring и микросервисную архитектуру."
+        },
+        {
+          "company": "Ozon",
+          "period": "2020 - 2023",
+          "role": "Middle Backend Developer",
+          "description": "Работала над улучшением производительности и интеграцией разных сервисов с использованием Kafka и Docker."
+        }
+      ],
+      "informations": [
+        "Я увлекаюсь новыми подходами в архитектуре приложений и постоянно следую за тенденциями в бэкенд-разработке. В свободное время люблю участвовать в open-source проектах и делиться своими знаниями с сообществом.",
+        "Я стараюсь создавать приложения, которые не только эффективны, но и масштабируемы, учитывая тенденции в обработке больших данных и распределенных системах."
+      ]
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Иван Петров",
+      "position": "senior data-science",
+      "email": "ivan.petrov@techdata.com",
+      "phone": "+7 903 345 67 89",
+      "rating": 5,
+      "lessonCount": 30,
+      "description": "Я старший специалист в области Data Science с опытом работы более 10 лет. Я работал с большими данными, занимался созданием моделей машинного обучения и оптимизацией бизнес-процессов с помощью аналитики. Мой опыт охватывает Python, TensorFlow, PyTorch и другие инструменты для разработки ИИ. Я помогу вам освоить основы машинного обучения, построение нейросетей и использование алгоритмов для реальных задач.",
+      "skills": ["Python", "Machine Learning", "TensorFlow", "PyTorch", "Big Data", "Data Analysis"],
+      "companies": ["Tinkoff", "Yandex"],
+      "availableLevel": ["junior", "middle", "senior"],
+      "spheres": ["Data Science", "Machine Learning", "Big Data", "AI", "Python", "Data Analysis"],
+      "help": [
+        "Объясню основы машинного обучения и нейросетей.",
+        "Научу использовать TensorFlow и PyTorch для создания ИИ моделей.",
+        "Помогу освоить обработку больших данных с помощью Python.",
+        "Покажу, как использовать алгоритмы машинного обучения для реальных задач.",
+        "Дам советы по анализу данных и визуализации результатов."
+      ],
+      "workExperience": [
+        {
+          "company": "Tinkoff",
+          "period": "2015 - 2019",
+          "role": "Data Scientist",
+          "description": "Разрабатывал модели машинного обучения для прогнозирования финансовых данных и поведения клиентов."
+        },
+        {
+          "company": "Yandex",
+          "period": "2019 - 2023",
+          "role": "Senior Data Scientist",
+          "description": "Работал над проектами по обработке больших данных, использовал глубокие нейронные сети для анализа текстов и прогнозирования данных."
+        }
+      ],
+      "informations": [
+        "Мое хобби — это участие в разработке open-source решений для аналитики данных и машинного обучения. Я активно использую GitHub для делания своих наработок доступными для других разработчиков.",
+        "Я также часто провожу вебинары и мастер-классы по машинному обучению, помогая начинающим специалистам освоить эту область и применить свои знания в реальных проектах."
+      ]
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Ольга Иванова",
+      "position": "middle QA",
+      "email": "olga.ivanova@qaexpert.com",
+      "phone": "+7 904 567 89 01",
+      "rating": 4,
+      "lessonCount": 15,
+      "description": "Я тестировщица с 5-летним опытом работы в области обеспечения качества ПО. Я работаю с различными инструментами для автоматизации тестирования, включая Selenium и TestNG, а также занимаюсь написанием тестов для API. Я уверена, что каждый разработчик должен понимать важность тестирования, и готова помочь своим ученикам освоить ключевые принципы тестирования и внедрения автоматизированных процессов в разработку.",
+      "skills": ["QA", "Selenium", "TestNG", "API Testing", "Automation", "Performance Testing"],
+      "companies": ["Mail.ru", "Ozon"],
+      "availableLevel": ["junior", "middle"],
+      "spheres": ["QA", "Automation", "API Testing", "Performance Testing"],
+      "help": [
+        "Научу писать автоматические тесты с использованием Selenium и TestNG.",
+        "Объясню, как проводить тестирование API и работать с Postman.",
+        "Покажу, как использовать JMeter для тестирования производительности.",
+        "Помогу с внедрением CI/CD для автоматического тестирования."
+      ],
+      "workExperience": [
+        {
+          "company": "Mail.ru",
+          "period": "2016 - 2018",
+          "role": "QA Engineer",
+          "description": "Работала над автоматизацией тестирования для нескольких крупных проектов."
+        },
+        {
+          "company": "Ozon",
+          "period": "2018 - 2023",
+          "role": "QA Automation Engineer",
+          "description": "Занималась автоматизацией тестирования API, улучшением процессов CI/CD."
+        }
+      ],
+      "informations": [
+        "В свободное время я создаю проекты для тестирования веб-приложений и мобильных приложений с использованием новых технологий. Я считаю важным всегда держать руку на пульсе в области тестирования и следить за новыми подходами.",
+        "Я люблю делиться опытом и участвую в различных конференциях и мероприятиях, чтобы рассказать о своих методах работы и рассказать другим о важности качественного тестирования."
+      ]
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+      "fullname": "Дмитрий Васильев",
+      "position": "senior backend",
+      "email": "dmitriy.vasiliev@mail.com",
+      "phone": "+7 913 234 56 78",
+      "rating": 5,
+      "lessonCount": 18,
+      "description": "Я старший бэкенд-разработчик с более чем 10 летним опытом работы с Java, Spring, и микросервисной архитектурой. Моя основная специализация — создание и оптимизация высоконагруженных систем, а также архитектурное проектирование серверной части приложений. Я активно использую принципы DevOps для автоматизации процессов развертывания и управления инфраструктурой. Я готов поделиться опытом с разработчиками, которые хотят углубить свои знания в области бэкенда и масштабируемых систем.",
+      "skills": ["Java", "Spring", "Microservices", "DevOps", "Cloud Services", "Kubernetes"],
+      "companies": ["Sberbank", "Cian"],
+      "availableLevel": ["junior", "middle", "senior"],
+      "spheres": ["Java", "Spring", "Microservices", "Cloud Infrastructure", "DevOps"],
+      "help": [
+        "Помогу разобраться в основах микросервисной архитектуры.",
+        "Научу использовать Spring для создания RESTful API.",
+        "Объясню, как настроить CI/CD для автоматического развертывания.",
+        "Покажу, как использовать Kubernetes для управления контейнерами.",
+        "Помогу оптимизировать высоконагруженные серверные приложения.",
+        "Дам советы по проектированию архитектуры бэкенд-систем."
+      ],
+      "workExperience": [
+        {
+          "company": "Sberbank",
+          "period": "2014 - 2018",
+          "role": "Senior Backend Developer",
+          "description": "Создавал микросервисные приложения для банковского сектора, оптимизировал процессы обработки транзакций и платежей."
+        },
+        {
+          "company": "Cian",
+          "period": "2018 - 2023",
+          "role": "Lead Backend Developer",
+          "description": "Разрабатывал архитектуру высоконагруженных приложений, руководил командой по внедрению DevOps практик и автоматизации развертывания."
+        }
+      ],
+      "informations": [
+        "В свободное время я увлекаюсь изучением новых технологий в области искусственного интеллекта и автоматизации процессов. Сейчас я активно работаю над проектами по оптимизации процессов обработки данных и внедрению решений на основе машинного обучения.",
+        "Я увлекаюсь участием в стартапах и помогаю им внедрять масштабируемые и высоконадежные решения с использованием облачных технологий и микросервисной архитектуры."
+      ]
+    },
+    {
+      "id": 6,
+      "userId": 6,
+      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "fullname": "Екатерина Лебедева",
+      "position": "middle frontend",
+      "email": "ekaterina.lebedyeva@webdev.com",
+      "phone": "+7 914 567 89 01",
+      "rating": 4,
+      "lessonCount": 14,
+      "description": "Я фронтенд-разработчик с 4-летним опытом работы. Занимаюсь разработкой интерфейсов с использованием React и Vue, а также создаю адаптивные и мобильные веб-сайты. Мой опыт включает в себя как работу с простыми страницами, так и сложные SPA-приложения. Я всегда ориентируюсь на улучшение качества кода и производительности сайтов. Я с удовольствием помогу вам освоить основы фронтенда и начать карьеру в веб-разработке.",
+      "skills": ["React", "Vue.js", "HTML", "CSS", "JavaScript", "TypeScript"],
+      "companies": ["Tinkoff", "Mail.ru"],
+      "availableLevel": ["junior", "middle"],
+      "spheres": ["Frontend Development", "Web Design", "React", "Vue.js", "Responsive Design"],
+      "help": [
+        "Объясню, как работать с React и Vue.js.",
+        "Научу создавать адаптивные веб-сайты с использованием Flexbox и Grid.",
+        "Помогу разобраться с основами JavaScript и TypeScript.",
+        "Научу писать чистый и поддерживаемый код.",
+        "Объясню, как использовать Git и GitHub для совместной разработки."
+      ],
+      "workExperience": [
+        {
+          "company": "Tinkoff",
+          "period": "2018 - 2020",
+          "role": "Frontend Developer",
+          "description": "Разрабатывала интерфейсы для веб-приложений, активно использовала React."
+        },
+        {
+          "company": "Mail.ru",
+          "period": "2020 - 2023",
+          "role": "Middle Frontend Developer",
+          "description": "Работала над созданием адаптивных и мобильных версий сайтов с использованием Vue.js и CSS-препроцессоров."
+        }
+      ],
+      "informations": [
+        "Я всегда слежу за последними тенденциями в мире веб-разработки, изучая новые фреймворки и подходы к созданию интерфейсов.",
+        "В свободное время я активно изучаю анимации для веба и работаю над своими проектами, чтобы улучшить навыки в области UI/UX."
+      ]
+    },
+    {
+      "id": 7,
+      "userId": 7,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Андрей Михайлов",
+      "position": "senior DevOps",
+      "email": "andrey.mikhaylov@cloudtech.com",
+      "phone": "+7 915 678 90 12",
+      "rating": 5,
+      "lessonCount": 20,
+      "description": "Я специалист по DevOps с более чем 7-летним опытом работы. Моя специализация включает настройку CI/CD, контейнеризацию приложений с помощью Docker и Kubernetes, а также управление облачной инфраструктурой. Я работал с различными облачными сервисами, такими как AWS, Google Cloud и Azure, и помогал многим компаниям внедрить эффективные и безопасные DevOps-практики.",
+      "skills": ["Docker", "Kubernetes", "CI/CD", "AWS", "Google Cloud", "Terraform", "Linux"],
+      "companies": ["Yandex", "Sberbank"],
+      "availableLevel": ["junior", "middle", "senior"],
+      "spheres": ["DevOps", "Cloud Infrastructure", "CI/CD", "Docker", "Kubernetes", "AWS", "Terraform"],
+      "help": [
+        "Научу использовать Docker и Kubernetes для контейнеризации приложений.",
+        "Объясню, как настроить CI/CD пайплайны с помощью Jenkins и GitLab CI.",
+        "Покажу, как управлять облачной инфраструктурой с помощью AWS и Google Cloud.",
+        "Научу писать инфраструктуру как код с помощью Terraform.",
+        "Объясню, как обеспечить безопасность в облачных сервисах."
+      ],
+      "workExperience": [
+        {
+          "company": "Yandex",
+          "period": "2015 - 2018",
+          "role": "DevOps Engineer",
+          "description": "Настроил процессы CI/CD и автоматизировал развертывание приложений с использованием Docker и Kubernetes."
+        },
+        {
+          "company": "Sberbank",
+          "period": "2018 - 2023",
+          "role": "Senior DevOps Engineer",
+          "description": "Руководил проектами по миграции приложений в облако и автоматизации инфраструктуры с использованием Terraform."
+        }
+      ],
+      "informations": [
+        "В последние годы я сосредоточился на оптимизации инфраструктуры и снижении затрат на облачные сервисы.",
+        "Я всегда открыт для новых решений и активно слежу за новыми технологиями в области DevOps, таких как serverless и инфраструктура как код."
+      ]
+    },
+    {
+      "id": 8,
+      "userId": 8,
+      "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+      "fullname": "Сергей Волков",
+      "position": "middle mobile developer",
+      "email": "sergey.volkov@mobtech.com",
+      "phone": "+7 916 789 01 23",
+      "rating": 4,
+      "lessonCount": 18,
+      "description": "Я мобильный разработчик с 4-летним опытом работы в области создания мобильных приложений для iOS и Android. Специализируюсь на разработке с использованием Flutter и React Native. Работал над приложениями для разных отраслей, от банков до e-commerce. Я помогу вам освоить мобильную разработку и научу создавать кросс-платформенные приложения с использованием современных фреймворков.",
+      "skills": ["Flutter", "React Native", "Dart", "JavaScript", "Swift", "Android", "Firebase"],
+      "companies": ["Ozon", "Tinkoff"],
+      "availableLevel": ["junior", "middle"],
+      "spheres": ["Mobile Development", "Flutter", "React Native", "iOS", "Android", "Cross-platform Apps"],
+      "help": [
+        "Научу разрабатывать мобильные приложения с использованием Flutter и React Native.",
+        "Покажу, как работать с Firebase для аутентификации и хранения данных.",
+        "Помогу освоить основы разработки для iOS и Android.",
+        "Объясню, как тестировать мобильные приложения и использовать CI/CD для мобильных проектов.",
+        "Покажу, как оптимизировать мобильные приложения для улучшения производительности."
+      ],
+      "workExperience": [
+        {
+          "company": "Ozon",
+          "period": "2018 - 2020",
+          "role": "Mobile Developer",
+          "description": "Разрабатывал кросс-платформенные приложения с использованием React Native для мобильных пользователей."
+        },
+        {
+          "company": "Tinkoff",
+          "period": "2020 - 2023",
+          "role": "Middle Mobile Developer",
+          "description": "Работал над созданием и оптимизацией мобильных приложений с использованием Flutter."
+        }
+      ],
+      "informations": [
+        "Я всегда ищу новые подходы к улучшению пользовательского опыта в мобильных приложениях и активно исследую новые технологии и инструменты.",
+        "В свободное время я развиваюсь как наставник, обучая начинающих разработчиков и помогая им освоить мобильную разработку."
+      ]
+    },
+    {
+      "id": 9,
+      "userId": 9,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Евгений Захаров",
+      "position": "senior frontend",
+      "email": "evgeniy.zakharov@frontend.com",
+      "phone": "+7 917 890 12 34",
+      "rating": 5,
+      "lessonCount": 25,
+      "description": "Я старший фронтенд-разработчик с 9-летним опытом работы. Специализируюсь на создании сложных веб-приложений с использованием Angular, React и Vue. Имею опыт работы с различными архитектурами и фреймворками, активно использую TypeScript, CSS-препроцессоры и другие инструменты для улучшения качества кода. Моя цель — помочь вам научиться разрабатывать высококачественные веб-приложения с использованием передовых технологий.",
+      "skills": ["React", "Angular", "Vue.js", "TypeScript", "JavaScript", "CSS", "Sass", "Redux"],
+      "companies": ["Tinkoff", "Alfa-Bank"],
+      "availableLevel": ["junior", "middle", "senior"],
+      "spheres": ["Frontend Development", "Angular", "React", "Vue.js", "TypeScript", "UI/UX"],
+      "help": [
+        "Покажу, как разрабатывать сложные веб-приложения с использованием React и Angular.",
+        "Научу использовать TypeScript для написания чистого и безопасного кода.",
+        "Объясню, как работать с Redux для управления состоянием приложения.",
+        "Покажу, как создавать компоненты с использованием CSS-препроцессоров и CSS-in-JS.",
+        "Научу работать с RESTful API и интегрировать его с фронтенд-приложениями."
+      ],
+      "workExperience": [
+        {
+          "company": "Tinkoff",
+          "period": "2015 - 2018",
+          "role": "Frontend Developer",
+          "description": "Разрабатывал сложные веб-приложения с использованием Angular и React."
+        },
+        {
+          "company": "Alfa-Bank",
+          "period": "2018 - 2023",
+          "role": "Senior Frontend Developer",
+          "description": "Создавал интерфейсы для веб-приложений с использованием Vue.js и оптимизировал процесс разработки с помощью TypeScript."
+        }
+      ],
+      "informations": [
+        "Я всегда слежу за новыми трендами в фронтенд-разработке и активно использую современные технологии в своей работе.",
+        "В свободное время занимаюсь открытым исходным кодом и работаю над улучшением пользовательских интерфейсов."
+      ]
+    },
+    {
+      "id": 10,
+      "userId": 10,
+      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "fullname": "Олег Сорокин",
+      "position": "senior UX/UI Designer",
+      "email": "oleg.sorokin@uxdesign.com",
+      "phone": "+7 918 901 23 45",
+      "rating": 5,
+      "lessonCount": 30,
+      "description": "Я старший UX/UI дизайнер с более чем 8 летним опытом. Моя задача — улучшать взаимодействие пользователя с продуктом и разрабатывать удобные интерфейсы. Работал с крупными IT-компаниями и помогал им создавать дизайн систем и адаптивные интерфейсы. Я научу вас разрабатывать интерфейсы, которые не только красивы, но и удобны для пользователей.",
+      "skills": ["UX Design", "UI Design", "Adobe XD", "Figma", "Sketch", "Design Systems"],
+      "companies": ["Yandex", "Mail.ru"],
+      "availableLevel": ["junior", "middle", "senior"],
+      "spheres": ["UX/UI Design", "Design Systems", "Prototyping", "Adobe XD", "Figma"],
+      "help": [
+        "Покажу, как создавать удобные и интуитивно понятные интерфейсы.",
+        "Объясню, как разрабатывать дизайн системы для продукта.",
+        "Научу пользоваться Figma и Adobe XD для прототипирования и проектирования интерфейсов.",
+        "Помогу научиться проектировать адаптивные интерфейсы для разных устройств.",
+        "Научу принципам UX-дизайна и улучшению взаимодействия с пользователями."
+      ],
+      "workExperience": [
+        {
+          "company": "Yandex",
+          "period": "2016 - 2019",
+          "role": "UX/UI Designer",
+          "description": "Разрабатывал интерфейсы для веб-сервисов и мобильных приложений."
+        },
+        {
+          "company": "Mail.ru",
+          "period": "2019 - 2023",
+          "role": "Senior UX/UI Designer",
+          "description": "Создавал дизайн системы и разрабатывал адаптивные интерфейсы для различных продуктов."
+        }
+      ],
+      "informations": [
+        "Я всегда слежу за последними трендами в дизайне и стараюсь использовать новые подходы в своих проектах.",
+        "В свободное время я увлекаюсь разработкой цифровых иллюстраций и дизайном для мобильных приложений."
+      ]
+    },
+    {
+      "id": 11,
+      "userId": 11,
+      "avatar": "https://avatars.mds.yandex.net/i?id=d832ba30e60631acb77e6ab86b2369f64b2b6361-6605286-images-thumbs&n=13",
+      "fullname": "Ирина Сидорова",
+      "position": "middle backend",
+      "email": "irina.sidorova@techbackend.com",
+      "phone": "+7 919 234 56 78",
+      "rating": 4,
+      "lessonCount": 15,
+      "description": "Я бэкенд-разработчик с 5-летним опытом работы в разработке серверных приложений и микросервисов. Моя специализация — создание API с использованием Node.js, Express, а также работа с базами данных (SQL и NoSQL). Я также опытна в настройке серверов и автоматизации рабочих процессов. Могу помочь вам освоить основы бэкенда и разобраться в архитектуре серверных приложений.",
+      "skills": ["Node.js", "Express", "SQL", "NoSQL", "MongoDB", "API Development", "AWS"],
+      "companies": ["Rambler", "Ozon"],
+      "availableLevel": ["junior", "middle"],
+      "spheres": ["Backend Development", "API Development", "Database Design", "Microservices", "AWS"],
+      "help": [
+        "Научу работать с Node.js и Express для создания серверных приложений.",
+        "Объясню, как проектировать и разрабатывать RESTful API.",
+        "Покажу, как работать с MongoDB и другими базами данных.",
+        "Помогу разобраться с основами микросервисной архитектуры.",
+        "Научу развертывать приложения на облачных платформах, таких как AWS."
+      ],
+      "workExperience": [
+        {
+          "company": "Rambler",
+          "period": "2017 - 2019",
+          "role": "Backend Developer",
+          "description": "Разрабатывала серверную логику и API для веб-приложений, использовала Node.js и MongoDB."
+        },
+        {
+          "company": "Ozon",
+          "period": "2019 - 2023",
+          "role": "Middle Backend Developer",
+          "description": "Работала над созданием микросервисов, настройкой серверов и баз данных для крупных онлайн-платформ."
+        }
+      ],
+      "informations": [
+        "Я активно исследую новые подходы к разработке серверных приложений, такие как микросервисы и серверлесс-архитектура.",
+        "В свободное время я изучаю новые фреймворки для бэкенда и совершенствую свои навыки работы с облачными технологиями."
+      ]
+    },
+    {
+      "id": 12,
+      "userId": 12,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Максим Кузнецов",
+      "position": "middle machine learning",
+      "email": "maxim.kuznetsov@mltech.com",
+      "phone": "+7 920 345 67 89",
+      "rating": 5,
+      "lessonCount": 22,
+      "description": "Я специалист по машинному обучению с 4-летним опытом работы в этой области. Работал над различными проектами, включая обработку данных, разработку моделей и их интеграцию в реальные системы. Моя специализация — создание и обучение нейронных сетей, а также применение алгоритмов машинного обучения в различных сферах. Я помогу вам разобраться с теорией и практикой машинного обучения и освоить самые важные инструменты для работы в этой области.",
+      "skills": ["Python", "TensorFlow", "Keras", "Scikit-learn", "Machine Learning", "Deep Learning", "Data Analysis"],
+      "companies": ["Sberbank", "Tinkoff"],
+      "availableLevel": ["junior", "middle"],
+      "spheres": ["Machine Learning", "Deep Learning", "Data Science", "Data Analysis", "AI Models"],
+      "help": [
+        "Научу работать с алгоритмами машинного обучения и нейронными сетями.",
+        "Покажу, как анализировать данные и готовить их для обучения моделей.",
+        "Объясню, как использовать TensorFlow и Keras для создания моделей глубокого обучения.",
+        "Покажу, как интегрировать модели в реальное приложение.",
+        "Научу решать задачи, связанные с обработкой данных и предсказаниями."
+      ],
+      "workExperience": [
+        {
+          "company": "Sberbank",
+          "period": "2018 - 2020",
+          "role": "Machine Learning Engineer",
+          "description": "Разрабатывал алгоритмы машинного обучения для аналитики и прогнозирования финансовых данных."
+        },
+        {
+          "company": "Tinkoff",
+          "period": "2020 - 2023",
+          "role": "Middle Machine Learning Engineer",
+          "description": "Работал над проектами по разработке и внедрению нейронных сетей для улучшения банковских услуг."
+        }
+      ],
+      "informations": [
+        "Я активно изучаю современные подходы к обучению моделей машинного обучения, а также внедряю новые методы в свою работу.",
+        "В свободное время я развиваюсь в области искусственного интеллекта и участвуем в различных проектах по разработке ИИ."
+      ]
+    },
+    {
+      "id": 13,
+      "userId": 13,
+      "avatar": "https://nashevremya.net/wp-content/uploads/2022/12/vacd-mobile.jpg",
+      "fullname": "Юлия Иванова",
+      "position": "junior QA",
+      "email": "yulia.ivanova@qualityassurance.com",
+      "phone": "+7 923 456 78 90",
+      "rating": 4,
+      "lessonCount": 10,
+      "description": "Я начинающий специалист в области тестирования с опытом работы более года. Моя специализация — ручное тестирование веб-приложений и мобильных приложений, создание тестовых сценариев и отчетов о найденных ошибках. Я помогу вам освоить основные принципы тестирования и научиться эффективно находить баги, а также работать с инструментами для автоматизации тестирования.",
+      "skills": ["Manual Testing", "Bug Reporting", "Test Cases", "JIRA", "Selenium", "Postman"],
+      "companies": ["Intellisoft", "Luxoft"],
+      "availableLevel": ["junior"],
+      "spheres": ["Quality Assurance", "Manual Testing", "Automation Testing", "Selenium", "Postman", "JIRA"],
+      "help": [
+        "Объясню основные принципы ручного тестирования.",
+        "Научу создавать тестовые сценарии и отчеты о найденных ошибках.",
+        "Покажу, как использовать JIRA для отслеживания багов и задач.",
+        "Помогу изучить основы автоматизированного тестирования с помощью Selenium.",
+        "Научу работать с инструментами для тестирования API, такими как Postman."
+      ],
+      "workExperience": [
+        {
+          "company": "Intellisoft",
+          "period": "2020 - 2022",
+          "role": "QA Engineer",
+          "description": "Тестировала веб-приложения, создавая тестовые сценарии и отслеживая баги с помощью JIRA."
+        },
+        {
+          "company": "Luxoft",
+          "period": "2022 - 2023",
+          "role": "Junior QA Engineer",
+          "description": "Разрабатывала тесты для мобильных приложений и обучала коллег основам автоматизированного тестирования."
+        }
+      ],
+      "informations": [
+        "В свободное время я изучаю новые инструменты для тестирования и участвую в онлайн-курсах по автоматизации тестирования.",
+        "Я активно участвую в тестировании различных проектов и изучаю лучшие практики QA."
+      ]
+    },
+    {
+      "id": 14,
+      "userId": 14,
+      "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+      "fullname": "Дмитрий Беляев",
+      "position": "middle full-stack developer",
+      "email": "dmitriy.belyaev@fullstackdev.com",
+      "phone": "+7 924 567 89 01",
+      "rating": 4,
+      "lessonCount": 18,
+      "description": "Я full-stack разработчик с 6-летним опытом работы. Специализируюсь на создании приложений с использованием React на фронтенде и Node.js на бэкенде. Имею опыт работы с реляционными и нереляционными базами данных, а также с облачными платформами. Я научу вас разрабатывать полноценные веб-приложения, от базы данных до интерфейса пользователя.",
+      "skills": ["React", "Node.js", "Express", "MongoDB", "MySQL", "JavaScript", "TypeScript"],
+      "companies": ["VK", "Tinkoff"],
+      "availableLevel": ["junior", "middle"],
+      "spheres": ["Full-Stack Development", "JavaScript", "Node.js", "React", "MongoDB", "MySQL"],
+      "help": [
+        "Объясню, как работать с фронтенд и бэкенд технологиями, такими как React и Node.js.",
+        "Покажу, как создавать RESTful API и интегрировать их с фронтендом.",
+        "Научу работать с базами данных, как реляционными, так и NoSQL.",
+        "Научу писать чистый и поддерживаемый код с использованием TypeScript.",
+        "Помогу с развёртыванием приложений на облачных платформах, таких как AWS."
+      ],
+      "workExperience": [
+        {
+          "company": "VK",
+          "period": "2017 - 2019",
+          "role": "Full-Stack Developer",
+          "description": "Разрабатывал веб-приложения на React и Node.js, интегрировал с различными базами данных."
+        },
+        {
+          "company": "Tinkoff",
+          "period": "2019 - 2023",
+          "role": "Middle Full-Stack Developer",
+          "description": "Разрабатывал и поддерживал сложные веб-приложения, работал с реляционными и нереляционными базами данных."
+        }
+      ],
+      "informations": [
+        "Я всегда исследую новые фреймворки и подходы в разработке, чтобы оставаться в курсе современных технологий.",
+        "В свободное время я разрабатываю проекты с использованием новых технологий и участвую в хакатонах."
+      ]
+    },
+    {
+      "id": 15,
+      "userId": 15,
+      "avatar": "https://i.pinimg.com/736x/42/46/05/42460502d10a4e9aeda2e89dd33ab0fc.jpg",
+      "fullname": "Елена Петрова",
+      "position": "junior product manager",
+      "email": "elena.petrova@productmanagement.com",
+      "phone": "+7 926 678 90 12",
+      "rating": 4,
+      "lessonCount": 8,
+      "description": "Я начинающий продуктовый менеджер с опытом работы в стартапах. Моя задача — помочь вам разобраться в процессах управления продуктами, от исследования рынка до разработки стратегий. Я научу вас, как планировать и запускать новые продукты, а также как работать с командой для достижения успеха.",
+      "skills": ["Product Management", "Market Research", "Roadmap Planning", "Team Collaboration", "Agile", "Scrum"],
+      "companies": ["Parallels", "Bitrix24"],
+      "availableLevel": ["junior"],
+      "spheres": ["Product Management", "Agile", "Scrum", "Market Research", "Roadmap Planning"],
+      "help": [
+        "Объясню, как разработать и реализовать стратегию для нового продукта.",
+        "Научу планировать и управлять дорожной картой продукта.",
+        "Помогу с исследованием рынка и анализом потребностей пользователей.",
+        "Научу работать по методологии Agile и Scrum.",
+        "Покажу, как эффективно сотрудничать с командой для достижения целей продукта."
+      ],
+      "workExperience": [
+        {
+          "company": "Parallels",
+          "period": "2021 - 2022",
+          "role": "Product Manager",
+          "description": "Работала с командами разработки над запуском новых продуктов и управлением продуктами в рамках стартапов."
+        },
+        {
+          "company": "Bitrix24",
+          "period": "2022 - 2023",
+          "role": "Junior Product Manager",
+          "description": "Разрабатывала стратегии продуктов и помогала улучшать процессы внутри команд разработки."
+        }
+      ],
+      "informations": [
+        "Я активно слежу за новыми трендами в управлении продуктами и всегда ищу эффективные способы работы с командой.",
+        "В свободное время я участвую в мероприятиях по стартапам и изучаю новые методологии управления проектами."
+      ]
+    },
+    {
+      "id": 16,
+      "userId": 16,
+      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "fullname": "Алексей Смирнов",
+      "position": "middle frontend",
+      "email": "alexey.smirnov@frontdev.com",
+      "phone": "+7 929 123 45 67",
+      "rating": 5,
+      "lessonCount": 30,
+      "description": "Я фронтенд-разработчик с 4-летним опытом, специализируюсь на создании высококачественных веб-приложений с использованием React, Redux и TypeScript. В своей работе я уделяю внимание лучшим практикам кодирования, производительности и удобству для пользователей. Могу помочь вам стать уверенным фронтенд-разработчиком и научить работать с современными инструментами для создания сложных и производительных приложений.",
+      "skills": ["React", "Redux", "TypeScript", "JavaScript", "HTML5", "CSS3", "Webpack", "Jest", "CSS-in-JS"],
+      "companies": ["Yandex", "Tinkoff"],
+      "availableLevel": ["junior", "middle"],
+      "spheres": ["Frontend Development", "React", "Redux", "TypeScript", "Webpack", "CSS-in-JS"],
+      "help": [
+        "Объясню основы работы с React и Redux.",
+        "Научу создавать компоненты и управлять состоянием приложения.",
+        "Покажу, как эффективно использовать TypeScript для фронтенда.",
+        "Научу работать с инструментами для сборки и оптимизации приложений, такими как Webpack.",
+        "Помогу повысить производительность ваших приложений и сделать их удобными для пользователей."
+      ],
+      "workExperience": [
+        {
+          "company": "Yandex",
+          "period": "2018 - 2020",
+          "role": "Frontend Developer",
+          "description": "Работал над созданием веб-приложений с использованием React и Redux, разрабатывал интерфейсы и оптимизировал производительность."
+        },
+        {
+          "company": "Tinkoff",
+          "period": "2020 - 2023",
+          "role": "Middle Frontend Developer",
+          "description": "Работал над сложными проектами, использовал TypeScript и CSS-in-JS для создания высококачественных приложений."
+        }
+      ],
+      "informations": [
+        "Я активно изучаю новые возможности React и Redux и всегда стремлюсь улучшать качество кода.",
+        "В свободное время занимаюсь улучшением своих навыков в создании адаптивных и производительных веб-приложений."
+      ]
+    },
+    {
+      "id": 17,
+      "userId": 17,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Татьяна Григорьева",
+      "position": "senior data-science",
+      "email": "tatiana.grigorieva@datascience.com",
+      "phone": "+7 912 234 56 78",
+      "rating": 5,
+      "lessonCount": 45,
+      "description": "Я старший специалист в области Data Science с более чем 8-летним опытом работы. Специализируюсь на применении методов машинного обучения и глубокого обучения для анализа больших данных. Разрабатываю предсказательные модели, которые помогают бизнесу принимать обоснованные решения. Могу помочь вам освоить сложные алгоритмы и научиться анализировать данные с помощью Python и популярных библиотек для машинного обучения.",
+      "skills": ["Python", "Machine Learning", "Deep Learning", "TensorFlow", "Keras", "Pandas", "NumPy", "Big Data"],
+      "companies": ["Mail.Ru", "Sberbank"],
+      "availableLevel": ["middle", "senior"],
+      "spheres": ["Data Science", "Machine Learning", "Deep Learning", "Big Data", "AI", "Python"],
+      "help": [
+        "Научу создавать предсказательные модели с использованием машинного обучения.",
+        "Покажу, как применять алгоритмы глубокого обучения для анализа данных.",
+        "Объясню, как использовать библиотеки Python, такие как Pandas и NumPy, для работы с данными.",
+        "Научу работать с большими данными и разрабатывать эффективные алгоритмы обработки.",
+        "Помогу изучить основные инструменты для анализа данных, такие как Jupyter и PyTorch."
+      ],
+      "workExperience": [
+        {
+          "company": "Mail.Ru",
+          "period": "2016 - 2018",
+          "role": "Data Scientist",
+          "description": "Разрабатывал модели машинного обучения для обработки больших данных и прогнозирования."
+        },
+        {
+          "company": "Sberbank",
+          "period": "2018 - 2023",
+          "role": "Senior Data Scientist",
+          "description": "Работал с командами по созданию аналитических моделей и применению методов глубокого обучения для бизнеса."
+        }
+      ],
+      "informations": [
+        "Я активно изучаю современные методы машинного обучения и искусственного интеллекта и всегда применяю их в своей работе.",
+        "В свободное время я разрабатываю новые проекты и совершенствую свои знания в области аналитики и Data Science."
+      ]
+    },
+    {
+      "id": 18,
+      "userId": 18,
+      "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+      "fullname": "Анатолий Орлов",
+      "position": "middle backend",
+      "email": "anatoly.orlov@backenddev.com",
+      "phone": "+7 903 678 90 12",
+      "rating": 4,
+      "lessonCount": 12,
+      "description": "Я опытный бэкенд-разработчик с 5-летним опытом работы в создании микросервисных архитектур и API. Моя специализация — Node.js, Express, PostgreSQL и Docker. Я помогу вам изучить основы разработки серверных приложений и API, научу работать с базами данных и контейнерами, а также разберемся в лучших подходах к разработке и внедрению микросервисов.",
+      "skills": ["Node.js", "Express", "PostgreSQL", "Docker", "API", "Microservices", "GraphQL"],
+      "companies": ["Rambler", "Yandex"],
+      "availableLevel": ["junior", "middle"],
+      "spheres": ["Backend Development", "Node.js", "Express", "PostgreSQL", "Microservices", "Docker", "API"],
+      "help": [
+        "Научу создавать RESTful API с использованием Node.js и Express.",
+        "Покажу, как работать с реляционными базами данных, такими как PostgreSQL.",
+        "Объясню, как использовать Docker для контейнеризации приложений.",
+        "Научу разрабатывать микросервисную архитектуру и решать задачи, связанные с масштабируемостью.",
+        "Помогу изучить новые подходы к созданию серверных приложений и архитектур."
+      ],
+      "workExperience": [
+        {
+          "company": "Rambler",
+          "period": "2017 - 2019",
+          "role": "Backend Developer",
+          "description": "Разработал серверные приложения с использованием Node.js и PostgreSQL, участвовал в разработке микросервисов."
+        },
+        {
+          "company": "Yandex",
+          "period": "2019 - 2023",
+          "role": "Middle Backend Developer",
+          "description": "Работал над созданием микросервисов с использованием Docker и GraphQL для сложных веб-платформ."
+        }
+      ],
+      "informations": [
+        "Я всегда ищу новые подходы для улучшения архитектуры серверных приложений и повышения их производительности.",
+        "В свободное время я участвую в различных проектах по оптимизации серверной части и изучаю новые технологии для создания микросервисов."
+      ]
+    },
+    {
+      "id": 19,
+      "userId": 19,
+      "avatar": "https://avatars.mds.yandex.net/i?id=d832ba30e60631acb77e6ab86b2369f64b2b6361-6605286-images-thumbs&n=13",
+      "fullname": "Светлана Романова",
+      "position": "junior ui/ux designer",
+      "email": "svetlana.romanova@uxdesign.com",
+      "phone": "+7 911 234 56 78",
+      "rating": 3,
+      "lessonCount": 5,
+      "description": "Я начинающий UI/UX дизайнер с опытом работы над несколькими проектами по разработке интерфейсов и улучшению пользовательского опыта. Специализируюсь на создании простых и интуитивно понятных интерфейсов для мобильных и веб-приложений. Могу помочь вам понять основы дизайна, научиться работать с Figma и Adobe XD, а также изучить принципы разработки пользовательских интерфейсов.",
+      "skills": ["UI Design", "UX Design", "Figma", "Adobe XD", "Wireframing", "Prototyping"],
+      "companies": ["Freelance", "Startup Inc."],
+      "availableLevel": ["junior"],
+      "spheres": ["UI/UX Design", "Figma", "Wireframing", "Prototyping", "User Research"],
+      "help": [
+        "Объясню основные принципы UI/UX дизайна и разработки интерфейсов.",
+        "Научу работать с инструментами для дизайна, такими как Figma и Adobe XD.",
+        "Покажу, как создавать wireframes и прототипы интерфейсов.",
+        "Научу проводить исследования пользователей и использовать полученные данные для улучшения UX.",
+        "Помогу с дизайном интерфейсов для мобильных и веб-приложений."
+      ],
+      "workExperience": [
+        {
+          "company": "Freelance",
+          "period": "2021 - 2022",
+          "role": "UI/UX Designer",
+          "description": "Работала с небольшими стартапами, создавая интерфейсы для мобильных и веб-приложений."
+        },
+        {
+          "company": "Startup Inc.",
+          "period": "2022 - 2023",
+          "role": "Junior UI/UX Designer",
+          "description": "Создавала и тестировала дизайн интерфейсов для стартапов, улучшала пользовательский опыт."
+        }
+      ],
+      "informations": [
+        "Я люблю изучать новые тенденции в дизайне и всегда стараюсь создавать интуитивно понятные интерфейсы.",
+        "В свободное время я занимаюсь дизайном для личных проектов и учусь новым методам работы с пользователями."
+      ]
+    },
+    {
+      "id": 20,
+      "userId": 20,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Дмитрий Волков",
+      "position": "middle backend",
+      "email": "dmitriy.volkov@backenddev.com",
+      "phone": "+7 905 678 90 23",
+      "rating": 5,
+      "lessonCount": 25,
+      "description": "Я бэкенд-разработчик с 6-летним опытом работы в крупных компаниях, специализируюсь на создании высоконагруженных серверных приложений с использованием Java, Spring Boot и MySQL. Помогу вам научиться работать с микросервисами, проектировать эффективные базы данных и использовать передовые инструменты для разработки и тестирования серверных приложений.",
+      "skills": ["Java", "Spring Boot", "MySQL", "Microservices", "API", "Docker", "Jenkins"],
+      "companies": ["MTS", "VK"],
+      "availableLevel": ["junior", "middle"],
+      "spheres": ["Backend Development", "Java", "Spring Boot", "Microservices", "Docker", "MySQL", "API"],
+      "help": [
+        "Покажу, как создавать микросервисы с использованием Spring Boot.",
+        "Научу работать с реляционными базами данных, такими как MySQL.",
+        "Объясню, как создавать RESTful API для интеграции с другими сервисами.",
+        "Научу использовать Docker для контейнеризации приложений.",
+        "Помогу разобраться в принципах разработки и тестирования серверных приложений."
+      ],
+      "workExperience": [
+        {
+          "company": "MTS",
+          "period": "2017 - 2020",
+          "role": "Backend Developer",
+          "description": "Разрабатывал серверные приложения с использованием Java и Spring Boot для крупных проектов компании."
+        },
+        {
+          "company": "VK",
+          "period": "2020 - 2023",
+          "role": "Middle Backend Developer",
+          "description": "Создавал и оптимизировал микросервисы для сложных веб-приложений, работал с Docker и Jenkins."
+        }
+      ],
+      "informations": [
+        "В свободное время люблю изучать новые подходы к разработке микросервисов и тестированию серверных приложений.",
+        "Я активно слежу за новыми тенденциями в области бэкенд-разработки и стремлюсь внедрять их в свои проекты."
+      ]
+    },
+    {
+      "id": 21,
+      "userId": 21,
+      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "fullname": "Марина Кузнецова",
+      "position": "junior frontend",
+      "email": "marina.kuznetsova@frontenddev.com",
+      "phone": "+7 926 123 45 67",
+      "rating": 4,
+      "lessonCount": 12,
+      "description": "Я начинающий фронтенд-разработчик с опытом работы в HTML, CSS и JavaScript. Научу вас создавать простые веб-страницы, работать с макетами и адаптировать их под разные устройства. Могу помочь вам понять основы современного фронтенд-разработки и освоить важные инструменты для работы с веб-технологиями.",
+      "skills": ["HTML", "CSS", "JavaScript", "Responsive Design", "Bootstrap", "Git", "VS Code"],
+      "companies": ["Freelance"],
+      "availableLevel": ["junior"],
+      "spheres": ["Frontend Development", "HTML", "CSS", "JavaScript", "Responsive Design"],
+      "help": [
+        "Объясню, как работать с HTML и CSS для создания веб-страниц.",
+        "Научу верстать адаптивные страницы для разных устройств.",
+        "Покажу, как использовать JavaScript для добавления интерактивности на веб-страницы.",
+        "Научу работать с Git для управления версиями.",
+        "Помогу освоить важные инструменты и редакторы для фронтенд-разработки, такие как VS Code."
+      ],
+      "workExperience": [
+        {
+          "company": "Freelance",
+          "period": "2021 - 2023",
+          "role": "Junior Frontend Developer",
+          "description": "Работала над созданием веб-сайтов, занималась версткой и добавлением интерактивных элементов с помощью JavaScript."
+        }
+      ],
+      "informations": [
+        "Я стараюсь следить за последними тенденциями в веб-разработке и всегда использую современные подходы и инструменты.",
+        "В свободное время изучаю новые фреймворки и библиотеки для фронтенда, такие как React и Vue."
+      ]
+    },
+    {
+      "id": 22,
+      "userId": 22,
+      "avatar": "https://nashevremya.net/wp-content/uploads/2022/12/vacd-mobile.jpg",
+      "fullname": "Елена Петрова",
+      "position": "middle data-science",
+      "email": "elena.petrovа@datascience.com",
+      "phone": "+7 913 456 78 90",
+      "rating": 5,
+      "lessonCount": 40,
+      "description": "Я опытный специалист в области Data Science с более чем 5-летним опытом работы в аналитике данных и машинном обучении. Я работала с большими объемами данных, создавая модели для прогнозирования и оптимизации процессов. Научу вас работать с Python, анализировать данные с помощью библиотеки Pandas, а также применять алгоритмы машинного обучения для создания предсказательных моделей.",
+      "skills": ["Python", "Machine Learning", "Data Analysis", "Pandas", "NumPy", "Matplotlib", "SciKit Learn"],
+      "companies": ["Alfa-Bank", "Gazprom"],
+      "availableLevel": ["middle", "senior"],
+      "spheres": ["Data Science", "Machine Learning", "Python", "Data Analysis", "AI"],
+      "help": [
+        "Объясню основы работы с Python для анализа данных.",
+        "Научу создавать и тестировать модели машинного обучения.",
+        "Покажу, как использовать библиотеки Pandas и SciKit Learn для анализа данных.",
+        "Научу работать с большими данными и разрабатывать предсказательные модели.",
+        "Помогу вам изучить лучшие практики в аналитике и машинном обучении."
+      ],
+      "workExperience": [
+        {
+          "company": "Alfa-Bank",
+          "period": "2018 - 2020",
+          "role": "Data Scientist",
+          "description": "Работала над созданием моделей для прогнозирования рисков и анализа данных о клиентах."
+        },
+        {
+          "company": "Gazprom",
+          "period": "2020 - 2023",
+          "role": "Middle Data Scientist",
+          "description": "Разрабатывала аналитические модели для оптимизации процессов в энергетическом секторе."
+        }
+      ],
+      "informations": [
+        "В свободное время я работаю над проектами, связанными с анализом данных и машинным обучением.",
+        "Я люблю участвовать в хакатонах и проектах, направленных на решение актуальных проблем с помощью данных."
+      ]
+    },
+    {
+      "id": 23,
+      "userId": 23,
+      "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+      "fullname": "Игорь Сидоров",
+      "position": "senior backend",
+      "email": "igor.sidorov@backenddev.com",
+      "phone": "+7 925 345 67 89",
+      "rating": 4,
+      "lessonCount": 55,
+      "description": "Я старший бэкенд-разработчик с 7-летним опытом работы в разработке API и микросервисов на Java и Go. Я участвовал в создании сложных серверных приложений и их интеграции с облачными сервисами. Помогу вам освоить принципы разработки серверных приложений и научу использовать современные фреймворки для реализации масштабируемых решений.",
+      "skills": ["Java", "Go", "Microservices", "API", "AWS", "Kubernetes", "Docker", "PostgreSQL"],
+      "companies": ["Ozon", "Mail.ru"],
+      "availableLevel": ["middle", "senior"],
+      "spheres": ["Backend Development", "Java", "Go", "Microservices", "AWS", "Kubernetes", "PostgreSQL"],
+      "help": [
+        "Объясню принципы разработки микросервисов и API.",
+        "Научу работать с контейнерами Docker и оркестраторами Kubernetes.",
+        "Покажу, как использовать Go для разработки высокопроизводительных серверных приложений.",
+        "Научу работать с облачными сервисами AWS и оптимизировать серверные решения.",
+        "Помогу с интеграцией микросервисов в сложные системы и оптимизацией производительности."
+      ],
+      "workExperience": [
+        {
+          "company": "Ozon",
+          "period": "2016 - 2020",
+          "role": "Backend Developer",
+          "description": "Разрабатывал микросервисы и API для внутренней инфраструктуры компании."
+        },
+        {
+          "company": "Mail.ru",
+          "period": "2020 - 2023",
+          "role": "Senior Backend Developer",
+          "description": "Работал над созданием облачных решений и интеграцией серверных приложений с AWS."
+        }
+      ],
+      "informations": [
+        "Моя страсть — это создание масштабируемых и эффективных решений для бизнеса.",
+        "Я активно участвую в проектировании архитектуры микросервисов и применении новых технологий для повышения производительности."
+      ]
+    },
+    {
+      "id": 24,
+      "userId": 24,
+      "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+      "fullname": "Анна Белова",
+      "position": "middle ui/ux designer",
+      "email": "anna.belova@uxdesign.com",
+      "phone": "+7 926 456 78 90",
+      "rating": 5,
+      "lessonCount": 38,
+      "description": "Я опытный UI/UX дизайнер с 5-летним стажем, занимаюсь проектированием интерфейсов и улучшением пользовательского опыта. Работала над проектами в сфере мобильных приложений и веб-сайтов. Помогу вам освоить основы дизайна, научиться создавать прототипы и разрабатывать удобные интерфейсы с помощью таких инструментов, как Figma и Adobe XD.",
+      "skills": [
+        "UI Design",
+        "UX Design",
+        "Figma",
+        "Adobe XD",
+        "Prototyping",
+        "Wireframing",
+        "User Research",
+        "Interaction Design"
+      ],
+      "companies": ["Tinkoff", "Sberbank"],
+      "availableLevel": ["junior", "middle"],
+      "spheres": ["UI/UX Design", "Figma", "Adobe XD", "Prototyping", "Interaction Design"],
+      "help": [
+        "Научу проектировать интерфейсы с помощью Figma и Adobe XD.",
+        "Покажу, как создавать прототипы и wireframes для приложений.",
+        "Научу проводить исследования пользователей для улучшения UX.",
+        "Покажу, как разрабатывать эффективное взаимодействие пользователя с интерфейсами."
+      ],
+      "workExperience": [
+        {
+          "company": "Tinkoff",
+          "period": "2017 - 2020",
+          "role": "UI/UX Designer",
+          "description": "Проектировала интерфейсы для мобильных приложений и веб-сайтов, улучшала пользовательский опыт."
+        },
+        {
+          "company": "Sberbank",
+          "period": "2020 - 2023",
+          "role": "Middle UI/UX Designer",
+          "description": "Разрабатывала дизайн интерфейсов для финансовых приложений и сервисов."
+        }
+      ],
+      "informations": [
+        "Я люблю изучать новые тенденции в дизайне и всегда стараюсь создавать интуитивно понятные интерфейсы.",
+        "В свободное время я занимаюсь дизайном для личных проектов и учусь новым методам работы с пользователями."
+      ]
+    },
+    {
+      "id": 25,
+      "userId": 25,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Иван Григорьев",
+      "position": "junior frontend",
+      "email": "ivan.grigorev@frontenddev.com",
+      "phone": "+7 927 678 90 45",
+      "rating": 4,
+      "lessonCount": 15,
+      "description": "Я начинающий фронтенд-разработчик с опытом в верстке и работе с JavaScript. Научу вас основам HTML и CSS, объясню, как верстать адаптивные страницы и работать с популярными фреймворками. Поделюсь опытом создания простых, но эффективных веб-страниц, а также научу вас основам разработки интерактивных элементов.",
+      "skills": ["HTML", "CSS", "JavaScript", "Responsive Design", "Git", "VS Code"],
+      "companies": ["Freelance"],
+      "availableLevel": ["junior"],
+      "spheres": ["Frontend Development", "HTML", "CSS", "JavaScript"],
+      "help": [
+        "Покажу, как работать с HTML и CSS для создания статичных и адаптивных веб-страниц.",
+        "Научу использовать JavaScript для добавления интерактивности на страницы.",
+        "Научу работать с Git для управления версиями и совместной разработки.",
+        "Объясню, как создавать адаптивные и мобильные версии сайтов."
+      ],
+      "workExperience": [
+        {
+          "company": "Freelance",
+          "period": "2021 - 2023",
+          "role": "Junior Frontend Developer",
+          "description": "Разрабатывал сайты для малых и средних бизнесов, работал с HTML, CSS и JavaScript."
+        }
+      ],
+      "informations": [
+        "Я стремлюсь осваивать новые фреймворки и технологии, такие как React и Vue.",
+        "В свободное время занимаюсь улучшением своих навыков верстки и работы с JavaScript."
+      ]
+    },
+    {
+      "id": 26,
+      "userId": 26,
+      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "fullname": "Никита Яковлев",
+      "position": "middle backend",
+      "email": "nikita.yakovlev@backenddev.com",
+      "phone": "+7 913 234 56 78",
+      "rating": 5,
+      "lessonCount": 22,
+      "description": "Я бэкенд-разработчик с 5-летним опытом в Java и Python. Специализируюсь на создании серверных приложений, микросервисов и работе с базами данных. Научу вас работать с REST API, а также освоить Docker, Kubernetes и другие инструменты для эффективной разработки и развертывания приложений.",
+      "skills": ["Java", "Python", "Microservices", "Docker", "Kubernetes", "REST API", "SQL", "PostgreSQL"],
+      "companies": ["Yandex", "Tinkoff"],
+      "availableLevel": ["junior", "middle"],
+      "spheres": ["Backend Development", "Java", "Python", "Microservices", "Docker", "SQL", "PostgreSQL"],
+      "help": [
+        "Объясню, как разрабатывать и тестировать REST API.",
+        "Научу работать с микросервисной архитектурой.",
+        "Научу использовать Docker для создания контейнеров и Kubernetes для их оркестрации.",
+        "Покажу, как работать с базами данных, такими как PostgreSQL, и оптимизировать запросы."
+      ],
+      "workExperience": [
+        {
+          "company": "Yandex",
+          "period": "2018 - 2021",
+          "role": "Backend Developer",
+          "description": "Разрабатывал серверные приложения и API с использованием Java и Python для внутренних сервисов компании."
+        },
+        {
+          "company": "Tinkoff",
+          "period": "2021 - 2023",
+          "role": "Middle Backend Developer",
+          "description": "Занимался созданием микросервисов и оптимизацией бэкенд-систем для финансовых приложений."
+        }
+      ],
+      "informations": [
+        "Я постоянно изучаю новые технологии, такие как Kubernetes и облачные решения для повышения эффективности разработки.",
+        "В свободное время я занимаюсь оптимизацией и улучшением производительности серверных приложений."
+      ]
+    },
+    {
+      "id": 27,
+      "userId": 27,
+      "avatar": "https://i.pinimg.com/736x/42/46/05/42460502d10a4e9aeda2e89dd33ab0fc.jpg",
+      "fullname": "Татьяна Лебедева",
+      "position": "senior product manager",
+      "email": "tatyana.lebedyeva@productdev.com",
+      "phone": "+7 906 123 45 67",
+      "rating": 5,
+      "lessonCount": 30,
+      "description": "Я опытный продакт-менеджер с 8-летним опытом работы в крупных IT-компаниях. Специализируюсь на разработке продуктов, анализе рынка и координации работы команд разработки. Научу вас управлять проектами, ставить цели и отслеживать ключевые показатели для достижения успеха.",
+      "skills": ["Product Management", "Agile", "Scrum", "Market Analysis", "Roadmapping", "Team Coordination"],
+      "companies": ["Mail.ru", "Tinkoff"],
+      "availableLevel": ["middle", "senior"],
+      "spheres": ["Product Management", "Agile", "Market Analysis", "Scrum", "Roadmapping"],
+      "help": [
+        "Покажу, как работать с методологиями Agile и Scrum.",
+        "Научу разрабатывать и контролировать продуктовые дорожные карты.",
+        "Объясню, как работать с командой разработки и распределять задачи.",
+        "Покажу, как анализировать рынок и конкурентов для формирования успешных продуктов."
+      ],
+      "workExperience": [
+        {
+          "company": "Mail.ru",
+          "period": "2015 - 2018",
+          "role": "Product Manager",
+          "description": "Координировала работу команды разработки и занималась стратегическим планированием продукта."
+        },
+        {
+          "company": "Tinkoff",
+          "period": "2018 - 2023",
+          "role": "Senior Product Manager",
+          "description": "Разрабатывала и управляла продуктами для финансовых приложений, занималась анализом рынка и улучшением пользовательского опыта."
+        }
+      ],
+      "informations": [
+        "В свободное время я занимаюсь улучшением навыков управления командой и изучаю новые методологии для улучшения процессов разработки.",
+        "Я активно слежу за новыми тенденциями на рынке продуктов и всегда ищу пути оптимизации процессов."
+      ]
+    },
+    {
+      "id": 28,
+      "userId": 28,
+      "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+      "fullname": "Александр Михайлов",
+      "position": "middle frontend",
+      "email": "alexander.mikhaylov@frontenddev.com",
+      "phone": "+7 916 789 01 23",
+      "rating": 4,
+      "lessonCount": 35,
+      "description": "Я фронтенд-разработчик с 4-летним опытом работы с React и Vue. Могу помочь вам создать динамичные веб-приложения, а также научить вас работе с состоянием приложения и компонентами. Покажу, как писать чистый и поддерживаемый код, который легко масштабируется.",
+      "skills": ["React", "Vue", "JavaScript", "HTML", "CSS", "Redux", "TypeScript", "REST API"],
+      "companies": ["Avito", "Yandex"],
+      "availableLevel": ["junior", "middle"],
+      "spheres": ["Frontend Development", "React", "Vue", "Redux", "TypeScript", "JavaScript"],
+      "help": [
+        "Научу создавать компоненты в React и Vue.",
+        "Объясню, как работать с состоянием приложения с помощью Redux и Context API.",
+        "Покажу, как разрабатывать адаптивные веб-страницы.",
+        "Научу писать чистый и поддерживаемый код, который будет легко масштабировать."
+      ],
+      "workExperience": [
+        {
+          "company": "Avito",
+          "period": "2019 - 2022",
+          "role": "Frontend Developer",
+          "description": "Работал над созданием интерфейсов для веб-приложений, используя React и TypeScript."
+        },
+        {
+          "company": "Yandex",
+          "period": "2022 - 2023",
+          "role": "Middle Frontend Developer",
+          "description": "Разрабатывал веб-приложения с использованием Vue и Redux, улучшал производительность интерфейсов."
+        }
+      ],
+      "informations": [
+        "В свободное время я занимаюсь разработкой open-source проектов на GitHub.",
+        "Я интересуюсь новыми подходами к разработке фронтенда, такими как Server-Side Rendering и Static Site Generation."
+      ]
+    },
+    {
+      "id": 29,
+      "userId": 29,
+      "avatar": "https://avatars.mds.yandex.net/i?id=d832ba30e60631acb77e6ab86b2369f64b2b6361-6605286-images-thumbs&n=13",
+      "fullname": "Владислав Васильев",
+      "position": "middle qa engineer",
+      "email": "vladislav.vasiliev@qa.com",
+      "phone": "+7 909 234 56 78",
+      "rating": 5,
+      "lessonCount": 40,
+      "description": "Я опытный QA инженер с 6-летним стажем, занимаюсь тестированием программного обеспечения и автоматизацией процессов. Помогу вам научиться писать тесты, использовать инструменты для автоматизации и устранять баги в проектах. Могу научить вас лучшим практикам тестирования и помогу освоить все необходимые инструменты.",
+      "skills": ["Manual Testing", "Automation Testing", "Selenium", "Jest", "Jenkins", "Postman", "Bug Tracking"],
+      "companies": ["Tinkoff", "Alfa Bank"],
+      "availableLevel": ["junior", "middle"],
+      "spheres": [
+        "QA Engineering",
+        "Manual Testing",
+        "Automation Testing",
+        "Selenium",
+        "Jest",
+        "Jenkins",
+        "Bug Tracking"
+      ],
+      "help": [
+        "Объясню, как проводить функциональное тестирование.",
+        "Научу писать автоматизированные тесты с использованием Selenium и Jest.",
+        "Покажу, как работать с инструментами для отслеживания багов и управления тестами.",
+        "Помогу разобраться в принципах тестирования API с помощью Postman."
+      ],
+      "workExperience": [
+        {
+          "company": "Tinkoff",
+          "period": "2017 - 2021",
+          "role": "QA Engineer",
+          "description": "Проводил функциональное и регрессионное тестирование для банковских приложений."
+        },
+        {
+          "company": "Alfa Bank",
+          "period": "2021 - 2023",
+          "role": "Middle QA Engineer",
+          "description": "Занимался автоматизацией тестирования и использовал Selenium и Jenkins для непрерывной интеграции."
+        }
+      ],
+      "informations": [
+        "Я активно изучаю новые инструменты и подходы в области автоматизации тестирования.",
+        "В свободное время занимаюсь участием в тестировании open-source проектов и улучшением своих навыков."
+      ]
+    },
+    {
+      "id": 30,
+      "userId": 30,
+      "avatar": "https://nashevremya.net/wp-content/uploads/2022/12/vacd-mobile.jpg",
+      "fullname": "Ольга Смирнова",
+      "position": "senior data-science",
+      "email": "olga.smirnova@datascience.com",
+      "phone": "+7 905 678 90 12",
+      "rating": 5,
+      "lessonCount": 40,
+      "description": "Я опытный специалист в области Data Science с более чем 7-летним опытом работы в крупном бизнесе и стартапах. Занимаюсь разработкой алгоритмов машинного обучения, обработкой больших данных и анализом статистики. Научу вас работать с Python, R, а также познакомлю с библиотеками для машинного обучения, такими как TensorFlow и scikit-learn.",
+      "skills": ["Python", "R", "Machine Learning", "TensorFlow", "scikit-learn", "Big Data", "Data Visualization"],
+      "companies": ["Sberbank", "Clever Data"],
+      "availableLevel": ["middle", "senior"],
+      "spheres": ["Data Science", "Machine Learning", "Python", "Big Data", "Data Visualization"],
+      "help": [
+        "Научу работать с библиотеками для машинного обучения, такими как TensorFlow и scikit-learn.",
+        "Покажу, как проводить анализ данных с помощью Python и R.",
+        "Объясню, как работать с большими данными и их обработкой.",
+        "Поделюсь опытом в построении прогнозных моделей и анализе данных."
+      ],
+      "workExperience": [
+        {
+          "company": "Sberbank",
+          "period": "2015 - 2020",
+          "role": "Data Scientist",
+          "description": "Разрабатывала модели машинного обучения для анализа финансовых данных и прогнозирования."
+        },
+        {
+          "company": "Clever Data",
+          "period": "2020 - 2023",
+          "role": "Senior Data Scientist",
+          "description": "Руководила командами по обработке больших данных и анализу статистики для улучшения бизнес-процессов."
+        }
+      ],
+      "informations": [
+        "Я увлекаюсь искусственным интеллектом и всегда изучаю новейшие исследования в области Data Science.",
+        "В свободное время провожу вебинары по машинному обучению и анализу данных."
+      ]
+    },
+    {
+      "id": 31,
+      "userId": 31,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Дмитрий Борисов",
+      "position": "middle backend",
+      "email": "dmitriy.borisov@backenddev.com",
+      "phone": "+7 913 987 65 43",
+      "rating": 4,
+      "lessonCount": 25,
+      "description": "Я бэкенд-разработчик с 4-летним опытом в создании RESTful API, работе с микросервисами и контейнерами. Работаю с Java и Spring Framework. Научу вас эффективно разрабатывать серверные приложения, использовать базы данных и оптимизировать производительность.",
+      "skills": ["Java", "Spring Framework", "Microservices", "REST API", "Docker", "PostgreSQL", "Jenkins"],
+      "companies": ["Yandex", "Sberbank"],
+      "availableLevel": ["junior", "middle"],
+      "spheres": ["Backend Development", "Java", "Spring", "Microservices", "Docker", "SQL"],
+      "help": [
+        "Покажу, как разрабатывать и интегрировать REST API.",
+        "Объясню, как работать с микросервисами и контейнерами с использованием Docker.",
+        "Научу основам работы с базами данных и оптимизации SQL-запросов.",
+        "Помогу освоить Spring Framework и его экосистему."
+      ],
+      "workExperience": [
+        {
+          "company": "Yandex",
+          "period": "2018 - 2021",
+          "role": "Backend Developer",
+          "description": "Создавал и оптимизировал серверные приложения, использовал Spring и PostgreSQL."
+        },
+        {
+          "company": "Sberbank",
+          "period": "2021 - 2023",
+          "role": "Middle Backend Developer",
+          "description": "Работал над микросервисной архитектурой и автоматизацией процессов с использованием Docker и Jenkins."
+        }
+      ],
+      "informations": [
+        "Я активно изучаю новые подходы к разработке с использованием Kubernetes и Cloud технологий.",
+        "В свободное время занимаюсь участием в open-source проектах и совершенствованием своих навыков."
+      ]
+    },
+    {
+      "id": 32,
+      "userId": 32,
+      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "fullname": "Мария Кузнецова",
+      "position": "junior frontend",
+      "email": "maria.kuznetsova@frontenddev.com",
+      "phone": "+7 922 345 67 89",
+      "rating": 3,
+      "lessonCount": 8,
+      "description": "Я начинающий фронтенд-разработчик, изучаю основы HTML, CSS и JavaScript. Могу помочь вам освоить эти технологии и научить создавать простые веб-страницы, а также познакомить с первым опытом работы с фреймворками вроде React.",
+      "skills": ["HTML", "CSS", "JavaScript", "React", "Git"],
+      "companies": ["Freelance"],
+      "availableLevel": ["junior"],
+      "spheres": ["Frontend Development", "HTML", "CSS", "JavaScript", "React"],
+      "help": [
+        "Покажу, как создавать статичные веб-страницы с использованием HTML и CSS.",
+        "Научу вас работать с JavaScript для добавления интерактивных элементов.",
+        "Объясню основы работы с React и создание простых компонентов.",
+        "Научу работать с системой контроля версий Git."
+      ],
+      "workExperience": [
+        {
+          "company": "Freelance",
+          "period": "2022 - 2023",
+          "role": "Junior Frontend Developer",
+          "description": "Разрабатывала веб-страницы для личных проектов и небольших бизнесов, использовала HTML, CSS и JavaScript."
+        }
+      ],
+      "informations": [
+        "Я всегда стремлюсь улучшать свои навыки и активно учусь новым технологиям, таким как React и Vue.",
+        "В свободное время занимаюсь улучшением своих навыков верстки и работы с JavaScript."
+      ]
+    },
+    {
+      "id": 33,
+      "userId": 33,
+      "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+      "fullname": "Алексей Романов",
+      "position": "middle ios",
+      "email": "aleksey.romanov@iosdev.com",
+      "phone": "+7 920 234 56 78",
+      "rating": 4,
+      "lessonCount": 17,
+      "description": "Я опытный разработчик мобильных приложений для iOS. Специализируюсь на разработке с использованием Swift, а также на создании удобных и эффективных пользовательских интерфейсов. Научу вас работать с Xcode, UIKit и SwiftUI, а также оптимизировать приложение для различных устройств Apple.",
+      "skills": ["Swift", "UIKit", "SwiftUI", "Xcode", "iOS Development", "Apple Frameworks"],
+      "companies": ["Sberbank", "Mail.ru"],
+      "availableLevel": ["junior", "middle"],
+      "spheres": ["iOS Development", "Swift", "UIKit", "SwiftUI", "Xcode"],
+      "help": [
+        "Научу разрабатывать приложения для iOS с использованием Swift.",
+        "Покажу, как работать с Xcode и создавать приложения с UIKit и SwiftUI.",
+        "Объясню, как оптимизировать приложения для разных устройств Apple.",
+        "Помогу разобраться в лучших практиках разработки под iOS."
+      ],
+      "workExperience": [
+        {
+          "company": "Sberbank",
+          "period": "2019 - 2021",
+          "role": "iOS Developer",
+          "description": "Разрабатывал мобильные приложения для финансовых сервисов, используя Swift и Xcode."
+        },
+        {
+          "company": "Mail.ru",
+          "period": "2021 - 2023",
+          "role": "Middle iOS Developer",
+          "description": "Работал над созданием и оптимизацией приложений для iOS, используя SwiftUI и UIKit."
+        }
+      ],
+      "informations": [
+        "Я активно изучаю новинки в мире iOS разработки и стараюсь внедрять новые подходы в своих проектах.",
+        "В свободное время занимаюсь разработкой мобильных приложений для персональных проектов."
+      ]
+    },
+    {
+      "id": 34,
+      "userId": 34,
+      "avatar": "https://nashevremya.net/wp-content/uploads/2022/12/vacd-mobile.jpg",
+      "fullname": "Екатерина Иванова",
+      "position": "junior designer",
+      "email": "ekaterina.ivanova@design.com",
+      "phone": "+7 937 678 90 01",
+      "rating": 3,
+      "lessonCount": 5,
+      "description": "Я начинающий дизайнер с опытом работы в UI/UX. Занимаюсь созданием визуальных интерфейсов, проектированием и прототипированием. Научу вас основам дизайна, работе с Figma и созданию адаптивных интерфейсов.",
+      "skills": ["UI Design", "UX Design", "Figma", "Prototyping", "Wireframes", "Adobe XD"],
+      "companies": ["Freelance"],
+      "availableLevel": ["junior"],
+      "spheres": ["UI/UX Design", "Figma", "Wireframes", "Prototyping"],
+      "help": [
+        "Покажу, как создавать интерфейсы с использованием Figma и Adobe XD.",
+        "Объясню основы проектирования пользовательского интерфейса и работы с прототипами.",
+        "Научу создавать адаптивные макеты для мобильных и десктопных версий."
+      ],
+      "workExperience": [
+        {
+          "company": "Freelance",
+          "period": "2022 - 2023",
+          "role": "Junior Designer",
+          "description": "Разрабатывала макеты и интерфейсы для небольших стартапов, занималась прототипированием и созданием UI/UX."
+        }
+      ],
+      "informations": [
+        "Я всегда стремлюсь улучшать свои навыки и изучать последние тренды в дизайне.",
+        "В свободное время занимаюсь участием в дизайнерских конкурсах и создания макетов для личных проектов."
+      ]
+    },
+    {
+      "id": 35,
+      "userId": 35,
+      "avatar": "https://i.pinimg.com/736x/42/46/05/42460502d10a4e9aeda2e89dd33ab0fc.jpg",
+      "fullname": "Никита Павлов",
+      "position": "senior frontend",
+      "email": "nikita.pavlov@frontenddev.com",
+      "phone": "+7 916 345 67 89",
+      "rating": 5,
+      "lessonCount": 50,
+      "description": "Я фронтенд-разработчик с 7-летним опытом работы в крупных IT компаниях. Специализируюсь на создании масштабируемых веб-приложений с использованием React, Redux и TypeScript. Научу вас эффективной разработке с использованием современных фреймворков и подходов к тестированию, а также оптимизации производительности приложений.",
+      "skills": ["React", "Redux", "TypeScript", "JavaScript", "Webpack", "Jest", "CSS", "HTML"],
+      "companies": ["Mail.ru", "Tinkoff"],
+      "availableLevel": ["middle", "senior"],
+      "spheres": ["Frontend Development", "React", "Redux", "TypeScript", "Web Optimization"],
+      "help": [
+        "Научу, как разрабатывать приложения с использованием React и Redux.",
+        "Объясню основы TypeScript и его применения в реальных проектах.",
+        "Покажу, как настроить окружение для разработки с Webpack.",
+        "Помогу оптимизировать производительность веб-приложений."
+      ],
+      "workExperience": [
+        {
+          "company": "Mail.ru",
+          "period": "2016 - 2020",
+          "role": "Frontend Developer",
+          "description": "Разрабатывал и оптимизировал веб-приложения с использованием React и Redux."
+        },
+        {
+          "company": "Tinkoff",
+          "period": "2020 - 2023",
+          "role": "Senior Frontend Developer",
+          "description": "Руководил командой разработчиков, занимался архитектурой фронтенда и оптимизацией приложений."
+        }
+      ],
+      "informations": [
+        "Я активно изучаю новые технологии в области веб-разработки и постоянно повышаю квалификацию.",
+        "В свободное время участвую в разработке open-source проектов и провожу вебинары по фронтенду."
+      ]
+    },
+    {
+      "id": 36,
+      "userId": 36,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Ирина Лебедева",
+      "position": "middle backend",
+      "email": "irina.lebedeva@backenddev.com",
+      "phone": "+7 925 432 10 11",
+      "rating": 4,
+      "lessonCount": 22,
+      "description": "Я бэкенд-разработчик с 5-летним опытом работы в области микросервисов и создания API. Работаю с Python и Django, а также с PostgreSQL. Научу вас разрабатывать эффективные серверные приложения, работать с REST API, а также внедрять автоматическое тестирование.",
+      "skills": ["Python", "Django", "PostgreSQL", "REST API", "Microservices", "Git", "CI/CD"],
+      "companies": ["Yandex", "Sberbank"],
+      "availableLevel": ["junior", "middle"],
+      "spheres": ["Backend Development", "Python", "Django", "Microservices", "REST API", "Databases"],
+      "help": [
+        "Научу, как создавать и тестировать RESTful API с использованием Python и Django.",
+        "Покажу основы работы с PostgreSQL и оптимизации SQL-запросов.",
+        "Объясню, как интегрировать микросервисы в систему с использованием Docker и Kubernetes.",
+        "Поделюсь опытом по автоматизации CI/CD процессов."
+      ],
+      "workExperience": [
+        {
+          "company": "Yandex",
+          "period": "2017 - 2020",
+          "role": "Backend Developer",
+          "description": "Разрабатывала серверные приложения и API с использованием Python и Django."
+        },
+        {
+          "company": "Sberbank",
+          "period": "2020 - 2023",
+          "role": "Middle Backend Developer",
+          "description": "Работала над микросервисной архитектурой, оптимизацией и интеграцией различных систем."
+        }
+      ],
+      "informations": [
+        "Я изучаю новые подходы в построении масштабируемых систем и активно внедряю их в своих проектах.",
+        "В свободное время учу Python и участвую в хакатонах и технических конкурсах."
+      ]
+    },
+    {
+      "id": 37,
+      "userId": 37,
+      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "fullname": "Анна Морозова",
+      "position": "junior frontend",
+      "email": "anna.morozova@frontenddev.com",
+      "phone": "+7 933 234 56 78",
+      "rating": 3,
+      "lessonCount": 10,
+      "description": "Я начинающий фронтенд-разработчик с фокусом на HTML, CSS и JavaScript. Работала над несколькими проектами в рамках стажировки. Научу вас создавать красивые и функциональные сайты, а также помочь освоить работу с фреймворком React.",
+      "skills": ["HTML", "CSS", "JavaScript", "React", "Git"],
+      "companies": ["Freelance"],
+      "availableLevel": ["junior"],
+      "spheres": ["Frontend Development", "HTML", "CSS", "JavaScript", "React"],
+      "help": [
+        "Покажу, как создавать статичные веб-страницы с использованием HTML и CSS.",
+        "Научу работать с JavaScript для создания интерактивных элементов.",
+        "Объясню, как создать первый проект на React и взаимодействовать с API.",
+        "Научу работать с Git для управления версиями в проектах."
+      ],
+      "workExperience": [
+        {
+          "company": "Freelance",
+          "period": "2022 - 2023",
+          "role": "Junior Frontend Developer",
+          "description": "Создавала веб-сайты для стартапов и небольших компаний, использовала HTML, CSS, JavaScript и React."
+        }
+      ],
+      "informations": [
+        "Я увлекаюсь дизайном и всегда стараюсь внедрить эстетику в каждый проект.",
+        "В свободное время учу новые фреймворки и работаю над улучшением навыков фронтенда."
+      ]
+    },
+    {
+      "id": 38,
+      "userId": 38,
+      "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+      "fullname": "Константин Васильев",
+      "position": "middle ios",
+      "email": "konstantin.vasiliev@iosdev.com",
+      "phone": "+7 908 765 43 21",
+      "rating": 4,
+      "lessonCount": 18,
+      "description": "Я опытный iOS разработчик с 6-летним стажем. Занимаюсь разработкой мобильных приложений для iPhone и iPad, используя Swift и Xcode. Помогу вам изучить все аспекты разработки под iOS, от создания интерфейсов до интеграции с внешними сервисами.",
+      "skills": ["Swift", "Xcode", "iOS Development", "UIKit", "SwiftUI", "API Integration"],
+      "companies": ["Tinkoff", "MTS"],
+      "availableLevel": ["junior", "middle"],
+      "spheres": ["iOS Development", "Swift", "UIKit", "SwiftUI", "Xcode"],
+      "help": [
+        "Научу разрабатывать приложения для iOS с использованием Swift.",
+        "Покажу, как использовать Xcode для создания мобильных приложений.",
+        "Объясню, как интегрировать внешние API в приложения для iOS.",
+        "Поделюсь опытом разработки UI с использованием UIKit и SwiftUI."
+      ],
+      "workExperience": [
+        {
+          "company": "Tinkoff",
+          "period": "2017 - 2020",
+          "role": "iOS Developer",
+          "description": "Разрабатывал мобильные приложения для финансовых сервисов, использовал Swift и Xcode."
+        },
+        {
+          "company": "MTS",
+          "period": "2020 - 2023",
+          "role": "Middle iOS Developer",
+          "description": "Разрабатывал и оптимизировал приложения для iOS, использовал SwiftUI и UIKit."
+        }
+      ],
+      "informations": [
+        "Я постоянно изучаю новшества в разработке мобильных приложений и стараюсь внедрить их в свои проекты.",
+        "В свободное время работаю над улучшением UI/UX в своих приложениях."
+      ]
+    },
+    {
+      "id": 39,
+      "userId": 39,
+      "avatar": "https://i.pinimg.com/736x/42/46/05/42460502d10a4e9aeda2e89dd33ab0fc.jpg",
+      "fullname": "Сергей Орлов",
+      "position": "senior backend",
+      "email": "sergey.orlov@backenddev.com",
+      "phone": "+7 910 876 54 32",
+      "rating": 5,
+      "lessonCount": 35,
+      "description": "Я старший бэкенд-разработчик с 8-летним опытом в разработке сложных распределенных систем и работы с большими данными. Работаю с Java и Spring Boot. Научу вас создавать высоконагруженные приложения, а также оптимизировать базы данных и управлять микросервисами.",
+      "skills": ["Java", "Spring Boot", "Microservices", "Hibernate", "SQL", "Docker", "Kubernetes"],
+      "companies": ["DataArt", "Luxoft"],
+      "availableLevel": ["middle", "senior"],
+      "spheres": ["Backend Development", "Java", "Spring Boot", "Microservices", "SQL", "Docker"],
+      "help": [
+        "Научу работать с Java и Spring Boot для создания высоконагруженных приложений.",
+        "Объясню, как работать с микросервисами и управлять контейнерами с Docker.",
+        "Покажу, как работать с распределенными базами данных и их оптимизацией.",
+        "Поделюсь опытом разработки на платформе Kubernetes."
+      ],
+      "workExperience": [
+        {
+          "company": "DataArt",
+          "period": "2015 - 2018",
+          "role": "Backend Developer",
+          "description": "Разрабатывал распределенные системы и микросервисы с использованием Java и Spring Boot."
+        },
+        {
+          "company": "Luxoft",
+          "period": "2018 - 2023",
+          "role": "Senior Backend Developer",
+          "description": "Работал над созданием сложных серверных приложений с использованием Java, Hibernate и Docker."
+        }
+      ],
+      "informations": [
+        "Я всегда ищу способы улучшить производительность серверных приложений и сделать их более масштабируемыми.",
+        "В свободное время занимаюсь участием в конференциях по разработке ПО и обмене опытом."
+      ]
+    },
+    {
+      "id": 40,
+      "userId": 40,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Алексей Козлов",
+      "position": "senior frontend",
+      "email": "aleksey.kozlov@frontenddev.com",
+      "phone": "+7 925 987 65 43",
+      "rating": 5,
+      "lessonCount": 60,
+      "description": "Я фронтенд-разработчик с более чем 10-летним опытом. Специализируюсь на создании веб-приложений с использованием React, TypeScript и GraphQL. Работал в крупных международных компаниях, помогу вам освоить лучшие практики фронтенд-разработки, от архитектуры приложения до оптимизации производительности.",
+      "skills": ["React", "TypeScript", "GraphQL", "Redux", "CSS-in-JS", "Webpack", "Jest"],
+      "companies": ["Google", "EPAM"],
+      "availableLevel": ["middle", "senior"],
+      "spheres": ["Frontend Development", "React", "TypeScript", "GraphQL", "Performance Optimization"],
+      "help": [
+        "Научу разрабатывать веб-приложения с использованием React, TypeScript и GraphQL.",
+        "Покажу, как работать с инструментами для оптимизации производительности приложений.",
+        "Объясню основы построения архитектуры фронтенд-приложений.",
+        "Дам советы по настройке инструментов сборки и тестирования."
+      ],
+      "workExperience": [
+        {
+          "company": "Google",
+          "period": "2014 - 2018",
+          "role": "Frontend Developer",
+          "description": "Разрабатывал интерфейсы для Google продуктов с использованием React и Redux."
+        },
+        {
+          "company": "EPAM",
+          "period": "2018 - 2023",
+          "role": "Senior Frontend Developer",
+          "description": "Руководил командой фронтенд-разработчиков, занимался архитектурой приложений и оптимизацией."
+        }
+      ],
+      "informations": [
+        "Стараюсь всегда быть в курсе новых технологий в мире фронтенда и активно внедряю их в свои проекты.",
+        "В свободное время участвую в онлайн-курсах по обучению фронтенд-разработчиков и работаю над собственными проектами."
+      ]
+    },
+    {
+      "id": 41,
+      "userId": 41,
+      "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+      "fullname": "Дарина Беляева",
+      "position": "middle backend",
+      "email": "darina.belyaeva@backenddev.com",
+      "phone": "+7 906 123 45 67",
+      "rating": 4,
+      "lessonCount": 28,
+      "description": "Я бэкенд-разработчик с 4-летним опытом работы с Python и Django. Специализируюсь на создании RESTful API, обработке больших данных и оптимизации работы с базами данных. Научу вас работать с Django, а также с облачными технологиями и контейнерами.",
+      "skills": ["Python", "Django", "REST API", "SQL", "Docker", "AWS", "Celery"],
+      "companies": ["Sberbank", "Tinkoff"],
+      "availableLevel": ["junior", "middle"],
+      "spheres": ["Backend Development", "Python", "Django", "REST API", "AWS", "Docker"],
+      "help": [
+        "Покажу, как разрабатывать RESTful API с использованием Django.",
+        "Объясню основы работы с контейнерами Docker.",
+        "Научу работать с базами данных и оптимизировать SQL-запросы.",
+        "Поделюсь опытом работы с облачными сервисами AWS."
+      ],
+      "workExperience": [
+        {
+          "company": "Sberbank",
+          "period": "2019 - 2021",
+          "role": "Backend Developer",
+          "description": "Разрабатывала и оптимизировала серверные приложения с использованием Python и Django."
+        },
+        {
+          "company": "Tinkoff",
+          "period": "2021 - 2023",
+          "role": "Middle Backend Developer",
+          "description": "Занималась созданием и поддержкой микросервисов с использованием Django и AWS."
+        }
+      ],
+      "informations": [
+        "Я активно изучаю новые технологии в области облачных вычислений и автоматизации процессов.",
+        "В свободное время участвую в хакатонах и работаю над открытыми проектами на GitHub."
+      ]
+    },
+    {
+      "id": 42,
+      "userId": 42,
+      "avatar": "https://nashevremya.net/wp-content/uploads/2022/12/vacd-mobile.jpg",
+      "fullname": "Мария Попова",
+      "position": "junior QA",
+      "email": "maria.popova@qadev.com",
+      "phone": "+7 914 567 89 01",
+      "rating": 3,
+      "lessonCount": 15,
+      "description": "Я начинающий тестировщик с опытом работы в автоматизированном тестировании с использованием Selenium и Python. Помогу вам разобраться с основами тестирования ПО, научу работать с баг-трекинговыми системами и подготовлю к реальным задачам на проекте.",
+      "skills": ["Selenium", "Python", "Manual Testing", "Bug Tracking", "Test Automation", "Jira", "Git"],
+      "companies": ["Freelance"],
+      "availableLevel": ["junior"],
+      "spheres": ["Quality Assurance", "Selenium", "Manual Testing", "Test Automation", "Python"],
+      "help": [
+        "Научу работать с Selenium и писать автоматизированные тесты.",
+        "Объясню основы тестирования, работы с баг-трекинговыми системами.",
+        "Покажу, как писать тестовые сценарии для ручного тестирования.",
+        "Поделюсь опытом в автоматизации тестирования с использованием Python."
+      ],
+      "workExperience": [
+        {
+          "company": "Freelance",
+          "period": "2021 - 2023",
+          "role": "Junior QA",
+          "description": "Работала над тестированием веб-приложений, занималась написанием автотестов с использованием Selenium и Python."
+        }
+      ],
+      "informations": [
+        "Я изучаю новые инструменты для тестирования и активно участвую в автоматизации тестов.",
+        "В свободное время люблю читать книги по разработке ПО и тестированию."
+      ]
+    },
+    {
+      "id": 43,
+      "userId": 43,
+      "avatar": "https://nashevremya.net/wp-content/uploads/2022/12/vacd-mobile.jpg",
+      "fullname": "Вадим Соловьев",
+      "position": "middle DevOps",
+      "email": "vadim.solovyev@devopsdev.com",
+      "phone": "+7 937 234 56 78",
+      "rating": 4,
+      "lessonCount": 20,
+      "description": "Я DevOps-инженер с 5-летним опытом работы в области автоматизации CI/CD, контейнеризации и управления инфраструктурой с использованием Docker, Kubernetes и AWS. Научу вас создавать эффективные пайплайны, работать с облачными сервисами и развертывать приложения в контейнерах.",
+      "skills": ["Docker", "Kubernetes", "CI/CD", "AWS", "Terraform", "Ansible"],
+      "companies": ["Luxoft", "EPAM"],
+      "availableLevel": ["junior", "middle"],
+      "spheres": ["DevOps", "CI/CD", "Docker", "Kubernetes", "AWS", "Terraform"],
+      "help": [
+        "Научу создавать пайплайны CI/CD для автоматизации процессов разработки.",
+        "Объясню, как работать с контейнерами Docker и оркестраторами Kubernetes.",
+        "Покажу, как развертывать приложения в облачных сервисах AWS.",
+        "Поделюсь опытом работы с Terraform и Ansible для управления инфраструктурой."
+      ],
+      "workExperience": [
+        {
+          "company": "Luxoft",
+          "period": "2017 - 2019",
+          "role": "DevOps Engineer",
+          "description": "Занимался настройкой и поддержкой CI/CD процессов, контейнеризацией приложений с использованием Docker и Kubernetes."
+        },
+        {
+          "company": "EPAM",
+          "period": "2019 - 2023",
+          "role": "Middle DevOps Engineer",
+          "description": "Работал с AWS и Terraform для автоматизации инфраструктуры и деплоя приложений."
+        }
+      ],
+      "informations": [
+        "Я всегда стремлюсь к автоматизации всех процессов и созданию высококачественных решений для разработки.",
+        "В свободное время разрабатываю проекты с использованием облачных технологий и Kubernetes."
+      ]
+    },
+    {
+      "id": 44,
+      "userId": 44,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Олег Крылов",
+      "position": "senior UX/UI",
+      "email": "oleg.krylov@uxuidesign.com",
+      "phone": "+7 906 987 65 43",
+      "rating": 5,
+      "lessonCount": 45,
+      "description": "Я опытный UX/UI дизайнер с 8-летним опытом работы в крупных компаниях. Занимаюсь созданием пользовательских интерфейсов, анализом пользовательского опыта и улучшением взаимодействия с продуктами. Научу вас создавать удобные и привлекательные интерфейсы для веб и мобильных приложений.",
+      "skills": [
+        "UX Design",
+        "UI Design",
+        "Wireframing",
+        "Prototyping",
+        "Figma",
+        "Sketch",
+        "User Research",
+        "Usability Testing"
+      ],
+      "companies": ["Tinkoff", "Mail.ru"],
+      "availableLevel": ["middle", "senior"],
+      "spheres": ["UX/UI Design", "Wireframing", "Prototyping", "Figma", "Sketch"],
+      "help": [
+        "Научу создавать прототипы и макеты с использованием Figma и Sketch.",
+        "Объясню, как проводить исследования пользователей и анализировать их поведение.",
+        "Поделюсь опытом улучшения UX/UI интерфейсов в больших проектах.",
+        "Покажу, как делать интерфейсы удобными и доступными для пользователей."
+      ],
+      "workExperience": [
+        {
+          "company": "Tinkoff",
+          "period": "2016 - 2019",
+          "role": "UX/UI Designer",
+          "description": "Разрабатывал интерфейсы для мобильных приложений и веб-сайтов с фокусом на UX."
+        },
+        {
+          "company": "Mail.ru",
+          "period": "2019 - 2023",
+          "role": "Senior UX/UI Designer",
+          "description": "Работал над улучшением пользовательского опыта для различных сервисов компании."
+        }
+      ],
+      "informations": [
+        "Я увлечен созданием удобных и интуитивно понятных интерфейсов для пользователей.",
+        "В свободное время участвую в конференциях по дизайну и изучаю новые тренды в UX/UI."
+      ]
+    },
+    {
+      "id": 45,
+      "userId": 45,
+      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "fullname": "Евгений Сидоров",
+      "position": "senior frontend",
+      "email": "evgeniy.sidorov@frontenddev.com",
+      "phone": "+7 914 765 43 21",
+      "rating": 5,
+      "lessonCount": 75,
+      "description": "Я фронтенд-разработчик с 12-летним опытом работы в области веб-разработки. Моя специализация — создание сложных веб-приложений с использованием React, TypeScript и Vue. Я работал в нескольких международных компаниях и имею большой опыт в разработке интерфейсов для крупных приложений.",
+      "skills": ["React", "Vue", "TypeScript", "Redux", "CSS", "Webpack", "Jest", "Next.js"],
+      "companies": ["Yandex", "Tinkoff"],
+      "availableLevel": ["middle", "senior"],
+      "spheres": ["Frontend Development", "React", "Vue", "TypeScript", "Next.js"],
+      "help": [
+        "Помогу освоить React, Vue и TypeScript на практике.",
+        "Научу работать с современными инструментами сборки (Webpack, Babel).",
+        "Покажу, как использовать Redux и другие технологии для управления состоянием в приложениях.",
+        "Разберем лучшие практики по созданию высокопроизводительных фронтенд-приложений."
+      ],
+      "workExperience": [
+        {
+          "company": "Yandex",
+          "period": "2012 - 2017",
+          "role": "Frontend Developer",
+          "description": "Разрабатывал сложные веб-приложения с использованием React и Vue, улучшал взаимодействие с пользователем."
+        },
+        {
+          "company": "Tinkoff",
+          "period": "2017 - 2023",
+          "role": "Senior Frontend Developer",
+          "description": "Участвовал в разработке крупных финансовых сервисов, работал над архитектурой и производительностью."
+        }
+      ],
+      "informations": [
+        "Я активно интересуюсь новыми подходами в фронтенд-разработке и всегда стараюсь использовать самые актуальные технологии.",
+        "В свободное время я учу других, как улучшить пользовательский опыт и взаимодействие с интерфейсами."
+      ]
+    },
+    {
+      "id": 46,
+      "userId": 46,
+      "avatar": "https://avatars.mds.yandex.net/i?id=295be41061dcbc1352bff541e1fa22867a68dc42-9895871-images-thumbs&n=13",
+      "fullname": "Ирина Петрова",
+      "position": "middle backend",
+      "email": "irina.petrov@backenddev.com",
+      "phone": "+7 905 432 10 98",
+      "rating": 4,
+      "lessonCount": 32,
+      "description": "Я бэкенд-разработчик с 5-летним опытом работы с Python и Django. Работала в стартапах и крупных компаниях, занималась разработкой REST API и созданием микросервисов. Научу тебя разрабатывать серверные приложения, работать с облачными платформами и оптимизировать код.",
+      "skills": ["Python", "Django", "REST API", "Docker", "Kubernetes", "AWS", "Git"],
+      "companies": ["Sberbank", "Luxoft"],
+      "availableLevel": ["junior", "middle"],
+      "spheres": ["Backend Development", "Python", "Django", "Microservices", "Cloud Computing"],
+      "help": [
+        "Научу работать с фреймворком Django для создания API и серверных приложений.",
+        "Объясню, как настроить и использовать контейнеризацию с Docker и Kubernetes.",
+        "Покажу, как разворачивать приложения в облачных сервисах AWS.",
+        "Помогу разобраться в основах оптимизации и мониторинга серверных приложений."
+      ],
+      "workExperience": [
+        {
+          "company": "Sberbank",
+          "period": "2017 - 2020",
+          "role": "Backend Developer",
+          "description": "Занималась разработкой серверных приложений, разработкой API с использованием Python и Django."
+        },
+        {
+          "company": "Luxoft",
+          "period": "2020 - 2023",
+          "role": "Middle Backend Developer",
+          "description": "Работала над микросервисами и масштабируемыми системами с использованием Docker и AWS."
+        }
+      ],
+      "informations": [
+        "Я интересуюсь облачными технологиями и активно внедряю их в проектные разработки.",
+        "В свободное время провожу митапы для начинающих разработчиков по теме Python и микросервисов."
+      ]
+    },
+    {
+      "id": 47,
+      "userId": 47,
+      "avatar": "https://nashevremya.net/wp-content/uploads/2022/12/vacd-mobile.jpg",
+      "fullname": "Дмитрий Орлов",
+      "position": "junior QA",
+      "email": "dmitry.orlov@qadev.com",
+      "phone": "+7 920 345 67 89",
+      "rating": 3,
+      "lessonCount": 18,
+      "description": "Я начинающий тестировщик с опытом работы в ручном тестировании веб-приложений. Помогу вам разобраться в основах тестирования ПО, а также научу использовать инструменты для автоматизированного тестирования, такие как Selenium.",
+      "skills": ["Manual Testing", "Selenium", "Bug Tracking", "Jira", "Test Cases"],
+      "companies": ["Freelance"],
+      "availableLevel": ["junior"],
+      "spheres": ["QA", "Manual Testing", "Test Automation"],
+      "help": [
+        "Объясню, как проводить ручное тестирование веб-приложений.",
+        "Научу писать тестовые кейсы и работать с баг-трекинговыми системами, такими как Jira.",
+        "Научу работать с автоматизированным тестированием с помощью Selenium.",
+        "Помогу подготовиться к реальным задачам на проекте."
+      ],
+      "workExperience": [
+        {
+          "company": "Freelance",
+          "period": "2020 - 2023",
+          "role": "Junior QA",
+          "description": "Тестировал веб-приложения, писал тестовые кейсы, занимался ручным и автоматизированным тестированием."
+        }
+      ],
+      "informations": [
+        "В свободное время изучаю новые инструменты для автоматизированного тестирования и учу другие тестировщиков.",
+        "Я увлекаюсь тем, как улучшить качество продуктов с помощью автоматизации и тестирования."
+      ]
+    },
+    {
+      "id": 48,
+      "userId": 48,
+      "avatar": "https://static.insales-cdn.com/files/1/7240/10361928/original/Dreams-Time-8082220.jpg",
+      "fullname": "Анастасия Павлова",
+      "position": "middle UX/UI",
+      "email": "anastasia.pavlova@uxuidesign.com",
+      "phone": "+7 963 567 89 01",
+      "rating": 4,
+      "lessonCount": 24,
+      "description": "Я UX/UI дизайнер с 6-летним опытом работы в различных областях дизайна. Специализируюсь на создании пользовательских интерфейсов для мобильных приложений и веб-сайтов. Моя цель — помочь создать интуитивно понятные и красивые интерфейсы, которые будет приятно использовать.",
+      "skills": ["UX Design", "UI Design", "Wireframing", "Figma", "Sketch", "Prototyping", "Usability Testing"],
+      "companies": ["Tinkoff", "Sberbank"],
+      "availableLevel": ["junior", "middle"],
+      "spheres": ["UX/UI Design", "Prototyping", "User Research", "Usability Testing"],
+      "help": [
+        "Научу создавать удобные и привлекательные интерфейсы с использованием Figma и Sketch.",
+        "Объясню, как проводить исследования пользователей для улучшения UX.",
+        "Покажу, как создавать прототипы и тестировать их с пользователями.",
+        "Поделюсь опытом разработки интерфейсов для мобильных приложений и веб-сайтов."
+      ],
+      "workExperience": [
+        {
+          "company": "Tinkoff",
+          "period": "2016 - 2020",
+          "role": "UX/UI Designer",
+          "description": "Разрабатывала интерфейсы для мобильных приложений и веб-сайтов с фокусом на удобство пользователя."
+        },
+        {
+          "company": "Sberbank",
+          "period": "2020 - 2023",
+          "role": "Middle UX/UI Designer",
+          "description": "Работала над проектированием интерфейсов для финансовых продуктов и улучшением UX."
+        }
+      ],
+      "informations": [
+        "Я активно интересуюсь новыми подходами в UX/UI дизайне и люблю работать с новыми инструментами.",
+        "В свободное время часто участвую в дизайнерских конференциях и вебинарах."
+      ]
+    },
+    {
+      "id": 49,
+      "userId": 49,
+      "avatar": "https://i.ytimg.com/vi/uH2JNLXMn54/maxresdefault.jpg",
+      "fullname": "Михаил Новиков",
+      "position": "senior DevOps",
+      "email": "mikhail.novikov@devopsdev.com",
+      "phone": "+7 905 123 45 67",
+      "rating": 5,
+      "lessonCount": 50,
+      "description": "Я DevOps-инженер с 8-летним опытом работы в управлении инфраструктурой, автоматизации CI/CD процессов и внедрении облачных технологий. Научу вас работать с Docker, Kubernetes, Terraform, а также помогу настроить инфраструктуру в облаке AWS и GCP.",
+      "skills": ["Docker", "Kubernetes", "CI/CD", "Terraform", "AWS", "GCP", "Ansible"],
+      "companies": ["Luxoft", "Sberbank"],
+      "availableLevel": ["middle", "senior"],
+      "spheres": ["DevOps", "CI/CD", "AWS", "Terraform", "Docker"],
+      "help": [
+        "Научу создавать эффективные пайплайны CI/CD.",
+        "Объясню, как использовать Docker и Kubernetes для контейнеризации и оркестрации приложений.",
+        "Покажу, как настроить и управлять инфраструктурой в облачных сервисах AWS и GCP.",
+        "Дам советы по автоматизации процессов с помощью Ansible и Terraform."
+      ],
+      "workExperience": [
+        {
+          "company": "Luxoft",
+          "period": "2015 - 2019",
+          "role": "DevOps Engineer",
+          "description": "Управлял инфраструктурой и настраивал пайплайны CI/CD для автоматизации разработки и деплоя."
+        },
+        {
+          "company": "Sberbank",
+          "period": "2019 - 2023",
+          "role": "Senior DevOps Engineer",
+          "description": "Разрабатывал и поддерживал инфраструктуру для различных облачных решений и приложений."
+        }
+      ],
+      "informations": [
+        "Я увлекаюсь автоматизацией процессов и облачными технологиями, всегда готов делиться знаниями.",
+        "В свободное время участвую в DevOps-комьюнити и провожу воркшопы для коллег."
+      ]
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": 1,
+      "mentorId": 1,
+      "avatar": "https://i.pinimg.com/736x/c8/86/d0/c886d006cc92dac3b6eeeec977c90e1d.jpg",
+      "fullname": "Имя1 Фамилия1",
+      "comment": "Это отзыв номер 1. Ментор помог разобраться с оптимизацией ререндеров. Я столкнулся с проблемой, когда компоненты обновлялись слишком часто. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 2,
+      "mentorId": 2,
+      "avatar": "https://m.media-amazon.com/images/I/A1QNt74dKLL._SY600_.jpg",
+      "fullname": "Имя2 Фамилия2",
+      "comment": "Это отзыв номер 2. Ментор помог разобраться с асинхронным кодом. Я столкнулся с проблемой, когда не понимал, как работают промисы. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 3,
+      "mentorId": 3,
+      "avatar": "https://www.shkolazhizni.ru/img/content/i245/245453_or.jpg",
+      "fullname": "Имя3 Фамилия3",
+      "comment": "Это отзыв номер 3. Ментор помог разобраться с написанием тестов. Я столкнулся с проблемой, когда мне было сложно писать тесты. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 4,
+      "mentorId": 4,
+      "avatar": "https://www.theladders.com/wp-content/uploads/fake_smile_190410.jpg",
+      "fullname": "Имя4 Фамилия4",
+      "comment": "Это отзыв номер 4. Ментор помог разобраться с оптимизацией ререндеров. Я столкнулся с проблемой, когда компоненты обновлялись слишком часто. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 5,
+      "mentorId": 5,
+      "avatar": "https://i.pinimg.com/736x/c8/86/d0/c886d006cc92dac3b6eeeec977c90e1d.jpg",
+      "fullname": "Имя5 Фамилия5",
+      "comment": "Это отзыв номер 5. Ментор помог разобраться с асинхронным кодом. Я столкнулся с проблемой, когда не понимал, как работают промисы. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 6,
+      "mentorId": 1,
+      "avatar": "https://m.media-amazon.com/images/I/A1QNt74dKLL._SY600_.jpg",
+      "fullname": "Имя6 Фамилия6",
+      "comment": "Это отзыв номер 6. Ментор помог разобраться с написанием тестов. Я столкнулся с проблемой, когда мне было сложно писать тесты. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 7,
+      "mentorId": 2,
+      "avatar": "https://www.shkolazhizni.ru/img/content/i245/245453_or.jpg",
+      "fullname": "Имя7 Фамилия7",
+      "comment": "Это отзыв номер 7. Ментор помог разобраться с оптимизацией ререндеров. Я столкнулся с проблемой, когда компоненты обновлялись слишком часто. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 8,
+      "mentorId": 3,
+      "avatar": "https://m.media-amazon.com/images/I/A1QNt74dKLL._SY600_.jpg",
+      "fullname": "Имя8 Фамилия8",
+      "comment": "Это отзыв номер 8. Ментор помог разобраться с асинхронным кодом. Я столкнулся с проблемой, когда не понимал, как работают промисы. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 9,
+      "mentorId": 4,
+      "avatar": "https://i.pinimg.com/736x/c8/86/d0/c886d006cc92dac3b6eeeec977c90e1d.jpg",
+      "fullname": "Имя9 Фамилия9",
+      "comment": "Это отзыв номер 9. Ментор помог разобраться с написанием тестов. Я столкнулся с проблемой, когда мне было сложно писать тесты. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 10,
+      "mentorId": 5,
+      "avatar": "https://www.shkolazhizni.ru/img/content/i245/245453_or.jpg",
+      "fullname": "Имя10 Фамилия10",
+      "comment": "Это отзыв номер 10. Ментор помог разобраться с оптимизацией ререндеров. Я столкнулся с проблемой, когда компоненты обновлялись слишком часто. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 11,
+      "mentorId": 1,
+      "avatar": "https://m.media-amazon.com/images/I/A1QNt74dKLL._SY600_.jpg",
+      "fullname": "Имя11 Фамилия11",
+      "comment": "Это отзыв номер 11. Ментор помог разобраться с асинхронным кодом. Я столкнулся с проблемой, когда не понимал, как работают промисы. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 12,
+      "mentorId": 2,
+      "avatar": "https://i.pinimg.com/736x/c8/86/d0/c886d006cc92dac3b6eeeec977c90e1d.jpg",
+      "fullname": "Имя12 Фамилия12",
+      "comment": "Это отзыв номер 12. Ментор помог разобраться с написанием тестов. Я столкнулся с проблемой, когда мне было сложно писать тесты. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 13,
+      "mentorId": 3,
+      "avatar": "https://i.pinimg.com/736x/c8/86/d0/c886d006cc92dac3b6eeeec977c90e1d.jpg",
+      "fullname": "Имя13 Фамилия13",
+      "comment": "Это отзыв номер 13. Ментор помог разобраться с оптимизацией ререндеров. Я столкнулся с проблемой, когда компоненты обновлялись слишком часто. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 14,
+      "mentorId": 4,
+      "avatar": "https://www.theladders.com/wp-content/uploads/fake_smile_190410.jpg",
+      "fullname": "Имя14 Фамилия14",
+      "comment": "Это отзыв номер 14. Ментор помог разобраться с асинхронным кодом. Я столкнулся с проблемой, когда не понимал, как работают промисы. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 15,
+      "mentorId": 5,
+      "avatar": "https://www.shkolazhizni.ru/img/content/i245/245453_or.jpg",
+      "fullname": "Имя15 Фамилия15",
+      "comment": "Это отзыв номер 15. Ментор помог разобраться с написанием тестов. Я столкнулся с проблемой, когда мне было сложно писать тесты. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 16,
+      "mentorId": 1,
+      "avatar": "https://author.today/content/2021/08/25/e4f2dd2465974a1a96f324ae50ce15ac.png",
+      "fullname": "Имя16 Фамилия16",
+      "comment": "Это отзыв номер 16. Ментор помог разобраться с оптимизацией ререндеров. Я столкнулся с проблемой, когда компоненты обновлялись слишком часто. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 17,
+      "mentorId": 2,
+      "avatar": "https://www.theladders.com/wp-content/uploads/fake_smile_190410.jpg",
+      "fullname": "Имя17 Фамилия17",
+      "comment": "Это отзыв номер 17. Ментор помог разобраться с асинхронным кодом. Я столкнулся с проблемой, когда не понимал, как работают промисы. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 18,
+      "mentorId": 3,
+      "avatar": "https://i.pinimg.com/736x/c8/86/d0/c886d006cc92dac3b6eeeec977c90e1d.jpg",
+      "fullname": "Имя18 Фамилия18",
+      "comment": "Это отзыв номер 18. Ментор помог разобраться с написанием тестов. Я столкнулся с проблемой, когда мне было сложно писать тесты. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 19,
+      "mentorId": 4,
+      "avatar": "https://m.media-amazon.com/images/I/A1QNt74dKLL._SY600_.jpg",
+      "fullname": "Имя19 Фамилия19",
+      "comment": "Это отзыв номер 19. Ментор помог разобраться с оптимизацией ререндеров. Я столкнулся с проблемой, когда компоненты обновлялись слишком часто. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 20,
+      "mentorId": 5,
+      "avatar": "https://www.shkolazhizni.ru/img/content/i245/245453_or.jpg",
+      "fullname": "Имя20 Фамилия20",
+      "comment": "Это отзыв номер 20. Ментор помог разобраться с асинхронным кодом. Я столкнулся с проблемой, когда не понимал, как работают промисы. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 21,
+      "mentorId": 1,
+      "avatar": "https://i.pinimg.com/736x/c8/86/d0/c886d006cc92dac3b6eeeec977c90e1d.jpg",
+      "fullname": "Имя21 Фамилия21",
+      "comment": "Это отзыв номер 21. Ментор помог разобраться с написанием тестов. Я столкнулся с проблемой, когда мне было сложно писать тесты. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 22,
+      "mentorId": 2,
+      "avatar": "https://m.media-amazon.com/images/I/A1QNt74dKLL._SY600_.jpg",
+      "fullname": "Имя22 Фамилия22",
+      "comment": "Это отзыв номер 22. Ментор помог разобраться с оптимизацией ререндеров. Я столкнулся с проблемой, когда компоненты обновлялись слишком часто. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 23,
+      "mentorId": 3,
+      "avatar": "https://www.theladders.com/wp-content/uploads/fake_smile_190410.jpg",
+      "fullname": "Имя23 Фамилия23",
+      "comment": "Это отзыв номер 23. Ментор помог разобраться с асинхронным кодом. Я столкнулся с проблемой, когда не понимал, как работают промисы. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 24,
+      "mentorId": 4,
+      "avatar": "https://www.shkolazhizni.ru/img/content/i245/245453_or.jpg",
+      "fullname": "Имя24 Фамилия24",
+      "comment": "Это отзыв номер 24. Ментор помог разобраться с написанием тестов. Я столкнулся с проблемой, когда мне было сложно писать тесты. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 25,
+      "mentorId": 5,
+      "avatar": "https://i.pinimg.com/736x/c8/86/d0/c886d006cc92dac3b6eeeec977c90e1d.jpg",
+      "fullname": "Имя25 Фамилия25",
+      "comment": "Это отзыв номер 25. Ментор помог разобраться с оптимизацией ререндеров. Я столкнулся с проблемой, когда компоненты обновлялись слишком часто. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 26,
+      "mentorId": 1,
+      "avatar": "https://m.media-amazon.com/images/I/A1QNt74dKLL._SY600_.jpg",
+      "fullname": "Имя26 Фамилия26",
+      "comment": "Это отзыв номер 26. Ментор помог разобраться с асинхронным кодом. Я столкнулся с проблемой, когда не понимал, как работают промисы. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 27,
+      "mentorId": 2,
+      "avatar": "https://www.shkolazhizni.ru/img/content/i245/245453_or.jpg",
+      "fullname": "Имя27 Фамилия27",
+      "comment": "Это отзыв номер 27. Ментор помог разобраться с написанием тестов. Я столкнулся с проблемой, когда мне было сложно писать тесты. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 28,
+      "mentorId": 3,
+      "avatar": "https://i.pinimg.com/736x/c8/86/d0/c886d006cc92dac3b6eeeec977c90e1d.jpg",
+      "fullname": "Имя28 Фамилия28",
+      "comment": "Это отзыв номер 28. Ментор помог разобраться с оптимизацией ререндеров. Я столкнулся с проблемой, когда компоненты обновлялись слишком часто. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 29,
+      "mentorId": 4,
+      "avatar": "https://m.media-amazon.com/images/I/A1QNt74dKLL._SY600_.jpg",
+      "fullname": "Имя29 Фамилия29",
+      "comment": "Это отзыв номер 29. Ментор помог разобраться с асинхронным кодом. Я столкнулся с проблемой, когда не понимал, как работают промисы. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    },
+    {
+      "id": 30,
+      "mentorId": 5,
+      "avatar": "https://i.pinimg.com/736x/c8/86/d0/c886d006cc92dac3b6eeeec977c90e1d.jpg",
+      "fullname": "Имя30 Фамилия30",
+      "comment": "Это отзыв номер 30. Ментор помог разобраться с написанием тестов. Я столкнулся с проблемой, когда мне было сложно писать тесты. Ментор объяснил мне всё на реальных примерах, теперь я чувствую себя гораздо увереннее!"
+    }
+  ]
+}

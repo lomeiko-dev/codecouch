@@ -1,0 +1,1 @@
+export { universalCode } from "./univerlasCode";
