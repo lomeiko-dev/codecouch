@@ -15,17 +15,10 @@ import Contacts from "../components/Contacts.vue";
 import MainLayout from "../components/MainLayout.vue";
 import TextAnimation from "../components/TextAnimation.vue";
 import { useWindowSize } from "@vueuse/core";
-import { onMounted, ref, watch } from "vue";
+import { onMounted, watch } from "vue";
 import { useRoute } from "vue-router";
-import { getMentorList, GetMentorListResult } from "@/api/services/mentor";
 
 const { width } = useWindowSize();
-
-const data = ref<GetMentorListResult>();
-
-onMounted(async () => {
-  data.value = await getMentorList(1, 4);
-});
 
 const route = useRoute();
 
@@ -69,7 +62,7 @@ watch(
     </div>
     <Search />
     <Chips />
-    <Mentors :mentors="data?.data"/>
+    <Mentors/>
     <Advertising />
     <Statistics />
     <Manual />

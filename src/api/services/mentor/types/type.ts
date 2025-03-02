@@ -26,6 +26,6 @@ export interface IMentor {
 }
 
 export interface GetMentorListResult {
-    data: IMentor | string;
-    status: number;
-  }
+  data: IMentor[];
+  message: string;
+}
