@@ -9,8 +9,11 @@ import { registerUserFirstStage } from "@/api/services";
 import { AxiosError } from "axios";
 
 import { useRegisterStore } from "@/shared/store/registerStore";
+import { useRouter } from "vue-router";
 
 const registerStore = useRegisterStore();
+
+const router = useRouter();
 
 // const router = useRouter();
 
@@ -67,7 +70,7 @@ const handleRegister = async () => {
   >
     <div class="flex">
       <img :src="strelka" />
-      <p class="font-normal text-base leading-[19px] text-[#108A00] ml-1">
+      <p @click="router.push('/')" class="font-normal text-base leading-[19px] text-[#108A00] ml-1">
         Назад
       </p>
     </div>

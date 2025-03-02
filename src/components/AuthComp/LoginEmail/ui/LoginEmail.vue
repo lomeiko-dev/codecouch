@@ -51,7 +51,7 @@ const handleLogin = async () => {
   >
     <div class="flex">
       <img :src="strelka" />
-      <p class="font-normal text-base leading-[19px] text-[#108A00] ml-1">
+      <p @click="router.push('/')" class="font-normal text-base leading-[19px] text-[#108A00] ml-1">
         Назад
       </p>
     </div>
@@ -71,7 +71,7 @@ const handleLogin = async () => {
         <InputText
           id="username"
           class="border rounded-[10px] px-3 w-full h-[54px]"
-          placeholder="Придумайте пароль"
+          placeholder="Введите пароль"
           v-model="password"
         />
       </div>
