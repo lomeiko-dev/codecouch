@@ -23,4 +23,10 @@ export interface IMentor {
   help: string[];
   workExperience: IWorkExperience[];
   informations: string[];
+  price: number;
+}
+
+export interface IDataMentor {
+  mentors: IMentor[];
+  totalCount: number;
 }

@@ -12,7 +12,7 @@ const mentors = ref<IMentor[]>([]);
 
 onMounted(async () => {
   const result = await getMentorList(1, 4);
-  mentors.value = result.data
+  mentors.value = result.data.mentors
 });
 const { width } = useWindowSize();
 

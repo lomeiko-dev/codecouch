@@ -37,10 +37,10 @@ export const ApiClient = async <T>({ data, method = "GET", url, params, headers 
   API.defaults.headers = { ...API.defaults.headers, ...headers };
 
   return API<T>(requestParams)
-    .then((res) => ({ data: res.data, status: res.status }))
+    .then((res) => ({ data: res.data, status: res.status, headers: res.headers }))
     .catch((err) => {
       console.error("\nERROR MESSAGE:", err.response.data.message, `\nSTATUS: ${err.response.data.status}`);
 
-      return { data: "isError", status: err.response.status };
+      return { data: "isError", status: err.response.status, headers: undefined };
     });
 };

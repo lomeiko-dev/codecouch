@@ -60,7 +60,7 @@ watch(
         </p>
       </div>
     </div>
-    <Search />
+    <Search show-button/>
     <Chips />
     <Mentors/>
     <Advertising />

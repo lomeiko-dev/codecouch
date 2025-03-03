@@ -1,13 +1,17 @@
 import { ApiClient } from "@/api/Client";
-import { IMentor } from "../types/type";
+import { IDataMentor, IMentor } from "../types/type";
 import { IApiReturned } from "@/api/types/type";
 
-export const getMentorList = async (page: number, limit: number): Promise<IApiReturned<IMentor[]>> => {
+export const getMentorList = async (page: number, limit: number): Promise<IApiReturned<IDataMentor>> => {
   const result = await ApiClient<IMentor[]>({ method: "GET", url: `/mentors?_page=${page}&_limit=${limit}` });
 
-  if (result.status === 200) {
-    return { data: result.data as IMentor[], message: "Success", isError: false };
+  if (result.status === 200 && result.headers) {
+    return {
+      data: { mentors: result.data as IMentor[], totalCount: result.headers["x-total-count"] },
+      message: "Success",
+      isError: false,
+    };
   }
 
-  return { data: [], message: "Error", isError: true };
+  return { data: { mentors: [], totalCount: 0 }, message: "Error", isError: true };
 };
