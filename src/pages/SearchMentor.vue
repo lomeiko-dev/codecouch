@@ -4,10 +4,12 @@ import Card from "../components/searchMentorComp/Card.vue";
 import MainLayout from "../components/MainLayout.vue";
 import Search from "../components/Search.vue";
 import Button from "../components/ui/Button.vue";
-import { computed, ref } from "vue";
+import { onMounted, ref, watch } from "vue";
 import { IMentor } from "@/api/services";
 import { getMentorList } from "@/api/services/mentor";
 import InfinityScroll from "@/components/ui/InfinityScroll.vue";
+import { useFilterSotre } from "@/shared/store/filterStore";
+import { storeToRefs } from "pinia";
 
 const LIMIT = 3;
 const page = ref<number>(1);
@@ -17,18 +19,34 @@ const isPaginate = ref(false);
 const mentors = ref<IMentor[]>([]);
 const totalCount = ref<number>(0);
 
+const filterStore = useFilterSotre()
+const { filterString } = storeToRefs(filterStore)
+
+onMounted(async () => {
+  filterStore.loadFilterArguments()
+  filterStore.compileParams()
+  await handleLoadData()
+})
+
 const toggleFilters = () => {
   isOpenFilters.value = !isOpenFilters.value;
 };
 
 const handleLoadData = async () => {
-  const result = (await getMentorList(page.value, LIMIT)).data;
+  const result = (await getMentorList(page.value, LIMIT, filterString.value)).data;
   mentors.value = [...mentors.value, ...result.mentors];
   totalCount.value = result.totalCount;
 
-  console.log(totalCount.value);
   page.value++;
 };
+
+watch(() => filterString.value, async () => {
+  page.value = 1;
+  mentors.value = [];
+  await handleLoadData();
+  filterStore.saveFilterArguments()
+})
+
 </script>
 <template>
   <MainLayout>

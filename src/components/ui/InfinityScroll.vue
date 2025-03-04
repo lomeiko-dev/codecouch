@@ -3,6 +3,7 @@ import { ref, onMounted, onUnmounted, watch, nextTick } from "vue";
 
 interface IProps {
   isTriggered?: boolean;
+  isSendFirstRequest?: boolean;
 }
 
 const props = defineProps<IProps>();
@@ -45,7 +46,7 @@ watch(
   async (newValue) => {
     if (newValue) {
       await setupObserver();
-    } else {
+    } else if (props.isSendFirstRequest) {
       loadMore();
     }
   }
@@ -54,7 +55,7 @@ watch(
 onMounted(async () => {
   if (props.isTriggered) {
     await setupObserver();
-  } else {
+  } else if (props.isSendFirstRequest) {
     loadMore();
   }
 });

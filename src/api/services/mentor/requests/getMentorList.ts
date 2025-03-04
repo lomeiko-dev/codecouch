@@ -2,8 +2,15 @@ import { ApiClient } from "@/api/Client";
 import { IDataMentor, IMentor } from "../types/type";
 import { IApiReturned } from "@/api/types/type";
 
-export const getMentorList = async (page: number, limit: number): Promise<IApiReturned<IDataMentor>> => {
-  const result = await ApiClient<IMentor[]>({ method: "GET", url: `/mentors?_page=${page}&_limit=${limit}` });
+export const getMentorList = async (
+  page: number,
+  limit: number,
+  params: string = ""
+): Promise<IApiReturned<IDataMentor>> => {
+  const result = await ApiClient<IMentor[]>({
+    method: "GET",
+    url: `/mentors?_page=${page}&_limit=${limit}${params !== "" ? `&${params}` : ""}`,
+  });
 
   if (result.status === 200 && result.headers) {
     return {

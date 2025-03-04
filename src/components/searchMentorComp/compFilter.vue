@@ -1,14 +1,22 @@
 <script setup lang='ts'>
 import { ref } from 'vue';
 import imgOpen from '../../assets/Open.svg'
+import { useFilterSotre } from '@/shared/store/filterStore';
 
 interface Props {
   title: string
   list: string[]
+  value: string
 }
 
+const filterStore = useFilterSotre()
 const props = defineProps<Props>()
 const isOpen = ref(false)
+
+const handleChange = (item: string) => {
+  filterStore.editArgument(props.value, item)
+  filterStore.compileParams()
+}
   
 </script>
 <template>
@@ -19,9 +27,9 @@ const isOpen = ref(false)
     </div>
     <div @click.stop class="h-fit max-h-[200px] overflow-auto mt-5 px-5">
       <div v-for="(item, index) in props.list" :key="index">
-        <input type="checkbox" :id="item+index" :name="item+index"/>
+        <input :checked="filterStore.isChecked(props.value, item)" @change="handleChange(item)" type="checkbox" :id="item+index" :name="item+index"/>
         <label :for="item+index" class="ml-2">{{item}}</label>
-      </div>
+      </div>  
     </div>
   </div>
 </template>

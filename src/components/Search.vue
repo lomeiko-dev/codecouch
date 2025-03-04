@@ -3,7 +3,7 @@ import Button from "./ui/Button.vue";
 import AutoComplete from "primevue/autocomplete";
 import magnifier from "../assets/Magnifier.svg";
 import { computed, CSSProperties, ref } from "vue";
-import { useWindowSize } from "@vueuse/core";
+import { useWindowSize, watchDebounced } from "@vueuse/core";
 import { useRouter } from "vue-router";
 import {storeToRefs} from 'pinia'
 import { useFilterSotre } from "@/shared/store/filterStore";
@@ -17,6 +17,10 @@ const props = defineProps<IProps>()
 const filterStore = useFilterSotre()
 const {search} = storeToRefs(filterStore)
 const router = useRouter()
+
+watchDebounced(search, () => {
+  filterStore.compileParams()
+}, {debounce: 500})
 
 const handleSearch = (e: any) => {
   let _items = ["python", "vue", "JS", "react", "TS", "Frontend"];
