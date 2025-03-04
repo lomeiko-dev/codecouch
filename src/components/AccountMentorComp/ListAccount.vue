@@ -1,4 +1,10 @@
 <script setup lang='ts'>
+import { IMentor } from '@/api/services';
+
+
+interface IProps extends Pick<IMentor, 'help'> {}
+
+const props = defineProps<IProps>()
   
 </script>
 <template>
@@ -6,14 +12,7 @@
     <div>
       <h2 class=" font-normal text-2xl leading-9">С чем могу помочь</h2>
       <ul class="font-normal text-sm leading-[23px] flex flex-col gap-2 mt-5">
-        <li>- Старт и развитиее карьеры в ИТ</li>
-        <li>- Формирование команды и управление</li>
-        <li>- Роадмап проекта, компании</li>
-        <li>- Взаимодействие операционного бизнеса и ИТ</li>
-        <li>- Карты компетенций</li>
-        <li>- Формирование ИТ-бренда</li>
-        <li>- Кризис-менеджмент</li>
-        <li>- Работа с legacy, переход на новый стек</li>
+        <li v-for="item in props.help">- {{ item }}</li>
       </ul>
     </div>
   </div>

@@ -46,7 +46,7 @@ const chipList = computed(() => {
       <div class="flex mt-[20px] flex-col w-full tablet:flex-row">
         <div class="flex flex-col justify-center w-full">
           <p class="font-medium text-sm leading-[17px] text-center">от {{ props.mentor.price }}₽ / час</p>
-          <Button text="Подробнее" class="bg-white !text-black border-black w-full h-[40px] font-medium text-sm leading-4 mt-5 hover:!bg-[#E9E9E9]" @click="router.push('/account-mentor')"/>
+          <Button @click="() => router.push(`/account-mentor/${props.mentor.id}`)" text="Подробнее" class="bg-white !text-black border-black w-full h-[40px] font-medium text-sm leading-4 mt-5 hover:!bg-[#E9E9E9]"/>
         </div>
       </div>
     </div>

@@ -226,7 +226,4 @@ const { width } = useWindowSize();
   </div>
 </template>
 <style>
-.swiper-button-next::after {
-  display: none;
-}
 </style>
