@@ -6,7 +6,7 @@ export const register = async (
   email: string,
   password: string,
   fullname: string,
-  role: "student" | "mentor"
+  role: string
 ): Promise<IApiReturned<IAuth | null>> => {
   const user = await ApiClient<IUser[]>({ url: `http://localhost:5000/users?email=${email}`, method: "GET" });
 

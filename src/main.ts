@@ -4,7 +4,7 @@ import InlineSvg from "vue-inline-svg";
 import PrimeVue from "primevue/config";
 import "primevue/resources/themes/aura-light-green/theme.css";
 import "./style.css";
-import { router } from "./router";
+import { router } from "./providers/routing/router";
 import { createPinia } from "pinia";
 
 const pinia = createPinia();

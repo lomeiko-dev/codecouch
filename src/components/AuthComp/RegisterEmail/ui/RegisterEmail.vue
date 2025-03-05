@@ -5,29 +5,21 @@ import InputText from "primevue/inputtext";
 import { useRegisterFormStore } from "../model/pinia/useRegisterFormStore";
 
 import { useAuthStageStore } from "@/shared/store/registerStore";
-import { useRouter } from "vue-router";
+import { useRoute, useRouter } from "vue-router";
 import { storeToRefs } from "pinia";
 import { register } from "@/api/services";
 import Checkbox from "primevue/checkbox";
-import {useAuthStore} from '@/shared/store/auth'
+import { useAuthStore } from "@/shared/store/auth";
 
 const stageStore = useAuthStageStore();
 
 const router = useRouter();
+const route = useRoute();
 
-const authStore = useAuthStore()
+const authStore = useAuthStore();
 const registerForm = useRegisterFormStore();
-const {
-  email,
-  confirmPassword,
-  errorEmail,
-  errorNickname,
-  nickname,
-  errors,
-  password,
-  isErrorAuth,
-  isRememberMy,
-} = storeToRefs(registerForm);
+const { email, confirmPassword, errorEmail, errorNickname, nickname, errors, password, isErrorAuth, isRememberMy } =
+  storeToRefs(registerForm);
 
 const handleRegister = async () => {
   registerForm.nicknameValidator();
@@ -36,20 +28,19 @@ const handleRegister = async () => {
   registerForm.isValidator();
 
   if (!isErrorAuth.value) {
-    const auth = await register(email.value, password.value, nickname.value, "student");
+    const auth = await register(email.value, password.value, nickname.value, (route.params as any).role);
 
     if (!auth.isError && auth.data !== null) {
-      authStore.setAuthData(auth.data)
+      authStore.setAuthData(auth.data);
 
-      if(isRememberMy.value){
-        authStore.saveAuthData()
+      if (isRememberMy.value) {
+        authStore.saveAuthData();
       }
 
-      router.push('/')
+      router.push("/");
       registerForm.clearField();
-    }
-    else{
-      errors.value = auth.message
+    } else {
+      errors.value = auth.message;
       isErrorAuth.value = true;
     }
   }
@@ -102,7 +93,7 @@ const handleRegister = async () => {
       </div>
       <div class="card flex justify-content-center mt-4">
         <div class="flex items-center gap-2">
-          <Checkbox class="border" :value="true" v-model="isRememberMy" inputId="remembermy" name="remembermy"/>
+          <Checkbox class="border" :value="true" v-model="isRememberMy" inputId="remembermy" name="remembermy" />
           <label for="ingredient1"> Запомнить меня? </label>
         </div>
       </div>
