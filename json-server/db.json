@@ -2172,11 +2172,12 @@
       "email": "oleg.all.lenniy@gmail.com",
       "fullname": "Олег Вселенный",
       "userId": 65,
-      "avatar": "",
+      "avatar": "https://steamuserimages-a.akamaihd.net/ugc/2392061760868746700/DAE90E2D3A8D80943729851AB7BBD0F677FB6BCC/?imw=512&imh=341&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true",
       "ConsultationsComing": [],
       "ConsultationsPrevious": [],
       "users": [],
-      "id": 54
+      "id": 54,
+      "phone": "+7 (124) 124 12 41"
     }
   ],
   "mentors": [

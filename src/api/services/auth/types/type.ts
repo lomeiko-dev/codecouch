@@ -26,6 +26,7 @@ export interface IUserAccount {
   avatar: string;
   fullname: string;
   email: string;
+  phone?: string;
   ConsultationsComing: IConsultation[];
   ConsultationsPrevious: IConsultation[];
   users: {

@@ -7,8 +7,13 @@ import Button from './ui/Button.vue'
 import { useRouter } from 'vue-router'
 import { ref } from 'vue';
 import SideBar from './SideBar.vue'
+import { useAuthStore } from '@/shared/store/auth'
+import { storeToRefs } from 'pinia'
 
 const router = useRouter()
+
+const authStore = useAuthStore()
+const {authData} = storeToRefs(authStore)
 
 const isOpenSidebar = ref(false)
 </script>
@@ -23,8 +28,13 @@ const isOpenSidebar = ref(false)
         <div class="gap-5 hidden xl:flex">
           <p class=" h-[17px] font-normal cursor-pointer hover:underline underline-offset-4 text-text" @click="router.push('/becoming-mentor')">Стать наставником</p>
           <p class=" h-[17px] font-normal cursor-pointer hover:underline underline-offset-4 text-text" @click="router.push('/#questions')">Вопрос-ответ</p>
-          <p class=" h-[17px] font-normal cursor-pointer hover:underline underline-offset-4 text-text" @click="router.push('/auth-client/student')">Вход для ученика</p>
-          <p class=" h-[17px] font-normal cursor-pointer hover:underline underline-offset-4 text-text" @click="router.push('/auth-client/mentor')">Вход для ментора</p>
+          <div v-if="authData === null" class="gap-5 hidden xl:flex">
+            <p class=" h-[17px] font-normal cursor-pointer hover:underline underline-offset-4 text-text" @click="router.push('/auth-client/student')">Вход для ученика</p>
+            <p class=" h-[17px] font-normal cursor-pointer hover:underline underline-offset-4 text-text" @click="router.push('/auth-client/mentor')">Вход для ментора</p>
+          </div>
+          <div v-else class="gap-5 hidden xl:flex">
+            <p class=" h-[17px] font-normal cursor-pointer hover:underline underline-offset-4 text-text" @click="router.push('/client-mentor')">Профиль</p>
+          </div>
         </div>
         <div class="flex gap-5 items-center ml-5">
          <Button @click="router.push('/search-mentor')" text="Подобрать ментора" class=" w-[188px] h-[40px]"/>

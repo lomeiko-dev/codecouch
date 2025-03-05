@@ -81,7 +81,7 @@ const handleLogin = async () => {
           <label for="ingredient1"> Запомнить меня? </label>
         </div>
       </div>
-      <p v-if="errors !== ''" class="text-red-600">{{ errors }}</p>
+      <p v-if="errors !== ''" class="text-red-600">{{ errors  }}</p>
     </div>
     <Button
       @click="handleLogin"
