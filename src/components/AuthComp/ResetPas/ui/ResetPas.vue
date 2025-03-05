@@ -5,45 +5,14 @@ import { Code } from "@/features/Code";
 import Button from "@/components/ui/Button.vue";
 import strelka from "../../../../assets/strelka.svg";
 import InputText from "primevue/inputtext";
+import { useAuthStageStore } from "@/shared/store/registerStore";
 
-import { passwordRecoveryFirstStage } from "@/api/services";
-import { AxiosError } from "axios";
-
-import { useRegisterStore } from "@/shared/store/registerStore";
-
-const registerStore = useRegisterStore();
-
-const email = ref("");
-
-const isErrorAuth = ref(false);
+const stageStore = useAuthStageStore();
 
 const isFirstStage = ref(true);
 
 const handlePasswordRecovery = async () => {
-  try {
-    const { data, code } = await passwordRecoveryFirstStage(email.value);
 
-    if (!data) {
-      console.error("Не удалось войти. Статус:", code);
-      return;
-    }
-
-    if (code === 401 || code === 405 || code === 500) {
-      isErrorAuth.value = true;
-      return;
-    }
-
-    registerStore.setEmail(data.email);
-    registerStore.setHash(data.hash);
-    // registerStore.setStage(2);
-    isFirstStage.value = false;
-  } catch (error: any) {
-    console.error("Ошибка входа:", error);
-
-    if (error instanceof AxiosError && error.response) {
-      console.error("Статус ошибки:", error.response.status);
-    }
-  }
 };
 </script>
 
@@ -67,7 +36,6 @@ const handlePasswordRecovery = async () => {
           id="username"
           class="border rounded-[10px] px-3 w-full h-[54px]"
           placeholder="Введите почту"
-          v-model="email"
         />
       </div>
     </div>

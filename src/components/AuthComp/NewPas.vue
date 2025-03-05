@@ -1,69 +1,11 @@
 <script setup lang="ts">
-import { ref } from "vue";
-
 import Button from "../ui/Button.vue";
 import strelka from "../../assets/strelka.svg";
 import InputText from "primevue/inputtext";
 
-import { useRouter } from "vue-router";
-
-import { AxiosError } from "axios";
-
-import { passwordRecoveryThirdStage } from "@/api/services";
-
-import { storeToRefs } from "pinia";
-import { useRegisterStore } from "@/shared/store/registerStore";
-
-const registerStore = useRegisterStore();
-const { email: storeEmail, hash, secondHash } = storeToRefs(registerStore);
-
-const router = useRouter();
-
-const password = ref("");
-const confirmPassword = ref("");
-
-const isErrorAuth = ref(false);
 
 const handleNewPass = async () => {
-  // поле пароля и подтверждения пароля не совпадают
-  // TODO надо сделать стили при ошибке подобного плана
-  if (password.value !== confirmPassword.value) {
-    console.log("пароль не совпадает");
-    isErrorAuth.value = true;
-    return;
-  }
-
-  try {
-    const { data, code } = await passwordRecoveryThirdStage(
-      storeEmail.value,
-      password.value,
-      hash.value,
-      secondHash.value
-    );
-
-    if (!data) {
-      console.error("Не удалось войти. Статус:", code);
-      return;
-    }
-
-    registerStore.setEmail("");
-    registerStore.setHash("");
-    registerStore.setSecondHash("");
-    // registerStore.setStage(2);
-    // isFirstStage.value = false;
-    router.push("/");
-
-    if (code === 401 || code === 405 || code === 500) {
-      isErrorAuth.value = true;
-      return;
-    }
-  } catch (error: any) {
-    console.error("Ошибка входа:", error);
-
-    if (error instanceof AxiosError && error.response) {
-      console.error("Статус ошибки:", error.response.status);
-    }
-  }
+  
 };
 </script>
 
@@ -87,7 +29,6 @@ const handleNewPass = async () => {
             id="username"
             class="border rounded-[10px] px-3 w-full h-[54px]"
             placeholder="Введите пароль"
-            v-model="password"
           />
         </div>
         <div class="card flex justify-content-center mt-4">
@@ -95,7 +36,6 @@ const handleNewPass = async () => {
             id="username"
             class="border rounded-[10px] px-3 w-full h-[54px]"
             placeholder="Повторите пароль"
-            v-model="confirmPassword"
           />
         </div>
       </div>

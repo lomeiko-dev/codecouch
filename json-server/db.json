@@ -368,6 +368,97 @@
       "email": "mark.krab@.com",
       "password": "generated_password_52",
       "role": "student"
+    },
+    {
+      "email": "test@mail.com",
+      "fullname": "Никита Тест",
+      "password": "34129078Qwe@",
+      "role": "student",
+      "id": 53
+    },
+    {
+      "email": "lomieiko78@mail.ru",
+      "fullname": "Никита Ломейко Вадимович",
+      "password": "34129078Qwe@",
+      "role": "student",
+      "id": 54
+    },
+    {
+      "email": "",
+      "fullname": "",
+      "password": "",
+      "role": "student",
+      "id": 55
+    },
+    {
+      "email": "georgy.con@gmail.com",
+      "fullname": "Георгий Консунов",
+      "password": "34129078Qwerty",
+      "role": "student",
+      "id": 56
+    },
+    {
+      "email": "lomieiko78123123@mail.ru",
+      "fullname": "",
+      "password": "1234Qwe@",
+      "role": "student",
+      "id": 57
+    },
+    {
+      "email": "mark.savin@mail.com",
+      "fullname": "Марк Савин",
+      "password": "Qwe123@",
+      "role": "student",
+      "id": 58
+    },
+    {
+      "email": "dgssdg@mail.ru",
+      "fullname": "",
+      "password": "dsgoppsdg@F123",
+      "role": "student",
+      "id": 59
+    },
+    {
+      "email": "Alex.only_one.hand@gmail.com",
+      "fullname": "Алексей Безруков",
+      "password": "dsgoppsdg@F123",
+      "role": "student",
+      "id": 60
+    },
+    {
+      "email": "Dima.memory@gmail.com",
+      "fullname": "Дмитрий Памяткин",
+      "password": "dsgoppsdg@F123",
+      "role": "student",
+      "id": 61
+    },
+    {
+      "email": "Dima2.memory@gmail.com",
+      "fullname": "Брат Памятника",
+      "password": "dsgdsgsdD@23",
+      "role": "student",
+      "id": 62
+    },
+    {
+      "email": "Dima3.memory@gmail.com",
+      "fullname": "Брат Памятника",
+      "password": "dsgdsgsdD@23",
+      "role": "student",
+      "id": 63
+    },
+    {
+      "email": "dfjk@mail.ru",
+      "fullname": "dsgsdgdsg dsgdsg",
+      "password": "dsgdsgsdD@23",
+      "role": "student",
+      "id": 64
+    },
+    {
+      "email": "oleg.all.lenniy@gmail.com",
+      "fullname": "Олег Вселенный",
+      "password": "1234567Qwe@",
+      "role": "student",
+      "id": 65
     }
   ],
   "user-account": [
@@ -2036,6 +2127,56 @@
           "name": "Марк Крабиков"
         }
       ]
+    },
+    {
+      "email": "Dima.memory@gmail.com",
+      "fullname": "Дмитрий Памяткин",
+      "userId": 61,
+      "avatar": "",
+      "ConsultationsComing": [],
+      "ConsultationsPrevious": [],
+      "users": [],
+      "id": 50
+    },
+    {
+      "email": "Dima2.memory@gmail.com",
+      "fullname": "Брат Памятника",
+      "userId": 62,
+      "avatar": "",
+      "ConsultationsComing": [],
+      "ConsultationsPrevious": [],
+      "users": [],
+      "id": 51
+    },
+    {
+      "email": "Dima3.memory@gmail.com",
+      "fullname": "Брат Памятника",
+      "userId": 63,
+      "avatar": "",
+      "ConsultationsComing": [],
+      "ConsultationsPrevious": [],
+      "users": [],
+      "id": 52
+    },
+    {
+      "email": "dfjk@mail.ru",
+      "fullname": "dsgsdgdsg dsgdsg",
+      "userId": 64,
+      "avatar": "",
+      "ConsultationsComing": [],
+      "ConsultationsPrevious": [],
+      "users": [],
+      "id": 53
+    },
+    {
+      "email": "oleg.all.lenniy@gmail.com",
+      "fullname": "Олег Вселенный",
+      "userId": 65,
+      "avatar": "",
+      "ConsultationsComing": [],
+      "ConsultationsPrevious": [],
+      "users": [],
+      "id": 54
     }
   ],
   "mentors": [
@@ -2050,10 +2191,31 @@
       "rating": 5,
       "lessonCount": 22,
       "description": "Я фронтенд-разработчик с более чем 8 летним опытом в создании динамичных интерфейсов с использованием React, Vue.js и других популярных фреймворков. Моя задача - разрабатывать удобные и красивые интерфейсы, которые улучшают взаимодействие с пользователями. Я уделяю особое внимание производительности и оптимизации, а также принципам масштабируемости и архитектуры в разработке веб-приложений.",
-      "skills": ["React", "Vue.js", "JavaScript", "CSS", "HTML", "TypeScript", "UI/UX Design"],
-      "companies": ["Yandex", "Tinkoff"],
-      "availableLevel": ["junior", "middle", "senior"],
-      "spheres": ["Frontend Development", "React", "Vue.js", "UI/UX", "Web Performance"],
+      "skills": [
+        "React",
+        "Vue.js",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "TypeScript",
+        "UI/UX Design"
+      ],
+      "companies": [
+        "Yandex",
+        "Tinkoff"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle",
+        "senior"
+      ],
+      "spheres": [
+        "Frontend Development",
+        "React",
+        "Vue.js",
+        "UI/UX",
+        "Web Performance"
+      ],
       "help": [
         "Научу работать с React и Vue.js, показываю, как строить компоненты.",
         "Помогу оптимизировать производительность веб-приложений.",
@@ -2092,10 +2254,31 @@
       "rating": 4,
       "lessonCount": 12,
       "description": "Я бэкенд-разработчик с опытом работы 6 лет, специализируюсь на Java, Spring и микросервисной архитектуре. Моя задача - создавать и поддерживать серверную логику, оптимизировать процессы и повышать производительность приложений. Я люблю работать с распределенными системами и сложными архитектурами. Готова помочь своим ученикам улучшить навыки в бэкенд-разработке и разобраться с основами работы с большими данными и интеграцией сервисов.",
-      "skills": ["Java", "Spring", "Microservices", "RESTful APIs", "Kafka", "Docker", "SQL"],
-      "companies": ["Sberbank", "Ozon"],
-      "availableLevel": ["junior", "middle"],
-      "spheres": ["Backend Development", "Java", "Spring", "Microservices", "Docker", "REST APIs"],
+      "skills": [
+        "Java",
+        "Spring",
+        "Microservices",
+        "RESTful APIs",
+        "Kafka",
+        "Docker",
+        "SQL"
+      ],
+      "companies": [
+        "Sberbank",
+        "Ozon"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle"
+      ],
+      "spheres": [
+        "Backend Development",
+        "Java",
+        "Spring",
+        "Microservices",
+        "Docker",
+        "REST APIs"
+      ],
       "help": [
         "Научу разрабатывать микросервисы с использованием Spring.",
         "Объясню, как проектировать RESTful API для взаимодействия сервисов.",
@@ -2134,10 +2317,31 @@
       "rating": 5,
       "lessonCount": 30,
       "description": "Я старший специалист в области Data Science с опытом работы более 10 лет. Я работал с большими данными, занимался созданием моделей машинного обучения и оптимизацией бизнес-процессов с помощью аналитики. Мой опыт охватывает Python, TensorFlow, PyTorch и другие инструменты для разработки ИИ. Я помогу вам освоить основы машинного обучения, построение нейросетей и использование алгоритмов для реальных задач.",
-      "skills": ["Python", "Machine Learning", "TensorFlow", "PyTorch", "Big Data", "Data Analysis"],
-      "companies": ["Tinkoff", "Yandex"],
-      "availableLevel": ["junior", "middle", "senior"],
-      "spheres": ["Data Science", "Machine Learning", "Big Data", "AI", "Python", "Data Analysis"],
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "TensorFlow",
+        "PyTorch",
+        "Big Data",
+        "Data Analysis"
+      ],
+      "companies": [
+        "Tinkoff",
+        "Yandex"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle",
+        "senior"
+      ],
+      "spheres": [
+        "Data Science",
+        "Machine Learning",
+        "Big Data",
+        "AI",
+        "Python",
+        "Data Analysis"
+      ],
       "help": [
         "Объясню основы машинного обучения и нейросетей.",
         "Научу использовать TensorFlow и PyTorch для создания ИИ моделей.",
@@ -2176,10 +2380,28 @@
       "rating": 4,
       "lessonCount": 15,
       "description": "Я тестировщица с 5-летним опытом работы в области обеспечения качества ПО. Я работаю с различными инструментами для автоматизации тестирования, включая Selenium и TestNG, а также занимаюсь написанием тестов для API. Я уверена, что каждый разработчик должен понимать важность тестирования, и готова помочь своим ученикам освоить ключевые принципы тестирования и внедрения автоматизированных процессов в разработку.",
-      "skills": ["QA", "Selenium", "TestNG", "API Testing", "Automation", "Performance Testing"],
-      "companies": ["Mail.ru", "Ozon"],
-      "availableLevel": ["junior", "middle"],
-      "spheres": ["QA", "Automation", "API Testing", "Performance Testing"],
+      "skills": [
+        "QA",
+        "Selenium",
+        "TestNG",
+        "API Testing",
+        "Automation",
+        "Performance Testing"
+      ],
+      "companies": [
+        "Mail.ru",
+        "Ozon"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle"
+      ],
+      "spheres": [
+        "QA",
+        "Automation",
+        "API Testing",
+        "Performance Testing"
+      ],
       "help": [
         "Научу писать автоматические тесты с использованием Selenium и TestNG.",
         "Объясню, как проводить тестирование API и работать с Postman.",
@@ -2217,10 +2439,30 @@
       "rating": 5,
       "lessonCount": 18,
       "description": "Я старший бэкенд-разработчик с более чем 10 летним опытом работы с Java, Spring, и микросервисной архитектурой. Моя основная специализация — создание и оптимизация высоконагруженных систем, а также архитектурное проектирование серверной части приложений. Я активно использую принципы DevOps для автоматизации процессов развертывания и управления инфраструктурой. Я готов поделиться опытом с разработчиками, которые хотят углубить свои знания в области бэкенда и масштабируемых систем.",
-      "skills": ["Java", "Spring", "Microservices", "DevOps", "Cloud Services", "Kubernetes"],
-      "companies": ["Sberbank", "Cian"],
-      "availableLevel": ["junior", "middle", "senior"],
-      "spheres": ["Java", "Spring", "Microservices", "Cloud Infrastructure", "DevOps"],
+      "skills": [
+        "Java",
+        "Spring",
+        "Microservices",
+        "DevOps",
+        "Cloud Services",
+        "Kubernetes"
+      ],
+      "companies": [
+        "Sberbank",
+        "Cian"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle",
+        "senior"
+      ],
+      "spheres": [
+        "Java",
+        "Spring",
+        "Microservices",
+        "Cloud Infrastructure",
+        "DevOps"
+      ],
       "help": [
         "Помогу разобраться в основах микросервисной архитектуры.",
         "Научу использовать Spring для создания RESTful API.",
@@ -2260,10 +2502,29 @@
       "rating": 4,
       "lessonCount": 14,
       "description": "Я фронтенд-разработчик с 4-летним опытом работы. Занимаюсь разработкой интерфейсов с использованием React и Vue, а также создаю адаптивные и мобильные веб-сайты. Мой опыт включает в себя как работу с простыми страницами, так и сложные SPA-приложения. Я всегда ориентируюсь на улучшение качества кода и производительности сайтов. Я с удовольствием помогу вам освоить основы фронтенда и начать карьеру в веб-разработке.",
-      "skills": ["React", "Vue.js", "HTML", "CSS", "JavaScript", "TypeScript"],
-      "companies": ["Tinkoff", "Mail.ru"],
-      "availableLevel": ["junior", "middle"],
-      "spheres": ["Frontend Development", "Web Design", "React", "Vue.js", "Responsive Design"],
+      "skills": [
+        "React",
+        "Vue.js",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "companies": [
+        "Tinkoff",
+        "Mail.ru"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle"
+      ],
+      "spheres": [
+        "Frontend Development",
+        "Web Design",
+        "React",
+        "Vue.js",
+        "Responsive Design"
+      ],
       "help": [
         "Объясню, как работать с React и Vue.js.",
         "Научу создавать адаптивные веб-сайты с использованием Flexbox и Grid.",
@@ -2302,10 +2563,33 @@
       "rating": 5,
       "lessonCount": 20,
       "description": "Я специалист по DevOps с более чем 7-летним опытом работы. Моя специализация включает настройку CI/CD, контейнеризацию приложений с помощью Docker и Kubernetes, а также управление облачной инфраструктурой. Я работал с различными облачными сервисами, такими как AWS, Google Cloud и Azure, и помогал многим компаниям внедрить эффективные и безопасные DevOps-практики.",
-      "skills": ["Docker", "Kubernetes", "CI/CD", "AWS", "Google Cloud", "Terraform", "Linux"],
-      "companies": ["Yandex", "Sberbank"],
-      "availableLevel": ["junior", "middle", "senior"],
-      "spheres": ["DevOps", "Cloud Infrastructure", "CI/CD", "Docker", "Kubernetes", "AWS", "Terraform"],
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "AWS",
+        "Google Cloud",
+        "Terraform",
+        "Linux"
+      ],
+      "companies": [
+        "Yandex",
+        "Sberbank"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle",
+        "senior"
+      ],
+      "spheres": [
+        "DevOps",
+        "Cloud Infrastructure",
+        "CI/CD",
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Terraform"
+      ],
       "help": [
         "Научу использовать Docker и Kubernetes для контейнеризации приложений.",
         "Объясню, как настроить CI/CD пайплайны с помощью Jenkins и GitLab CI.",
@@ -2344,10 +2628,31 @@
       "rating": 4,
       "lessonCount": 18,
       "description": "Я мобильный разработчик с 4-летним опытом работы в области создания мобильных приложений для iOS и Android. Специализируюсь на разработке с использованием Flutter и React Native. Работал над приложениями для разных отраслей, от банков до e-commerce. Я помогу вам освоить мобильную разработку и научу создавать кросс-платформенные приложения с использованием современных фреймворков.",
-      "skills": ["Flutter", "React Native", "Dart", "JavaScript", "Swift", "Android", "Firebase"],
-      "companies": ["Ozon", "Tinkoff"],
-      "availableLevel": ["junior", "middle"],
-      "spheres": ["Mobile Development", "Flutter", "React Native", "iOS", "Android", "Cross-platform Apps"],
+      "skills": [
+        "Flutter",
+        "React Native",
+        "Dart",
+        "JavaScript",
+        "Swift",
+        "Android",
+        "Firebase"
+      ],
+      "companies": [
+        "Ozon",
+        "Tinkoff"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle"
+      ],
+      "spheres": [
+        "Mobile Development",
+        "Flutter",
+        "React Native",
+        "iOS",
+        "Android",
+        "Cross-platform Apps"
+      ],
       "help": [
         "Научу разрабатывать мобильные приложения с использованием Flutter и React Native.",
         "Покажу, как работать с Firebase для аутентификации и хранения данных.",
@@ -2386,10 +2691,33 @@
       "rating": 5,
       "lessonCount": 25,
       "description": "Я старший фронтенд-разработчик с 9-летним опытом работы. Специализируюсь на создании сложных веб-приложений с использованием Angular, React и Vue. Имею опыт работы с различными архитектурами и фреймворками, активно использую TypeScript, CSS-препроцессоры и другие инструменты для улучшения качества кода. Моя цель — помочь вам научиться разрабатывать высококачественные веб-приложения с использованием передовых технологий.",
-      "skills": ["React", "Angular", "Vue.js", "TypeScript", "JavaScript", "CSS", "Sass", "Redux"],
-      "companies": ["Tinkoff", "Alfa-Bank"],
-      "availableLevel": ["junior", "middle", "senior"],
-      "spheres": ["Frontend Development", "Angular", "React", "Vue.js", "TypeScript", "UI/UX"],
+      "skills": [
+        "React",
+        "Angular",
+        "Vue.js",
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "Sass",
+        "Redux"
+      ],
+      "companies": [
+        "Tinkoff",
+        "Alfa-Bank"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle",
+        "senior"
+      ],
+      "spheres": [
+        "Frontend Development",
+        "Angular",
+        "React",
+        "Vue.js",
+        "TypeScript",
+        "UI/UX"
+      ],
       "help": [
         "Покажу, как разрабатывать сложные веб-приложения с использованием React и Angular.",
         "Научу использовать TypeScript для написания чистого и безопасного кода.",
@@ -2428,10 +2756,30 @@
       "rating": 5,
       "lessonCount": 30,
       "description": "Я старший UX/UI дизайнер с более чем 8 летним опытом. Моя задача — улучшать взаимодействие пользователя с продуктом и разрабатывать удобные интерфейсы. Работал с крупными IT-компаниями и помогал им создавать дизайн систем и адаптивные интерфейсы. Я научу вас разрабатывать интерфейсы, которые не только красивы, но и удобны для пользователей.",
-      "skills": ["UX Design", "UI Design", "Adobe XD", "Figma", "Sketch", "Design Systems"],
-      "companies": ["Yandex", "Mail.ru"],
-      "availableLevel": ["junior", "middle", "senior"],
-      "spheres": ["UX/UI Design", "Design Systems", "Prototyping", "Adobe XD", "Figma"],
+      "skills": [
+        "UX Design",
+        "UI Design",
+        "Adobe XD",
+        "Figma",
+        "Sketch",
+        "Design Systems"
+      ],
+      "companies": [
+        "Yandex",
+        "Mail.ru"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle",
+        "senior"
+      ],
+      "spheres": [
+        "UX/UI Design",
+        "Design Systems",
+        "Prototyping",
+        "Adobe XD",
+        "Figma"
+      ],
       "help": [
         "Покажу, как создавать удобные и интуитивно понятные интерфейсы.",
         "Объясню, как разрабатывать дизайн системы для продукта.",
@@ -2470,10 +2818,30 @@
       "rating": 4,
       "lessonCount": 15,
       "description": "Я бэкенд-разработчик с 5-летним опытом работы в разработке серверных приложений и микросервисов. Моя специализация — создание API с использованием Node.js, Express, а также работа с базами данных (SQL и NoSQL). Я также опытна в настройке серверов и автоматизации рабочих процессов. Могу помочь вам освоить основы бэкенда и разобраться в архитектуре серверных приложений.",
-      "skills": ["Node.js", "Express", "SQL", "NoSQL", "MongoDB", "API Development", "AWS"],
-      "companies": ["Rambler", "Ozon"],
-      "availableLevel": ["junior", "middle"],
-      "spheres": ["Backend Development", "API Development", "Database Design", "Microservices", "AWS"],
+      "skills": [
+        "Node.js",
+        "Express",
+        "SQL",
+        "NoSQL",
+        "MongoDB",
+        "API Development",
+        "AWS"
+      ],
+      "companies": [
+        "Rambler",
+        "Ozon"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle"
+      ],
+      "spheres": [
+        "Backend Development",
+        "API Development",
+        "Database Design",
+        "Microservices",
+        "AWS"
+      ],
       "help": [
         "Научу работать с Node.js и Express для создания серверных приложений.",
         "Объясню, как проектировать и разрабатывать RESTful API.",
@@ -2512,10 +2880,30 @@
       "rating": 5,
       "lessonCount": 22,
       "description": "Я специалист по машинному обучению с 4-летним опытом работы в этой области. Работал над различными проектами, включая обработку данных, разработку моделей и их интеграцию в реальные системы. Моя специализация — создание и обучение нейронных сетей, а также применение алгоритмов машинного обучения в различных сферах. Я помогу вам разобраться с теорией и практикой машинного обучения и освоить самые важные инструменты для работы в этой области.",
-      "skills": ["Python", "TensorFlow", "Keras", "Scikit-learn", "Machine Learning", "Deep Learning", "Data Analysis"],
-      "companies": ["Sberbank", "Tinkoff"],
-      "availableLevel": ["junior", "middle"],
-      "spheres": ["Machine Learning", "Deep Learning", "Data Science", "Data Analysis", "AI Models"],
+      "skills": [
+        "Python",
+        "TensorFlow",
+        "Keras",
+        "Scikit-learn",
+        "Machine Learning",
+        "Deep Learning",
+        "Data Analysis"
+      ],
+      "companies": [
+        "Sberbank",
+        "Tinkoff"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle"
+      ],
+      "spheres": [
+        "Machine Learning",
+        "Deep Learning",
+        "Data Science",
+        "Data Analysis",
+        "AI Models"
+      ],
       "help": [
         "Научу работать с алгоритмами машинного обучения и нейронными сетями.",
         "Покажу, как анализировать данные и готовить их для обучения моделей.",
@@ -2554,10 +2942,29 @@
       "rating": 4,
       "lessonCount": 10,
       "description": "Я начинающий специалист в области тестирования с опытом работы более года. Моя специализация — ручное тестирование веб-приложений и мобильных приложений, создание тестовых сценариев и отчетов о найденных ошибках. Я помогу вам освоить основные принципы тестирования и научиться эффективно находить баги, а также работать с инструментами для автоматизации тестирования.",
-      "skills": ["Manual Testing", "Bug Reporting", "Test Cases", "JIRA", "Selenium", "Postman"],
-      "companies": ["Intellisoft", "Luxoft"],
-      "availableLevel": ["junior"],
-      "spheres": ["Quality Assurance", "Manual Testing", "Automation Testing", "Selenium", "Postman", "JIRA"],
+      "skills": [
+        "Manual Testing",
+        "Bug Reporting",
+        "Test Cases",
+        "JIRA",
+        "Selenium",
+        "Postman"
+      ],
+      "companies": [
+        "Intellisoft",
+        "Luxoft"
+      ],
+      "availableLevel": [
+        "junior"
+      ],
+      "spheres": [
+        "Quality Assurance",
+        "Manual Testing",
+        "Automation Testing",
+        "Selenium",
+        "Postman",
+        "JIRA"
+      ],
       "help": [
         "Объясню основные принципы ручного тестирования.",
         "Научу создавать тестовые сценарии и отчеты о найденных ошибках.",
@@ -2596,10 +3003,31 @@
       "rating": 4,
       "lessonCount": 18,
       "description": "Я full-stack разработчик с 6-летним опытом работы. Специализируюсь на создании приложений с использованием React на фронтенде и Node.js на бэкенде. Имею опыт работы с реляционными и нереляционными базами данных, а также с облачными платформами. Я научу вас разрабатывать полноценные веб-приложения, от базы данных до интерфейса пользователя.",
-      "skills": ["React", "Node.js", "Express", "MongoDB", "MySQL", "JavaScript", "TypeScript"],
-      "companies": ["VK", "Tinkoff"],
-      "availableLevel": ["junior", "middle"],
-      "spheres": ["Full-Stack Development", "JavaScript", "Node.js", "React", "MongoDB", "MySQL"],
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "MySQL",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "companies": [
+        "VK",
+        "Tinkoff"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle"
+      ],
+      "spheres": [
+        "Full-Stack Development",
+        "JavaScript",
+        "Node.js",
+        "React",
+        "MongoDB",
+        "MySQL"
+      ],
       "help": [
         "Объясню, как работать с фронтенд и бэкенд технологиями, такими как React и Node.js.",
         "Покажу, как создавать RESTful API и интегрировать их с фронтендом.",
@@ -2638,10 +3066,28 @@
       "rating": 4,
       "lessonCount": 8,
       "description": "Я начинающий продуктовый менеджер с опытом работы в стартапах. Моя задача — помочь вам разобраться в процессах управления продуктами, от исследования рынка до разработки стратегий. Я научу вас, как планировать и запускать новые продукты, а также как работать с командой для достижения успеха.",
-      "skills": ["Product Management", "Market Research", "Roadmap Planning", "Team Collaboration", "Agile", "Scrum"],
-      "companies": ["Parallels", "Bitrix24"],
-      "availableLevel": ["junior"],
-      "spheres": ["Product Management", "Agile", "Scrum", "Market Research", "Roadmap Planning"],
+      "skills": [
+        "Product Management",
+        "Market Research",
+        "Roadmap Planning",
+        "Team Collaboration",
+        "Agile",
+        "Scrum"
+      ],
+      "companies": [
+        "Parallels",
+        "Bitrix24"
+      ],
+      "availableLevel": [
+        "junior"
+      ],
+      "spheres": [
+        "Product Management",
+        "Agile",
+        "Scrum",
+        "Market Research",
+        "Roadmap Planning"
+      ],
       "help": [
         "Объясню, как разработать и реализовать стратегию для нового продукта.",
         "Научу планировать и управлять дорожной картой продукта.",
@@ -2680,10 +3126,33 @@
       "rating": 5,
       "lessonCount": 30,
       "description": "Я фронтенд-разработчик с 4-летним опытом, специализируюсь на создании высококачественных веб-приложений с использованием React, Redux и TypeScript. В своей работе я уделяю внимание лучшим практикам кодирования, производительности и удобству для пользователей. Могу помочь вам стать уверенным фронтенд-разработчиком и научить работать с современными инструментами для создания сложных и производительных приложений.",
-      "skills": ["React", "Redux", "TypeScript", "JavaScript", "HTML5", "CSS3", "Webpack", "Jest", "CSS-in-JS"],
-      "companies": ["Yandex", "Tinkoff"],
-      "availableLevel": ["junior", "middle"],
-      "spheres": ["Frontend Development", "React", "Redux", "TypeScript", "Webpack", "CSS-in-JS"],
+      "skills": [
+        "React",
+        "Redux",
+        "TypeScript",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Webpack",
+        "Jest",
+        "CSS-in-JS"
+      ],
+      "companies": [
+        "Yandex",
+        "Tinkoff"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle"
+      ],
+      "spheres": [
+        "Frontend Development",
+        "React",
+        "Redux",
+        "TypeScript",
+        "Webpack",
+        "CSS-in-JS"
+      ],
       "help": [
         "Объясню основы работы с React и Redux.",
         "Научу создавать компоненты и управлять состоянием приложения.",
@@ -2721,10 +3190,32 @@
       "rating": 5,
       "lessonCount": 45,
       "description": "Я старший специалист в области Data Science с более чем 8-летним опытом работы. Специализируюсь на применении методов машинного обучения и глубокого обучения для анализа больших данных. Разрабатываю предсказательные модели, которые помогают бизнесу принимать обоснованные решения. Могу помочь вам освоить сложные алгоритмы и научиться анализировать данные с помощью Python и популярных библиотек для машинного обучения.",
-      "skills": ["Python", "Machine Learning", "Deep Learning", "TensorFlow", "Keras", "Pandas", "NumPy", "Big Data"],
-      "companies": ["Mail.Ru", "Sberbank"],
-      "availableLevel": ["middle", "senior"],
-      "spheres": ["Data Science", "Machine Learning", "Deep Learning", "Big Data", "AI", "Python"],
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "Deep Learning",
+        "TensorFlow",
+        "Keras",
+        "Pandas",
+        "NumPy",
+        "Big Data"
+      ],
+      "companies": [
+        "Mail.Ru",
+        "Sberbank"
+      ],
+      "availableLevel": [
+        "middle",
+        "senior"
+      ],
+      "spheres": [
+        "Data Science",
+        "Machine Learning",
+        "Deep Learning",
+        "Big Data",
+        "AI",
+        "Python"
+      ],
       "help": [
         "Научу создавать предсказательные модели с использованием машинного обучения.",
         "Покажу, как применять алгоритмы глубокого обучения для анализа данных.",
@@ -2762,10 +3253,32 @@
       "rating": 4,
       "lessonCount": 12,
       "description": "Я опытный бэкенд-разработчик с 5-летним опытом работы в создании микросервисных архитектур и API. Моя специализация — Node.js, Express, PostgreSQL и Docker. Я помогу вам изучить основы разработки серверных приложений и API, научу работать с базами данных и контейнерами, а также разберемся в лучших подходах к разработке и внедрению микросервисов.",
-      "skills": ["Node.js", "Express", "PostgreSQL", "Docker", "API", "Microservices", "GraphQL"],
-      "companies": ["Rambler", "Yandex"],
-      "availableLevel": ["junior", "middle"],
-      "spheres": ["Backend Development", "Node.js", "Express", "PostgreSQL", "Microservices", "Docker", "API"],
+      "skills": [
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Docker",
+        "API",
+        "Microservices",
+        "GraphQL"
+      ],
+      "companies": [
+        "Rambler",
+        "Yandex"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle"
+      ],
+      "spheres": [
+        "Backend Development",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Microservices",
+        "Docker",
+        "API"
+      ],
       "help": [
         "Научу создавать RESTful API с использованием Node.js и Express.",
         "Покажу, как работать с реляционными базами данных, такими как PostgreSQL.",
@@ -2803,10 +3316,28 @@
       "rating": 3,
       "lessonCount": 5,
       "description": "Я начинающий UI/UX дизайнер с опытом работы над несколькими проектами по разработке интерфейсов и улучшению пользовательского опыта. Специализируюсь на создании простых и интуитивно понятных интерфейсов для мобильных и веб-приложений. Могу помочь вам понять основы дизайна, научиться работать с Figma и Adobe XD, а также изучить принципы разработки пользовательских интерфейсов.",
-      "skills": ["UI Design", "UX Design", "Figma", "Adobe XD", "Wireframing", "Prototyping"],
-      "companies": ["Freelance", "Startup Inc."],
-      "availableLevel": ["junior"],
-      "spheres": ["UI/UX Design", "Figma", "Wireframing", "Prototyping", "User Research"],
+      "skills": [
+        "UI Design",
+        "UX Design",
+        "Figma",
+        "Adobe XD",
+        "Wireframing",
+        "Prototyping"
+      ],
+      "companies": [
+        "Freelance",
+        "Startup Inc."
+      ],
+      "availableLevel": [
+        "junior"
+      ],
+      "spheres": [
+        "UI/UX Design",
+        "Figma",
+        "Wireframing",
+        "Prototyping",
+        "User Research"
+      ],
       "help": [
         "Объясню основные принципы UI/UX дизайна и разработки интерфейсов.",
         "Научу работать с инструментами для дизайна, такими как Figma и Adobe XD.",
@@ -2844,10 +3375,32 @@
       "rating": 5,
       "lessonCount": 25,
       "description": "Я бэкенд-разработчик с 6-летним опытом работы в крупных компаниях, специализируюсь на создании высоконагруженных серверных приложений с использованием Java, Spring Boot и MySQL. Помогу вам научиться работать с микросервисами, проектировать эффективные базы данных и использовать передовые инструменты для разработки и тестирования серверных приложений.",
-      "skills": ["Java", "Spring Boot", "MySQL", "Microservices", "API", "Docker", "Jenkins"],
-      "companies": ["MTS", "VK"],
-      "availableLevel": ["junior", "middle"],
-      "spheres": ["Backend Development", "Java", "Spring Boot", "Microservices", "Docker", "MySQL", "API"],
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "MySQL",
+        "Microservices",
+        "API",
+        "Docker",
+        "Jenkins"
+      ],
+      "companies": [
+        "MTS",
+        "VK"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle"
+      ],
+      "spheres": [
+        "Backend Development",
+        "Java",
+        "Spring Boot",
+        "Microservices",
+        "Docker",
+        "MySQL",
+        "API"
+      ],
       "help": [
         "Покажу, как создавать микросервисы с использованием Spring Boot.",
         "Научу работать с реляционными базами данных, такими как MySQL.",
@@ -2885,10 +3438,28 @@
       "rating": 4,
       "lessonCount": 12,
       "description": "Я начинающий фронтенд-разработчик с опытом работы в HTML, CSS и JavaScript. Научу вас создавать простые веб-страницы, работать с макетами и адаптировать их под разные устройства. Могу помочь вам понять основы современного фронтенд-разработки и освоить важные инструменты для работы с веб-технологиями.",
-      "skills": ["HTML", "CSS", "JavaScript", "Responsive Design", "Bootstrap", "Git", "VS Code"],
-      "companies": ["Freelance"],
-      "availableLevel": ["junior"],
-      "spheres": ["Frontend Development", "HTML", "CSS", "JavaScript", "Responsive Design"],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Responsive Design",
+        "Bootstrap",
+        "Git",
+        "VS Code"
+      ],
+      "companies": [
+        "Freelance"
+      ],
+      "availableLevel": [
+        "junior"
+      ],
+      "spheres": [
+        "Frontend Development",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Responsive Design"
+      ],
       "help": [
         "Объясню, как работать с HTML и CSS для создания веб-страниц.",
         "Научу верстать адаптивные страницы для разных устройств.",
@@ -2920,10 +3491,30 @@
       "rating": 5,
       "lessonCount": 40,
       "description": "Я опытный специалист в области Data Science с более чем 5-летним опытом работы в аналитике данных и машинном обучении. Я работала с большими объемами данных, создавая модели для прогнозирования и оптимизации процессов. Научу вас работать с Python, анализировать данные с помощью библиотеки Pandas, а также применять алгоритмы машинного обучения для создания предсказательных моделей.",
-      "skills": ["Python", "Machine Learning", "Data Analysis", "Pandas", "NumPy", "Matplotlib", "SciKit Learn"],
-      "companies": ["Alfa-Bank", "Gazprom"],
-      "availableLevel": ["middle", "senior"],
-      "spheres": ["Data Science", "Machine Learning", "Python", "Data Analysis", "AI"],
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "Data Analysis",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "SciKit Learn"
+      ],
+      "companies": [
+        "Alfa-Bank",
+        "Gazprom"
+      ],
+      "availableLevel": [
+        "middle",
+        "senior"
+      ],
+      "spheres": [
+        "Data Science",
+        "Machine Learning",
+        "Python",
+        "Data Analysis",
+        "AI"
+      ],
       "help": [
         "Объясню основы работы с Python для анализа данных.",
         "Научу создавать и тестировать модели машинного обучения.",
@@ -2961,10 +3552,33 @@
       "rating": 4,
       "lessonCount": 55,
       "description": "Я старший бэкенд-разработчик с 7-летним опытом работы в разработке API и микросервисов на Java и Go. Я участвовал в создании сложных серверных приложений и их интеграции с облачными сервисами. Помогу вам освоить принципы разработки серверных приложений и научу использовать современные фреймворки для реализации масштабируемых решений.",
-      "skills": ["Java", "Go", "Microservices", "API", "AWS", "Kubernetes", "Docker", "PostgreSQL"],
-      "companies": ["Ozon", "Mail.ru"],
-      "availableLevel": ["middle", "senior"],
-      "spheres": ["Backend Development", "Java", "Go", "Microservices", "AWS", "Kubernetes", "PostgreSQL"],
+      "skills": [
+        "Java",
+        "Go",
+        "Microservices",
+        "API",
+        "AWS",
+        "Kubernetes",
+        "Docker",
+        "PostgreSQL"
+      ],
+      "companies": [
+        "Ozon",
+        "Mail.ru"
+      ],
+      "availableLevel": [
+        "middle",
+        "senior"
+      ],
+      "spheres": [
+        "Backend Development",
+        "Java",
+        "Go",
+        "Microservices",
+        "AWS",
+        "Kubernetes",
+        "PostgreSQL"
+      ],
       "help": [
         "Объясню принципы разработки микросервисов и API.",
         "Научу работать с контейнерами Docker и оркестраторами Kubernetes.",
@@ -3012,9 +3626,21 @@
         "User Research",
         "Interaction Design"
       ],
-      "companies": ["Tinkoff", "Sberbank"],
-      "availableLevel": ["junior", "middle"],
-      "spheres": ["UI/UX Design", "Figma", "Adobe XD", "Prototyping", "Interaction Design"],
+      "companies": [
+        "Tinkoff",
+        "Sberbank"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle"
+      ],
+      "spheres": [
+        "UI/UX Design",
+        "Figma",
+        "Adobe XD",
+        "Prototyping",
+        "Interaction Design"
+      ],
       "help": [
         "Научу проектировать интерфейсы с помощью Figma и Adobe XD.",
         "Покажу, как создавать прототипы и wireframes для приложений.",
@@ -3051,10 +3677,26 @@
       "rating": 4,
       "lessonCount": 15,
       "description": "Я начинающий фронтенд-разработчик с опытом в верстке и работе с JavaScript. Научу вас основам HTML и CSS, объясню, как верстать адаптивные страницы и работать с популярными фреймворками. Поделюсь опытом создания простых, но эффективных веб-страниц, а также научу вас основам разработки интерактивных элементов.",
-      "skills": ["HTML", "CSS", "JavaScript", "Responsive Design", "Git", "VS Code"],
-      "companies": ["Freelance"],
-      "availableLevel": ["junior"],
-      "spheres": ["Frontend Development", "HTML", "CSS", "JavaScript"],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Responsive Design",
+        "Git",
+        "VS Code"
+      ],
+      "companies": [
+        "Freelance"
+      ],
+      "availableLevel": [
+        "junior"
+      ],
+      "spheres": [
+        "Frontend Development",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
       "help": [
         "Покажу, как работать с HTML и CSS для создания статичных и адаптивных веб-страниц.",
         "Научу использовать JavaScript для добавления интерактивности на страницы.",
@@ -3085,10 +3727,33 @@
       "rating": 5,
       "lessonCount": 22,
       "description": "Я бэкенд-разработчик с 5-летним опытом в Java и Python. Специализируюсь на создании серверных приложений, микросервисов и работе с базами данных. Научу вас работать с REST API, а также освоить Docker, Kubernetes и другие инструменты для эффективной разработки и развертывания приложений.",
-      "skills": ["Java", "Python", "Microservices", "Docker", "Kubernetes", "REST API", "SQL", "PostgreSQL"],
-      "companies": ["Yandex", "Tinkoff"],
-      "availableLevel": ["junior", "middle"],
-      "spheres": ["Backend Development", "Java", "Python", "Microservices", "Docker", "SQL", "PostgreSQL"],
+      "skills": [
+        "Java",
+        "Python",
+        "Microservices",
+        "Docker",
+        "Kubernetes",
+        "REST API",
+        "SQL",
+        "PostgreSQL"
+      ],
+      "companies": [
+        "Yandex",
+        "Tinkoff"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle"
+      ],
+      "spheres": [
+        "Backend Development",
+        "Java",
+        "Python",
+        "Microservices",
+        "Docker",
+        "SQL",
+        "PostgreSQL"
+      ],
       "help": [
         "Объясню, как разрабатывать и тестировать REST API.",
         "Научу работать с микросервисной архитектурой.",
@@ -3125,10 +3790,29 @@
       "rating": 5,
       "lessonCount": 30,
       "description": "Я опытный продакт-менеджер с 8-летним опытом работы в крупных IT-компаниях. Специализируюсь на разработке продуктов, анализе рынка и координации работы команд разработки. Научу вас управлять проектами, ставить цели и отслеживать ключевые показатели для достижения успеха.",
-      "skills": ["Product Management", "Agile", "Scrum", "Market Analysis", "Roadmapping", "Team Coordination"],
-      "companies": ["Mail.ru", "Tinkoff"],
-      "availableLevel": ["middle", "senior"],
-      "spheres": ["Product Management", "Agile", "Market Analysis", "Scrum", "Roadmapping"],
+      "skills": [
+        "Product Management",
+        "Agile",
+        "Scrum",
+        "Market Analysis",
+        "Roadmapping",
+        "Team Coordination"
+      ],
+      "companies": [
+        "Mail.ru",
+        "Tinkoff"
+      ],
+      "availableLevel": [
+        "middle",
+        "senior"
+      ],
+      "spheres": [
+        "Product Management",
+        "Agile",
+        "Market Analysis",
+        "Scrum",
+        "Roadmapping"
+      ],
       "help": [
         "Покажу, как работать с методологиями Agile и Scrum.",
         "Научу разрабатывать и контролировать продуктовые дорожные карты.",
@@ -3165,10 +3849,32 @@
       "rating": 4,
       "lessonCount": 35,
       "description": "Я фронтенд-разработчик с 4-летним опытом работы с React и Vue. Могу помочь вам создать динамичные веб-приложения, а также научить вас работе с состоянием приложения и компонентами. Покажу, как писать чистый и поддерживаемый код, который легко масштабируется.",
-      "skills": ["React", "Vue", "JavaScript", "HTML", "CSS", "Redux", "TypeScript", "REST API"],
-      "companies": ["Avito", "Yandex"],
-      "availableLevel": ["junior", "middle"],
-      "spheres": ["Frontend Development", "React", "Vue", "Redux", "TypeScript", "JavaScript"],
+      "skills": [
+        "React",
+        "Vue",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Redux",
+        "TypeScript",
+        "REST API"
+      ],
+      "companies": [
+        "Avito",
+        "Yandex"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle"
+      ],
+      "spheres": [
+        "Frontend Development",
+        "React",
+        "Vue",
+        "Redux",
+        "TypeScript",
+        "JavaScript"
+      ],
       "help": [
         "Научу создавать компоненты в React и Vue.",
         "Объясню, как работать с состоянием приложения с помощью Redux и Context API.",
@@ -3205,9 +3911,23 @@
       "rating": 5,
       "lessonCount": 40,
       "description": "Я опытный QA инженер с 6-летним стажем, занимаюсь тестированием программного обеспечения и автоматизацией процессов. Помогу вам научиться писать тесты, использовать инструменты для автоматизации и устранять баги в проектах. Могу научить вас лучшим практикам тестирования и помогу освоить все необходимые инструменты.",
-      "skills": ["Manual Testing", "Automation Testing", "Selenium", "Jest", "Jenkins", "Postman", "Bug Tracking"],
-      "companies": ["Tinkoff", "Alfa Bank"],
-      "availableLevel": ["junior", "middle"],
+      "skills": [
+        "Manual Testing",
+        "Automation Testing",
+        "Selenium",
+        "Jest",
+        "Jenkins",
+        "Postman",
+        "Bug Tracking"
+      ],
+      "companies": [
+        "Tinkoff",
+        "Alfa Bank"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle"
+      ],
       "spheres": [
         "QA Engineering",
         "Manual Testing",
@@ -3253,10 +3973,30 @@
       "rating": 5,
       "lessonCount": 40,
       "description": "Я опытный специалист в области Data Science с более чем 7-летним опытом работы в крупном бизнесе и стартапах. Занимаюсь разработкой алгоритмов машинного обучения, обработкой больших данных и анализом статистики. Научу вас работать с Python, R, а также познакомлю с библиотеками для машинного обучения, такими как TensorFlow и scikit-learn.",
-      "skills": ["Python", "R", "Machine Learning", "TensorFlow", "scikit-learn", "Big Data", "Data Visualization"],
-      "companies": ["Sberbank", "Clever Data"],
-      "availableLevel": ["middle", "senior"],
-      "spheres": ["Data Science", "Machine Learning", "Python", "Big Data", "Data Visualization"],
+      "skills": [
+        "Python",
+        "R",
+        "Machine Learning",
+        "TensorFlow",
+        "scikit-learn",
+        "Big Data",
+        "Data Visualization"
+      ],
+      "companies": [
+        "Sberbank",
+        "Clever Data"
+      ],
+      "availableLevel": [
+        "middle",
+        "senior"
+      ],
+      "spheres": [
+        "Data Science",
+        "Machine Learning",
+        "Python",
+        "Big Data",
+        "Data Visualization"
+      ],
       "help": [
         "Научу работать с библиотеками для машинного обучения, такими как TensorFlow и scikit-learn.",
         "Покажу, как проводить анализ данных с помощью Python и R.",
@@ -3293,10 +4033,31 @@
       "rating": 4,
       "lessonCount": 25,
       "description": "Я бэкенд-разработчик с 4-летним опытом в создании RESTful API, работе с микросервисами и контейнерами. Работаю с Java и Spring Framework. Научу вас эффективно разрабатывать серверные приложения, использовать базы данных и оптимизировать производительность.",
-      "skills": ["Java", "Spring Framework", "Microservices", "REST API", "Docker", "PostgreSQL", "Jenkins"],
-      "companies": ["Yandex", "Sberbank"],
-      "availableLevel": ["junior", "middle"],
-      "spheres": ["Backend Development", "Java", "Spring", "Microservices", "Docker", "SQL"],
+      "skills": [
+        "Java",
+        "Spring Framework",
+        "Microservices",
+        "REST API",
+        "Docker",
+        "PostgreSQL",
+        "Jenkins"
+      ],
+      "companies": [
+        "Yandex",
+        "Sberbank"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle"
+      ],
+      "spheres": [
+        "Backend Development",
+        "Java",
+        "Spring",
+        "Microservices",
+        "Docker",
+        "SQL"
+      ],
       "help": [
         "Покажу, как разрабатывать и интегрировать REST API.",
         "Объясню, как работать с микросервисами и контейнерами с использованием Docker.",
@@ -3333,10 +4094,26 @@
       "rating": 3,
       "lessonCount": 8,
       "description": "Я начинающий фронтенд-разработчик, изучаю основы HTML, CSS и JavaScript. Могу помочь вам освоить эти технологии и научить создавать простые веб-страницы, а также познакомить с первым опытом работы с фреймворками вроде React.",
-      "skills": ["HTML", "CSS", "JavaScript", "React", "Git"],
-      "companies": ["Freelance"],
-      "availableLevel": ["junior"],
-      "spheres": ["Frontend Development", "HTML", "CSS", "JavaScript", "React"],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Git"
+      ],
+      "companies": [
+        "Freelance"
+      ],
+      "availableLevel": [
+        "junior"
+      ],
+      "spheres": [
+        "Frontend Development",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React"
+      ],
       "help": [
         "Покажу, как создавать статичные веб-страницы с использованием HTML и CSS.",
         "Научу вас работать с JavaScript для добавления интерактивных элементов.",
@@ -3367,10 +4144,29 @@
       "rating": 4,
       "lessonCount": 17,
       "description": "Я опытный разработчик мобильных приложений для iOS. Специализируюсь на разработке с использованием Swift, а также на создании удобных и эффективных пользовательских интерфейсов. Научу вас работать с Xcode, UIKit и SwiftUI, а также оптимизировать приложение для различных устройств Apple.",
-      "skills": ["Swift", "UIKit", "SwiftUI", "Xcode", "iOS Development", "Apple Frameworks"],
-      "companies": ["Sberbank", "Mail.ru"],
-      "availableLevel": ["junior", "middle"],
-      "spheres": ["iOS Development", "Swift", "UIKit", "SwiftUI", "Xcode"],
+      "skills": [
+        "Swift",
+        "UIKit",
+        "SwiftUI",
+        "Xcode",
+        "iOS Development",
+        "Apple Frameworks"
+      ],
+      "companies": [
+        "Sberbank",
+        "Mail.ru"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle"
+      ],
+      "spheres": [
+        "iOS Development",
+        "Swift",
+        "UIKit",
+        "SwiftUI",
+        "Xcode"
+      ],
       "help": [
         "Научу разрабатывать приложения для iOS с использованием Swift.",
         "Покажу, как работать с Xcode и создавать приложения с UIKit и SwiftUI.",
@@ -3407,10 +4203,26 @@
       "rating": 3,
       "lessonCount": 5,
       "description": "Я начинающий дизайнер с опытом работы в UI/UX. Занимаюсь созданием визуальных интерфейсов, проектированием и прототипированием. Научу вас основам дизайна, работе с Figma и созданию адаптивных интерфейсов.",
-      "skills": ["UI Design", "UX Design", "Figma", "Prototyping", "Wireframes", "Adobe XD"],
-      "companies": ["Freelance"],
-      "availableLevel": ["junior"],
-      "spheres": ["UI/UX Design", "Figma", "Wireframes", "Prototyping"],
+      "skills": [
+        "UI Design",
+        "UX Design",
+        "Figma",
+        "Prototyping",
+        "Wireframes",
+        "Adobe XD"
+      ],
+      "companies": [
+        "Freelance"
+      ],
+      "availableLevel": [
+        "junior"
+      ],
+      "spheres": [
+        "UI/UX Design",
+        "Figma",
+        "Wireframes",
+        "Prototyping"
+      ],
       "help": [
         "Покажу, как создавать интерфейсы с использованием Figma и Adobe XD.",
         "Объясню основы проектирования пользовательского интерфейса и работы с прототипами.",
@@ -3440,10 +4252,31 @@
       "rating": 5,
       "lessonCount": 50,
       "description": "Я фронтенд-разработчик с 7-летним опытом работы в крупных IT компаниях. Специализируюсь на создании масштабируемых веб-приложений с использованием React, Redux и TypeScript. Научу вас эффективной разработке с использованием современных фреймворков и подходов к тестированию, а также оптимизации производительности приложений.",
-      "skills": ["React", "Redux", "TypeScript", "JavaScript", "Webpack", "Jest", "CSS", "HTML"],
-      "companies": ["Mail.ru", "Tinkoff"],
-      "availableLevel": ["middle", "senior"],
-      "spheres": ["Frontend Development", "React", "Redux", "TypeScript", "Web Optimization"],
+      "skills": [
+        "React",
+        "Redux",
+        "TypeScript",
+        "JavaScript",
+        "Webpack",
+        "Jest",
+        "CSS",
+        "HTML"
+      ],
+      "companies": [
+        "Mail.ru",
+        "Tinkoff"
+      ],
+      "availableLevel": [
+        "middle",
+        "senior"
+      ],
+      "spheres": [
+        "Frontend Development",
+        "React",
+        "Redux",
+        "TypeScript",
+        "Web Optimization"
+      ],
       "help": [
         "Научу, как разрабатывать приложения с использованием React и Redux.",
         "Объясню основы TypeScript и его применения в реальных проектах.",
@@ -3480,10 +4313,31 @@
       "rating": 4,
       "lessonCount": 22,
       "description": "Я бэкенд-разработчик с 5-летним опытом работы в области микросервисов и создания API. Работаю с Python и Django, а также с PostgreSQL. Научу вас разрабатывать эффективные серверные приложения, работать с REST API, а также внедрять автоматическое тестирование.",
-      "skills": ["Python", "Django", "PostgreSQL", "REST API", "Microservices", "Git", "CI/CD"],
-      "companies": ["Yandex", "Sberbank"],
-      "availableLevel": ["junior", "middle"],
-      "spheres": ["Backend Development", "Python", "Django", "Microservices", "REST API", "Databases"],
+      "skills": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "REST API",
+        "Microservices",
+        "Git",
+        "CI/CD"
+      ],
+      "companies": [
+        "Yandex",
+        "Sberbank"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle"
+      ],
+      "spheres": [
+        "Backend Development",
+        "Python",
+        "Django",
+        "Microservices",
+        "REST API",
+        "Databases"
+      ],
       "help": [
         "Научу, как создавать и тестировать RESTful API с использованием Python и Django.",
         "Покажу основы работы с PostgreSQL и оптимизации SQL-запросов.",
@@ -3520,10 +4374,26 @@
       "rating": 3,
       "lessonCount": 10,
       "description": "Я начинающий фронтенд-разработчик с фокусом на HTML, CSS и JavaScript. Работала над несколькими проектами в рамках стажировки. Научу вас создавать красивые и функциональные сайты, а также помочь освоить работу с фреймворком React.",
-      "skills": ["HTML", "CSS", "JavaScript", "React", "Git"],
-      "companies": ["Freelance"],
-      "availableLevel": ["junior"],
-      "spheres": ["Frontend Development", "HTML", "CSS", "JavaScript", "React"],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Git"
+      ],
+      "companies": [
+        "Freelance"
+      ],
+      "availableLevel": [
+        "junior"
+      ],
+      "spheres": [
+        "Frontend Development",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React"
+      ],
       "help": [
         "Покажу, как создавать статичные веб-страницы с использованием HTML и CSS.",
         "Научу работать с JavaScript для создания интерактивных элементов.",
@@ -3554,10 +4424,29 @@
       "rating": 4,
       "lessonCount": 18,
       "description": "Я опытный iOS разработчик с 6-летним стажем. Занимаюсь разработкой мобильных приложений для iPhone и iPad, используя Swift и Xcode. Помогу вам изучить все аспекты разработки под iOS, от создания интерфейсов до интеграции с внешними сервисами.",
-      "skills": ["Swift", "Xcode", "iOS Development", "UIKit", "SwiftUI", "API Integration"],
-      "companies": ["Tinkoff", "MTS"],
-      "availableLevel": ["junior", "middle"],
-      "spheres": ["iOS Development", "Swift", "UIKit", "SwiftUI", "Xcode"],
+      "skills": [
+        "Swift",
+        "Xcode",
+        "iOS Development",
+        "UIKit",
+        "SwiftUI",
+        "API Integration"
+      ],
+      "companies": [
+        "Tinkoff",
+        "MTS"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle"
+      ],
+      "spheres": [
+        "iOS Development",
+        "Swift",
+        "UIKit",
+        "SwiftUI",
+        "Xcode"
+      ],
       "help": [
         "Научу разрабатывать приложения для iOS с использованием Swift.",
         "Покажу, как использовать Xcode для создания мобильных приложений.",
@@ -3594,10 +4483,31 @@
       "rating": 5,
       "lessonCount": 35,
       "description": "Я старший бэкенд-разработчик с 8-летним опытом в разработке сложных распределенных систем и работы с большими данными. Работаю с Java и Spring Boot. Научу вас создавать высоконагруженные приложения, а также оптимизировать базы данных и управлять микросервисами.",
-      "skills": ["Java", "Spring Boot", "Microservices", "Hibernate", "SQL", "Docker", "Kubernetes"],
-      "companies": ["DataArt", "Luxoft"],
-      "availableLevel": ["middle", "senior"],
-      "spheres": ["Backend Development", "Java", "Spring Boot", "Microservices", "SQL", "Docker"],
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "Microservices",
+        "Hibernate",
+        "SQL",
+        "Docker",
+        "Kubernetes"
+      ],
+      "companies": [
+        "DataArt",
+        "Luxoft"
+      ],
+      "availableLevel": [
+        "middle",
+        "senior"
+      ],
+      "spheres": [
+        "Backend Development",
+        "Java",
+        "Spring Boot",
+        "Microservices",
+        "SQL",
+        "Docker"
+      ],
       "help": [
         "Научу работать с Java и Spring Boot для создания высоконагруженных приложений.",
         "Объясню, как работать с микросервисами и управлять контейнерами с Docker.",
@@ -3634,10 +4544,30 @@
       "rating": 5,
       "lessonCount": 60,
       "description": "Я фронтенд-разработчик с более чем 10-летним опытом. Специализируюсь на создании веб-приложений с использованием React, TypeScript и GraphQL. Работал в крупных международных компаниях, помогу вам освоить лучшие практики фронтенд-разработки, от архитектуры приложения до оптимизации производительности.",
-      "skills": ["React", "TypeScript", "GraphQL", "Redux", "CSS-in-JS", "Webpack", "Jest"],
-      "companies": ["Google", "EPAM"],
-      "availableLevel": ["middle", "senior"],
-      "spheres": ["Frontend Development", "React", "TypeScript", "GraphQL", "Performance Optimization"],
+      "skills": [
+        "React",
+        "TypeScript",
+        "GraphQL",
+        "Redux",
+        "CSS-in-JS",
+        "Webpack",
+        "Jest"
+      ],
+      "companies": [
+        "Google",
+        "EPAM"
+      ],
+      "availableLevel": [
+        "middle",
+        "senior"
+      ],
+      "spheres": [
+        "Frontend Development",
+        "React",
+        "TypeScript",
+        "GraphQL",
+        "Performance Optimization"
+      ],
       "help": [
         "Научу разрабатывать веб-приложения с использованием React, TypeScript и GraphQL.",
         "Покажу, как работать с инструментами для оптимизации производительности приложений.",
@@ -3674,10 +4604,31 @@
       "rating": 4,
       "lessonCount": 28,
       "description": "Я бэкенд-разработчик с 4-летним опытом работы с Python и Django. Специализируюсь на создании RESTful API, обработке больших данных и оптимизации работы с базами данных. Научу вас работать с Django, а также с облачными технологиями и контейнерами.",
-      "skills": ["Python", "Django", "REST API", "SQL", "Docker", "AWS", "Celery"],
-      "companies": ["Sberbank", "Tinkoff"],
-      "availableLevel": ["junior", "middle"],
-      "spheres": ["Backend Development", "Python", "Django", "REST API", "AWS", "Docker"],
+      "skills": [
+        "Python",
+        "Django",
+        "REST API",
+        "SQL",
+        "Docker",
+        "AWS",
+        "Celery"
+      ],
+      "companies": [
+        "Sberbank",
+        "Tinkoff"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle"
+      ],
+      "spheres": [
+        "Backend Development",
+        "Python",
+        "Django",
+        "REST API",
+        "AWS",
+        "Docker"
+      ],
       "help": [
         "Покажу, как разрабатывать RESTful API с использованием Django.",
         "Объясню основы работы с контейнерами Docker.",
@@ -3714,10 +4665,28 @@
       "rating": 3,
       "lessonCount": 15,
       "description": "Я начинающий тестировщик с опытом работы в автоматизированном тестировании с использованием Selenium и Python. Помогу вам разобраться с основами тестирования ПО, научу работать с баг-трекинговыми системами и подготовлю к реальным задачам на проекте.",
-      "skills": ["Selenium", "Python", "Manual Testing", "Bug Tracking", "Test Automation", "Jira", "Git"],
-      "companies": ["Freelance"],
-      "availableLevel": ["junior"],
-      "spheres": ["Quality Assurance", "Selenium", "Manual Testing", "Test Automation", "Python"],
+      "skills": [
+        "Selenium",
+        "Python",
+        "Manual Testing",
+        "Bug Tracking",
+        "Test Automation",
+        "Jira",
+        "Git"
+      ],
+      "companies": [
+        "Freelance"
+      ],
+      "availableLevel": [
+        "junior"
+      ],
+      "spheres": [
+        "Quality Assurance",
+        "Selenium",
+        "Manual Testing",
+        "Test Automation",
+        "Python"
+      ],
       "help": [
         "Научу работать с Selenium и писать автоматизированные тесты.",
         "Объясню основы тестирования, работы с баг-трекинговыми системами.",
@@ -3748,10 +4717,30 @@
       "rating": 4,
       "lessonCount": 20,
       "description": "Я DevOps-инженер с 5-летним опытом работы в области автоматизации CI/CD, контейнеризации и управления инфраструктурой с использованием Docker, Kubernetes и AWS. Научу вас создавать эффективные пайплайны, работать с облачными сервисами и развертывать приложения в контейнерах.",
-      "skills": ["Docker", "Kubernetes", "CI/CD", "AWS", "Terraform", "Ansible"],
-      "companies": ["Luxoft", "EPAM"],
-      "availableLevel": ["junior", "middle"],
-      "spheres": ["DevOps", "CI/CD", "Docker", "Kubernetes", "AWS", "Terraform"],
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "AWS",
+        "Terraform",
+        "Ansible"
+      ],
+      "companies": [
+        "Luxoft",
+        "EPAM"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle"
+      ],
+      "spheres": [
+        "DevOps",
+        "CI/CD",
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Terraform"
+      ],
       "help": [
         "Научу создавать пайплайны CI/CD для автоматизации процессов разработки.",
         "Объясню, как работать с контейнерами Docker и оркестраторами Kubernetes.",
@@ -3798,9 +4787,21 @@
         "User Research",
         "Usability Testing"
       ],
-      "companies": ["Tinkoff", "Mail.ru"],
-      "availableLevel": ["middle", "senior"],
-      "spheres": ["UX/UI Design", "Wireframing", "Prototyping", "Figma", "Sketch"],
+      "companies": [
+        "Tinkoff",
+        "Mail.ru"
+      ],
+      "availableLevel": [
+        "middle",
+        "senior"
+      ],
+      "spheres": [
+        "UX/UI Design",
+        "Wireframing",
+        "Prototyping",
+        "Figma",
+        "Sketch"
+      ],
       "help": [
         "Научу создавать прототипы и макеты с использованием Figma и Sketch.",
         "Объясню, как проводить исследования пользователей и анализировать их поведение.",
@@ -3837,10 +4838,31 @@
       "rating": 5,
       "lessonCount": 75,
       "description": "Я фронтенд-разработчик с 12-летним опытом работы в области веб-разработки. Моя специализация — создание сложных веб-приложений с использованием React, TypeScript и Vue. Я работал в нескольких международных компаниях и имею большой опыт в разработке интерфейсов для крупных приложений.",
-      "skills": ["React", "Vue", "TypeScript", "Redux", "CSS", "Webpack", "Jest", "Next.js"],
-      "companies": ["Yandex", "Tinkoff"],
-      "availableLevel": ["middle", "senior"],
-      "spheres": ["Frontend Development", "React", "Vue", "TypeScript", "Next.js"],
+      "skills": [
+        "React",
+        "Vue",
+        "TypeScript",
+        "Redux",
+        "CSS",
+        "Webpack",
+        "Jest",
+        "Next.js"
+      ],
+      "companies": [
+        "Yandex",
+        "Tinkoff"
+      ],
+      "availableLevel": [
+        "middle",
+        "senior"
+      ],
+      "spheres": [
+        "Frontend Development",
+        "React",
+        "Vue",
+        "TypeScript",
+        "Next.js"
+      ],
       "help": [
         "Помогу освоить React, Vue и TypeScript на практике.",
         "Научу работать с современными инструментами сборки (Webpack, Babel).",
@@ -3877,10 +4899,30 @@
       "rating": 4,
       "lessonCount": 32,
       "description": "Я бэкенд-разработчик с 5-летним опытом работы с Python и Django. Работала в стартапах и крупных компаниях, занималась разработкой REST API и созданием микросервисов. Научу тебя разрабатывать серверные приложения, работать с облачными платформами и оптимизировать код.",
-      "skills": ["Python", "Django", "REST API", "Docker", "Kubernetes", "AWS", "Git"],
-      "companies": ["Sberbank", "Luxoft"],
-      "availableLevel": ["junior", "middle"],
-      "spheres": ["Backend Development", "Python", "Django", "Microservices", "Cloud Computing"],
+      "skills": [
+        "Python",
+        "Django",
+        "REST API",
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Git"
+      ],
+      "companies": [
+        "Sberbank",
+        "Luxoft"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle"
+      ],
+      "spheres": [
+        "Backend Development",
+        "Python",
+        "Django",
+        "Microservices",
+        "Cloud Computing"
+      ],
       "help": [
         "Научу работать с фреймворком Django для создания API и серверных приложений.",
         "Объясню, как настроить и использовать контейнеризацию с Docker и Kubernetes.",
@@ -3917,10 +4959,24 @@
       "rating": 3,
       "lessonCount": 18,
       "description": "Я начинающий тестировщик с опытом работы в ручном тестировании веб-приложений. Помогу вам разобраться в основах тестирования ПО, а также научу использовать инструменты для автоматизированного тестирования, такие как Selenium.",
-      "skills": ["Manual Testing", "Selenium", "Bug Tracking", "Jira", "Test Cases"],
-      "companies": ["Freelance"],
-      "availableLevel": ["junior"],
-      "spheres": ["QA", "Manual Testing", "Test Automation"],
+      "skills": [
+        "Manual Testing",
+        "Selenium",
+        "Bug Tracking",
+        "Jira",
+        "Test Cases"
+      ],
+      "companies": [
+        "Freelance"
+      ],
+      "availableLevel": [
+        "junior"
+      ],
+      "spheres": [
+        "QA",
+        "Manual Testing",
+        "Test Automation"
+      ],
       "help": [
         "Объясню, как проводить ручное тестирование веб-приложений.",
         "Научу писать тестовые кейсы и работать с баг-трекинговыми системами, такими как Jira.",
@@ -3951,10 +5007,29 @@
       "rating": 4,
       "lessonCount": 24,
       "description": "Я UX/UI дизайнер с 6-летним опытом работы в различных областях дизайна. Специализируюсь на создании пользовательских интерфейсов для мобильных приложений и веб-сайтов. Моя цель — помочь создать интуитивно понятные и красивые интерфейсы, которые будет приятно использовать.",
-      "skills": ["UX Design", "UI Design", "Wireframing", "Figma", "Sketch", "Prototyping", "Usability Testing"],
-      "companies": ["Tinkoff", "Sberbank"],
-      "availableLevel": ["junior", "middle"],
-      "spheres": ["UX/UI Design", "Prototyping", "User Research", "Usability Testing"],
+      "skills": [
+        "UX Design",
+        "UI Design",
+        "Wireframing",
+        "Figma",
+        "Sketch",
+        "Prototyping",
+        "Usability Testing"
+      ],
+      "companies": [
+        "Tinkoff",
+        "Sberbank"
+      ],
+      "availableLevel": [
+        "junior",
+        "middle"
+      ],
+      "spheres": [
+        "UX/UI Design",
+        "Prototyping",
+        "User Research",
+        "Usability Testing"
+      ],
       "help": [
         "Научу создавать удобные и привлекательные интерфейсы с использованием Figma и Sketch.",
         "Объясню, как проводить исследования пользователей для улучшения UX.",
@@ -3991,10 +5066,30 @@
       "rating": 5,
       "lessonCount": 50,
       "description": "Я DevOps-инженер с 8-летним опытом работы в управлении инфраструктурой, автоматизации CI/CD процессов и внедрении облачных технологий. Научу вас работать с Docker, Kubernetes, Terraform, а также помогу настроить инфраструктуру в облаке AWS и GCP.",
-      "skills": ["Docker", "Kubernetes", "CI/CD", "Terraform", "AWS", "GCP", "Ansible"],
-      "companies": ["Luxoft", "Sberbank"],
-      "availableLevel": ["middle", "senior"],
-      "spheres": ["DevOps", "CI/CD", "AWS", "Terraform", "Docker"],
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "Terraform",
+        "AWS",
+        "GCP",
+        "Ansible"
+      ],
+      "companies": [
+        "Luxoft",
+        "Sberbank"
+      ],
+      "availableLevel": [
+        "middle",
+        "senior"
+      ],
+      "spheres": [
+        "DevOps",
+        "CI/CD",
+        "AWS",
+        "Terraform",
+        "Docker"
+      ],
       "help": [
         "Научу создавать эффективные пайплайны CI/CD.",
         "Объясню, как использовать Docker и Kubernetes для контейнеризации и оркестрации приложений.",

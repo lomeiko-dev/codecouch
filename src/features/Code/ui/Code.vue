@@ -5,60 +5,10 @@ import Button from "@/components/ui/Button.vue";
 import strelka from "@/assets/strelka.svg";
 import InputText from "primevue/inputtext";
 
-import { universalCode } from "../model";
-
-import { AxiosError } from "axios";
-
-import { useRouter } from "vue-router";
-
-import { useRegisterStore } from "@/shared/store/registerStore";
-import { storeToRefs } from "pinia";
-
-const registerStore = useRegisterStore();
-const { email, hash } = storeToRefs(registerStore);
-
-const props = defineProps<{ url: string }>();
-
-const router = useRouter();
-
 const code = ref("");
 
-const isErrorAuth = ref(false);
-
 const handler = async () => {
-  try {
-    const { data, code: statusCode } = await universalCode(
-      props.url,
-      email.value,
-      hash.value,
-      +code.value
-    );
-
-    if (!data) {
-      console.error("Не удалось войти. Статус:", statusCode);
-      return;
-    }
-
-    if (statusCode === 401 || statusCode === 405 || statusCode === 500) {
-      isErrorAuth.value = true;
-      return;
-    }
-
-    if (data.token) {
-      router.push("/");
-    } else {
-      registerStore.setSecondHash(data.hash ?? "");
-      console.log(registerStore.stage);
-      registerStore.setStage(4);
-      console.log(registerStore.stage);
-    }
-  } catch (error: any) {
-    console.error("Ошибка входа:", error);
-
-    if (error instanceof AxiosError && error.response) {
-      console.error("Статус ошибки:", error.response.status);
-    }
-  }
+  
 };
 </script>
 

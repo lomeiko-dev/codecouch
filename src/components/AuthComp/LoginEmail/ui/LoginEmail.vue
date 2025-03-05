@@ -1,45 +1,42 @@
 <script setup lang="ts">
-import { ref } from "vue";
 import Button from "@/components/ui/Button.vue";
 import strelka from "@/assets/strelka.svg";
 import InputText from "primevue/inputtext";
-import { loginUser } from "@/api/services";
 import { useRouter } from "vue-router";
-import { AxiosError } from "axios";
 
-import { useRegisterStore } from "@/shared/store/registerStore";
+import { useAuthStageStore } from "@/shared/store/registerStore";
+import { useLoginFormStore } from "../model/useLoginFormStore";
+import { storeToRefs } from "pinia";
+import { useAuthStore } from "@/shared/store/auth";
+import Checkbox from "primevue/checkbox";
+import { login } from "@/api/services";
 
-const registerStore = useRegisterStore();
+const stageStore = useAuthStageStore();
+const authStore = useAuthStore()
+const loginFormStore = useLoginFormStore()
+const {email, errors, isErrorAuth, password, isRememberMy} = storeToRefs(loginFormStore)
 
 const router = useRouter();
 
-const email = ref("");
-const password = ref("");
-const isErrorAuth = ref(false);
-
 const handleLogin = async () => {
-  try {
-    const { data, code } = await loginUser(email.value, password.value);
-    if (!data) {
-      console.error("Не удалось войти. Статус:", code);
-      return;
+  loginFormStore.isValidator()
+
+  if(!isErrorAuth.value){
+    const auth = await login(email.value, password.value)
+
+    if (!auth.isError && auth.data !== null) {
+      authStore.setAuthData(auth.data)
+
+      if(isRememberMy.value){
+        authStore.saveAuthData()
+      }
+
+      router.push('/')
+      loginFormStore.clearField();
     }
-
-    const { token } = data;
-
-    if (code === 401 || code === 405 || code === 500) {
+    else{
+      errors.value = auth.message
       isErrorAuth.value = true;
-      return;
-    }
-
-    if (token) {
-      router.push("/");
-    }
-  } catch (error: any) {
-    console.error("Ошибка входа:", error);
-
-    if (error instanceof AxiosError && error.response) {
-      console.error("Статус ошибки:", error.response.status);
     }
   }
 };
@@ -64,6 +61,7 @@ const handleLogin = async () => {
           id="username"
           class="border rounded-[10px] px-3 w-full h-[54px]"
           placeholder="Введите почту"
+          :class="isErrorAuth && 'cls-error'"
           v-model="email"
         />
       </div>
@@ -72,9 +70,18 @@ const handleLogin = async () => {
           id="username"
           class="border rounded-[10px] px-3 w-full h-[54px]"
           placeholder="Введите пароль"
+          :class="isErrorAuth && 'cls-error'"
           v-model="password"
         />
       </div>
+      <div class="card flex justify-content-center mt-4">
+        <div class="flex items-center gap-2">
+          <Checkbox
+           class="border" :value="true" v-model="isRememberMy" inputId="remembermy" name="remembermy"/>
+          <label for="ingredient1"> Запомнить меня? </label>
+        </div>
+      </div>
+      <p v-if="errors !== ''" class="text-red-600">{{ errors }}</p>
     </div>
     <Button
       @click="handleLogin"
@@ -89,7 +96,7 @@ const handleLogin = async () => {
         >
       </p>
       <p
-        @click="registerStore.setStage(1)"
+        @click="stageStore.setStage(1)"
         class="font-light text-sm leading-[14px] text-[#6F766C] mt-5"
       >
         Зарегистрироваться

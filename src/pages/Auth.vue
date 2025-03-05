@@ -7,11 +7,11 @@ import { ResetPas } from "../components/AuthComp/ResetPas";
 import NewPas from "../components/AuthComp/NewPas.vue";
 import Footer from "../components/Footer.vue";
 
-import { useRegisterStore } from "@/shared/store/registerStore";
+import { useAuthStageStore } from "@/shared/store/registerStore";
 import { storeToRefs } from "pinia";
 
-const registerStore = useRegisterStore();
-const { stage } = storeToRefs(registerStore);
+const stageStore = useAuthStageStore();
+const { stage } = storeToRefs(stageStore);
 </script>
 
 <template>
