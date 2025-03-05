@@ -89,82 +89,6 @@ onMounted(async () => {
   }
 });
 
-const clientList = ref([
-  {
-    date: 29,
-    month: "марта",
-    day: "пятница",
-    name: "Владимир Малов",
-    work: "CTO — U:tech by Utkonos",
-    time: " Время: С 16:00 до 17:00",
-  },
-  {
-    date: 30,
-    month: "марта",
-    day: "пятница",
-    name: "Владимир Малов",
-    work: "CTO — U:tech by Utkonos",
-    time: " Время: СВремя: С 12:00 до 13:00",
-  },
-  {
-    date: 31,
-    month: "марта",
-    day: "пятница",
-    name: "Владимир Малов",
-    work: "CTO — U:tech by Utkonos",
-    time: " Время: С 14:00 до 15:00",
-  },
-  {
-    date: 30,
-    month: "марта",
-    day: "пятница",
-    name: "Владимир Малов",
-    work: "CTO — U:tech by Utkonos",
-    time: " Время: СВремя: С 12:00 до 13:00",
-  },
-  {
-    date: 30,
-    month: "марта",
-    day: "пятница",
-    name: "Владимир Малов",
-    work: "CTO — U:tech by Utkonos",
-    time: " Время: СВремя: С 12:00 до 13:00",
-  },
-]);
-const PrclientList = ref([
-  {
-    date: 25,
-    month: "марта",
-    day: "пятница",
-    name: "Владимир Малов",
-    work: "CTO — U:tech by Utkonos",
-    time: " Время: С 16:00 до 17:00",
-  },
-  {
-    date: 12,
-    month: "марта",
-    day: "пятница",
-    name: "Владимир Малов",
-    work: "CTO — U:tech by Utkonos",
-    time: " Время: СВремя: С 12:00 до 13:00",
-  },
-  {
-    date: 7,
-    month: "марта",
-    day: "пятница",
-    name: "Владимир Малов",
-    work: "CTO — U:tech by Utkonos",
-    time: " Время: С 14:00 до 15:00",
-  },
-]);
-const MnclientList = ref([
-  {
-    name: "Владимир Малов",
-    work: "CTO — U:tech by Utkonos",
-    time: " Время: С 14:00 до 15:00",
-  },
-]);
-
 const { width } = useWindowSize();
 </script>
 
@@ -227,8 +151,8 @@ const { width } = useWindowSize();
         }"
         :space-between="2"
       >
-        <swiper-slide v-for="(item, index) in clientList" :key="index">
-          <CardClient
+        <swiper-slide v-for="(item, index) in account?.ConsultationsComing" :key="index">
+          <!-- <CardClient
             :date="item.date"
             :month="item.month"
             :day="item.day"
@@ -239,7 +163,7 @@ const { width } = useWindowSize();
             is-header
             :is-report="false"
             :is-feedback="false"
-          />
+          /> -->
         </swiper-slide>
 
         <div class="swiper-button-next">
@@ -260,8 +184,8 @@ const { width } = useWindowSize();
         }"
         :space-between="2"
       >
-        <swiper-slide v-for="(item, index) in PrclientList" :key="index">
-          <CardClient
+        <swiper-slide v-for="(item, index) in account?.ConsultationsPrevious" :key="index">
+          <!-- <CardClient
             :date="item.date"
             :month="item.month"
             :day="item.day"
@@ -272,26 +196,26 @@ const { width } = useWindowSize();
             is-header
             :is-report="false"
             :is-feedback="false"
-          />
+          /> -->
         </swiper-slide>
-        <div
+        <!-- <div
           class="swiper-button-next"
           v-if="
-            (PrclientList.length > 3 && width > 1250) ||
-            (PrclientList.length > 2 && width > 850) ||
-            (PrclientList.length > 1 && width > 300)
+            // (PrclientList.length > 3 && width > 1250) ||
+            // (PrclientList.length > 2 && width > 850) ||
+            // (PrclientList.length > 1 && width > 300)
           "
         >
           <img :src="ggg" class="w-[25px] cursor-pointer" />
-        </div>
+        </div> -->
       </swiper>
     </div>
     <div class="p-9 flex justify-between">
       <p class="font-medium text-[22px] leading-[26px]">Мои менторы</p>
     </div>
     <div class="flex px-3 tablet:px-9 gap-5">
-      <CardClient
-        v-for="(item, index) in MnclientList"
+      <!-- <CardClient
+        v-for="(item, index) in account?.users"
         :key="index"
         :name="item.name"
         :work="item.work"
@@ -300,7 +224,7 @@ const { width } = useWindowSize();
         :is-report="true"
         :is-feedback="true"
         :is-header="false"
-      />
+      /> -->
     </div>
     <Dialog v-model:visible="showModal" modal header="Аватар" :style="{ width: '48rem' }">
       <div class="flex flex-row gap-2">
