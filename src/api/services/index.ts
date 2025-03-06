@@ -3,3 +3,4 @@ export { registerUserFirstStage, registerUserSecondStage } from "./registerServi
 export * from "./passwordRecovery";
 export * from "./auth";
 export * from "./mentor";
+export * from "./feedback";

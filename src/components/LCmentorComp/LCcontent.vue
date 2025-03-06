@@ -2,7 +2,6 @@
 import anonim from "../../assets/anonim.png";
 import Divider from "../ui/Divider.vue";
 import CardClient from "../ui/CardClient.vue";
-import ggg from "../../assets/right.svg";
 import Button from "../ui/Button.vue";
 import { onMounted, ref } from "vue";
 import { Swiper, SwiperSlide } from "swiper/vue";
@@ -10,13 +9,15 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/bundle";
 import { useWindowSize } from "@vueuse/core";
-import { IUserAccount, getAccountById, updateAccount } from "@/api/services";
+import { IConsultation, IUserAccount, getAccountById, updateAccount } from "@/api/services";
 import { useAuthStore } from "@/shared/store/auth";
 import { storeToRefs } from "pinia";
 import InputText from "primevue/inputtext";
 import InputMask from "primevue/inputmask";
 import camIcon from "@/assets/cam.svg";
 import Dialog from "primevue/dialog";
+import { router } from "@/providers/routing/router";
+import { isCurrentTimeInRange } from "@/shared/lib/formatDate";
 
 const authStore = useAuthStore();
 const { authData } = storeToRefs(authStore);
@@ -30,6 +31,9 @@ const errors = ref<string>("");
 
 const showModal = ref<boolean>(false);
 const hoverAvatar = ref<boolean>(false);
+
+const consultationsComing = ref<IConsultation[]>([]);
+const consultationsPrevious = ref<IConsultation[]>([]);
 
 const handleIncludeEdit = () => {
   isEdit.value = true;
@@ -81,11 +85,24 @@ const handleChangeData = async () => {
   }
 };
 
+const handleLogout = () => {
+  authStore.logout();
+  router.push("/");
+};
+
 onMounted(async () => {
   const result = await getAccountById(authData.value?.userId || "-1");
 
   if (!result.isError) {
     account.value = result.data as IUserAccount;
+
+    result.data?.ConsultationsComing.forEach((item) => {
+      if (isCurrentTimeInRange(item.data, item.time)) {
+        consultationsPrevious.value.push(item);
+      } else {
+        consultationsComing.value.push(item);
+      }
+    });
   }
 });
 
@@ -131,18 +148,18 @@ const { width } = useWindowSize();
           class="p-[10px]"
           :text="isEdit ? 'Применить' : 'Редактировать'"
         />
-        <Button class="bg-red-600 p-[10px]" text="Выйти" />
+        <Button @click="handleLogout" class="bg-red-600 p-[10px]" text="Выйти" />
       </div>
     </div>
     <Divider />
-    <div class="p-9 flex justify-between">
+    <div v-if="consultationsComing.length !== 0" class="p-9 flex justify-between">
       <div class="flex justify-between w-full">
         <p class="font-medium text-[22px] leading-[26px]">Ближайшие консультации</p>
-        <!-- <p class=" font-medium text-[22px] leading-[26px]">Календарь</p> -->
       </div>
     </div>
     <div class="flex px-3 tablet:px-9 gap-5">
       <swiper
+        class="w-full"
         :slides-per-view="width > 1250 ? 3 : width > 850 ? 2 : 1"
         :modules="[Navigation]"
         :navigation="{
@@ -151,80 +168,59 @@ const { width } = useWindowSize();
         }"
         :space-between="2"
       >
-        <swiper-slide v-for="(item, index) in account?.ConsultationsComing" :key="index">
-          <!-- <CardClient
-            :date="item.date"
-            :month="item.month"
-            :day="item.day"
+        <div class="swiper-button-prev"></div>
+        <swiper-slide v-for="(item, index) in consultationsComing" :key="index">
+          <CardClient
+            :date="Number(item.data.split(' ')[0])"
+            :month="item.data.split(' ')[1]"
+            :day="item.data.split(' ')[2]"
             :name="item.name"
-            :work="item.work"
+            :work="item.position"
             :time="item.time"
             :is-button="false"
             is-header
             :is-report="false"
             :is-feedback="false"
-          /> -->
+            :mentor-id="item.userId"
+            :avatar="item.avatar"
+          />
         </swiper-slide>
 
-        <div class="swiper-button-next">
-          <img :src="ggg" class="w-[25px] cursor-pointer" />
-        </div>
+        <div class="swiper-button-next"></div>
       </swiper>
     </div>
-    <div class="p-9 flex justify-between">
+    <div v-if="consultationsPrevious.length !== 0" class="p-9 flex justify-between">
       <p class="font-medium text-[22px] leading-[26px]">Предыдущие консультации</p>
     </div>
     <div class="flex px-3 tablet:px-9 gap-5">
       <swiper
+        class="w-full"
         :slides-per-view="width > 1250 ? 3 : width > 850 ? 2 : 1"
         :modules="[Navigation]"
         :navigation="{
-          prevEl: '.swiper-button-prev',
-          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev2',
+          nextEl: '.swiper-button-next2',
         }"
         :space-between="2"
       >
-        <swiper-slide v-for="(item, index) in account?.ConsultationsPrevious" :key="index">
-          <!-- <CardClient
-            :date="item.date"
-            :month="item.month"
-            :day="item.day"
+        <swiper-slide v-for="(item, index) in consultationsPrevious" :key="index">
+          <CardClient
+            :account="account"
+            :date="Number(item.data.split(' ')[0])"
+            :month="item.data.split(' ')[1]"
+            :day="item.data.split(' ')[2]"
             :name="item.name"
-            :work="item.work"
+            :work="item.position"
             :time="item.time"
-            is-button
+            :is-button="false"
             is-header
             :is-report="false"
-            :is-feedback="false"
-          /> -->
+            :is-feedback="true"
+            :mentor-id="item.userId"
+            :avatar="item.avatar"
+          />
         </swiper-slide>
-        <!-- <div
-          class="swiper-button-next"
-          v-if="
-            // (PrclientList.length > 3 && width > 1250) ||
-            // (PrclientList.length > 2 && width > 850) ||
-            // (PrclientList.length > 1 && width > 300)
-          "
-        >
-          <img :src="ggg" class="w-[25px] cursor-pointer" />
-        </div> -->
       </swiper>
-    </div>
-    <div class="p-9 flex justify-between">
-      <p class="font-medium text-[22px] leading-[26px]">Мои менторы</p>
-    </div>
-    <div class="flex px-3 tablet:px-9 gap-5">
-      <!-- <CardClient
-        v-for="(item, index) in account?.users"
-        :key="index"
-        :name="item.name"
-        :work="item.work"
-        :time="item.time"
-        :is-button="false"
-        :is-report="true"
-        :is-feedback="true"
-        :is-header="false"
-      /> -->
     </div>
     <Dialog v-model:visible="showModal" modal header="Аватар" :style="{ width: '48rem' }">
       <div class="flex flex-row gap-2">

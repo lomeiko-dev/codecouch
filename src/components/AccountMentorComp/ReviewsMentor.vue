@@ -4,6 +4,7 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/bundle";
 import { IFeedback } from "@/api/services/feedback";
+import anonim from '@/assets/anonim.png'
 
 interface IProps {
   feedbacks: IFeedback[];
@@ -21,10 +22,10 @@ const props = defineProps<IProps>();
         v-for="(feedback, index) in props.feedbacks"
         :key="index"
       >
-        <div class="px-10">
+        <div class="px-10 w-full">
           <div class="flex">
             <div
-              :style="{ backgroundImage: `url(${feedback.avatar})` }"
+              :style="{ backgroundImage: `url(${feedback.avatar === '' ? anonim : feedback.avatar})` }"
               class="w-[60px] h-[60px] bg-center bg-cover rounded-full"
             ></div>
 

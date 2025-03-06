@@ -19,10 +19,16 @@ export const useAuthStore = defineStore("auth", () => {
     authData.value = jsonData ? JSON.parse(jsonData) : null;
   };
 
+  const logout = () => {
+    authData.value = null;
+    localStorage.removeItem("auth");
+  };
+
   return {
     authData,
     setAuthData,
     saveAuthData,
     loadAuthData,
+    logout,
   };
 });

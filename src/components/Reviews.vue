@@ -13,7 +13,7 @@ const isPagination = ref<boolean>(false);
 const page = ref<number>(1);
 const killedPagination = ref<boolean>(false);
 
-const router = useRouter()
+const router = useRouter();
 
 const loadData = async () => {
   const result = (await getFeedbackList(page.value, LIMIT)).data;
@@ -31,6 +31,7 @@ const loadData = async () => {
   <div class="max-w-[1200px] mx-auto">
     <h3 class="font-semibold text-4xl leading-[46px] text-center">Отзывы наших учеников</h3>
     <InfinityScroll
+      is-send-first-request
       :is-triggered="isPagination && !killedPagination"
       class="flex flex-wrap items-center justify-center gap-[72px] mx-auto w-fit mt-[50px]"
       @on-load="loadData"

@@ -1,6 +1,6 @@
 export interface IFeedback {
-  id: number;
-  mentorId: number;
+  id: string;
+  mentorId: string;
   mentorName: string;
   avatar: string;
   fullname: string;

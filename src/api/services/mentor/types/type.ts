@@ -6,8 +6,8 @@ interface IWorkExperience {
 }
 
 export interface IMentor {
-  id: number;
-  userId: number;
+  id: string;
+  userId: string;
   avatar: string;
   fullname: string;
   position: string;

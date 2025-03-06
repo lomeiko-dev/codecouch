@@ -18,7 +18,7 @@ const { width } = useWindowSize();
 
 const router = useRouter();
 
-const routingToMentorDetail = (id: number) => {
+const routingToMentorDetail = (id: string) => {
   router.push(`/account-mentor/${id}`);
 };
 </script>
