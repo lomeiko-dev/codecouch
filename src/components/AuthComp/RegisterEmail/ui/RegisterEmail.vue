@@ -37,8 +37,7 @@ const handleRegister = async () => {
         authStore.saveAuthData();
       }
 
-      router.push("/");
-      registerForm.clearField();
+      (route.params as any).role === "student" ? router.push("/") : router.push("/edit-mentor");
     } else {
       errors.value = auth.message;
       isErrorAuth.value = true;

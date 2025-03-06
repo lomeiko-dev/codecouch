@@ -21,9 +21,9 @@ export interface IMentor {
   availableLevel: string[];
   spheres: string[];
   help: string[];
-  workExperience: IWorkExperience[];
-  informations: string[];
-  price: number;
+  workExperience: string;
+  information: string;
+  price: string;
 }
 
 export interface IDataMentor {

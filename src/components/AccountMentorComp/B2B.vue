@@ -2,15 +2,15 @@
 import { getAccountById, IMentor } from "@/api/services";
 import videoImg from "../../assets/video.svg";
 import Button from "../ui/Button.vue";
-import { useRouter } from "vue-router";
 import { ref } from "vue";
 import Dialog from "primevue/dialog";
 import Calendar from "primevue/calendar";
 import {updateConsultationAccount} from '@/api/services'
 import { useAuthStore } from "@/shared/store/auth";
 import { storeToRefs } from "pinia";
+import { useRouter } from "vue-router";
 
-interface IProps extends Pick<IMentor, "help" | "price" | "userId"> {}
+interface IProps extends IMentor{}
 
 const props = defineProps<IProps>();
 const authStore = useAuthStore()
@@ -18,14 +18,19 @@ const {authData} = storeToRefs(authStore)
 const date = ref<Date>(new Date())
 const showModal = ref<boolean>(false);
 
-const router = useRouter();
+const router = useRouter()
+
+console.log(props)
 
 const handleSubscribe = async () => {
   const account = await getAccountById(authData.value?.userId || '-1')
 
   if(account.data !== null){
-    const result = await updateConsultationAccount(account.data, date.value, props.userId)
+    await updateConsultationAccount(account.data, date.value, props.userId)
     showModal.value = false
+  }
+  else{
+    router.push('/auth-client/student')
   }
 }
 
@@ -42,9 +47,9 @@ const handleSubscribe = async () => {
         <p class="font-normal text-xs leading-[19px]">Консалтинг бизнеса</p>
       </div>
       <div>
-        <ul class="font-normal text-base leading-6 flex flex-col gap-2 pt-5">
-          <li v-for="help in props.help">– {{ help }}</li>
-        </ul>
+        <p class="font-normal text-base leading-6 flex flex-col gap-2 pt-5">
+          {{ props.information}}
+        </p>
       </div>
     </div>
     <h5 class="font-bold text-base leading-6 laptop:w-[614px] mt-5">

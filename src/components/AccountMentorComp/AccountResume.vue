@@ -12,9 +12,9 @@ const props = defineProps<IProps>()
     <div>
       <h2 class=" font-normal text-2xl leading-9">Резюме</h2>
       <div class="flex gap-10">
-        <ul class="font-normal text-sm leading-[23px] flex flex-col gap-9 mt-5">
-          <li class="hover:underline cursor-pointer" v-for="work in props.workExperience">{{ work.period }} {{ work.company }} - {{ work.description }} {{ work.role }}</li>
-        </ul>
+        <pre class="font-normal text-sm leading-[23px] flex flex-col gap-9 mt-5">
+          {{ props.workExperience }}
+        </pre>
       </div>
     </div>
   </div>

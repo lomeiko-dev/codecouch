@@ -2,16 +2,15 @@ import { ApiClient } from "../../../Client";
 import { IApiReturned } from "@/api/types/type";
 import { IMentor } from "../types/type";
 
-export const getMentorById = async (id: string): Promise<IApiReturned<IMentor | null>> => {
+export const getMentorById = async (id: string, isUserId: boolean = false): Promise<IApiReturned<IMentor | null>> => {
   try {
-    const result = await ApiClient<IMentor | null>({
+    const result = await ApiClient<IMentor[]>({
       method: "GET",
-      url: `/mentors?id=${id}`,
+      url: `/mentors?${isUserId ? "userId" : "id"}=${id}`,
     });
 
-    if (result.status === 200)
+    if (result.data.length !== 0)
       return {
-        //@ts-ignore
         data: result.data[0] as IMentor,
         message: "success",
         isError: false,
