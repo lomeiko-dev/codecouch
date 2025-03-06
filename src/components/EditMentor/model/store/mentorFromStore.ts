@@ -14,6 +14,18 @@ export const useMentorFormStore = defineStore("mentorForm", () => {
 
   const help = ref<string>("");
 
+  const clear = () => {
+    form.value = {
+      companies: [],
+      skills: [],
+      availableLevel: [],
+      spheres: [],
+      help: [],
+    };
+    errors.value = [];
+    help.value = "";
+  }
+
   const validate = () => {
     errors.value = [];
 
@@ -47,5 +59,6 @@ export const useMentorFormStore = defineStore("mentorForm", () => {
     errors,
     validate,
     assembleForm,
+    clear,
   };
 });

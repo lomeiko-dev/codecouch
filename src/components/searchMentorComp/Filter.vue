@@ -6,7 +6,7 @@ import { ref } from 'vue';
 const filterList = ref([
   {
     title: 'Что планируете изучить',
-    list: ['Карьерный рост', 'Развить навыки руководителя', 'Перейти из фриланса в найм', 'Тестовое собеседование', 'Оценка навыков' ],
+    list: ['Data Science', 'Microservices', 'DevOps', 'Web Design', 'Kubernetes' ],
     value: 'spheres'
   },
   {

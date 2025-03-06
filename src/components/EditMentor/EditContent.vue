@@ -47,6 +47,7 @@ const handeSendMentor = async () => {
     const result = await addNewMentor(newMentor)
 
     if(!result.isError){
+      mentorFormStore.clear()
       router.push('/')
     }
   }

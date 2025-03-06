@@ -20,9 +20,9 @@ const showModal = ref<boolean>(false);
 
 const router = useRouter()
 
-console.log(props)
 
 const handleSubscribe = async () => {
+  console.log(props)
   const account = await getAccountById(authData.value?.userId || '-1')
 
   if(account.data !== null){

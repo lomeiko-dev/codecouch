@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import anonim from '@/assets/anonim.png'
 interface Props {
   img: string;
   name: string;
@@ -9,9 +10,9 @@ interface Props {
 const props = defineProps<Props>();
 </script>
 <template>
-  <div class="flex flex-col gap-3 border max-w-[500px] min-h-[314px] rounded-[10px] px-[65px] pb-[65px] h-full pt-8 shadow-xl">
+  <div class="flex flex-col gap-3 border w-full max-w-[500px] min-h-[314px] rounded-[10px] px-[65px] pb-[65px] h-full pt-8 shadow-xl">
     <div class="flex gap-5">
-      <div class="w-16 h-16 min-w-16 rounded-full bg-cover bg-center" :style="{ backgroundImage: `url(${props.img})` }">
+      <div class="w-16 h-16 min-w-16 rounded-full bg-cover bg-center" :style="{ backgroundImage: `url(${props.img === '' ? anonim : props.img})` }">
       </div>
       <div>
         <p class="font-semibold text-lg leanding-[22px]">{{ props.name }}</p>

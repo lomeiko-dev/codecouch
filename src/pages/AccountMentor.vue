@@ -18,8 +18,7 @@ const feedbacks = ref<IFeedback[]>([])
 onMounted(async () => {
   const result = await  getMentorById(id.value as string)
   const resultFeedbacks = await getFeedbacksByMentorId(id.value as string)
-
-  console.log(result.data)
+  
   mentor.value = result.data
   feedbacks.value = resultFeedbacks.data
 })

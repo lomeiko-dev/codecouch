@@ -23,7 +23,7 @@ const router = useRouter();
       @click="emit('update:isOpen', false)"
     />
     <p @click="router.push('/search-mentor')">Наставники</p>
-    <p @click="router.push('/auth-client')">Вход для ментора</p>
+    <p @click="router.push('/auth-client/mentor')">Вход для ментора</p>
     <p @click="router.push('/becoming-mentor')">Как стать ментором</p>
   </div>
 </template>

@@ -32,18 +32,24 @@ const toggleFilters = () => {
   isOpenFilters.value = !isOpenFilters.value;
 };
 
-const handleLoadData = async () => {
+const handleLoadData = async (isClear: boolean = false) => {
   const result = (await getMentorList(page.value, LIMIT, filterString.value)).data;
+  
+  if (isClear) {
+    mentors.value = [];
+  }
+
   mentors.value = [...mentors.value, ...result.mentors];
   totalCount.value = result.totalCount;
 
   page.value++;
+
+  console.log(mentors.value)
 };
 
 watch(() => filterString.value, async () => {
   page.value = 1;
-  mentors.value = [];
-  await handleLoadData();
+  await handleLoadData(true);
   filterStore.saveFilterArguments()
 })
 
@@ -73,13 +79,13 @@ watch(() => filterString.value, async () => {
           >
             <Filter class="mx-auto w-fit" />
           </div>
-          <InfinityScroll :is-triggered="isPaginate" @on-load="handleLoadData">
+          <InfinityScroll class="w-full" :is-triggered="isPaginate" @on-load="handleLoadData">
             <Card :mentor="ment" class="mt-10" v-for="(ment, index) in mentors" :key="index" />
           </InfinityScroll>
           <div v-if="!isPaginate" class="flex justify-center">
             <Button
               :onclick="() => (isPaginate = true)"
-              :text="`Показать еще ${totalCount} ментора`"
+              :text="`Показать еще ${totalCount - mentors.length} ментора`"
               class="w-[250px] h-[40px] font-medium text-sm leading-4 mt-[100px] bg-white border-[#108A00] !text-black hover:!bg-[#E9E9E9]"
             />
           </div>

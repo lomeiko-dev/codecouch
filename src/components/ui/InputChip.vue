@@ -23,7 +23,7 @@ const handleKeyUp = (event: KeyboardEvent) => {
 
 <template>
   <div class="flex flex-col gap-2">
-    <div class="flex flex-row gap-2">
+    <div class="flex flex-wrap gap-2">
       <Chip removable v-for="item in modelValue" :key="item">{{ item }}</Chip>
     </div>
     <input
